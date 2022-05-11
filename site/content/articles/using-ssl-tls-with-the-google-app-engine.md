@@ -33,7 +33,7 @@ Using SSL/TLS with the local development server, `dev_appserver.py`, is slightly
 
 ### Step 1: Set up a reverse proxy server
 
-To solve this, I configured an Nginx server to act as a reverse proxy for SSL traffic. The walk-through for accomplishing this on macOS can be found [here](https://nickolaskraus.org/articles/how-to-create-a-self-signed-certificate-for-nginx-on-macos)
+To solve this, I configured an Nginx server to act as a reverse proxy for SSL traffic. The walk-through for accomplishing this on macOS can be found [here](https://nickolaskraus.io/articles/how-to-create-a-self-signed-certificate-for-nginx-on-macos)
 
 ### Step 2: Patch the `requests` Python library
 

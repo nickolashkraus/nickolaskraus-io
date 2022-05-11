@@ -8,9 +8,9 @@ description: This is part three of a three part series on how to install macOS B
 ## Overview
 This is part three of a three part series on how to install macOS Big Sur and Arch Linux on a MacBookPro11,3:
 
-* [Installing Arch Linux on a MacBook Pro - Part 1](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-1/)
-* [Installing Arch Linux on a MacBook Pro - Part 2](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-2/)
-* [Installing Arch Linux on a MacBook Pro - Part 3](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-3/)
+* [Installing Arch Linux on a MacBook Pro - Part 1](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-1/)
+* [Installing Arch Linux on a MacBook Pro - Part 2](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-2/)
+* [Installing Arch Linux on a MacBook Pro - Part 3](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-3/)
 
 ## Configuring Arch Linux
 ### Step 1: Generate an `fstab` file

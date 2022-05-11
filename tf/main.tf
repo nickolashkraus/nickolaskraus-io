@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
-# DEPLOY NICKOLASKRAUS.ORG ON AWS.
+# DEPLOY NICKOLASKRAUS.IO ON AWS.
 # -----------------------------------------------------------------------------
 terraform {
   backend "s3" {
     bucket         = "nhk-terraform-state"
-    key            = "nickolaskraus-org/terraform.tfstate"
+    key            = "nickolaskraus.io/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "nhk-terraform-state"
   }
@@ -16,5 +16,5 @@ provider "aws" {
 
 module "terraform_aws_static_website" {
   source      = "git@github.com:infrable-io/terraform-aws-static-website.git"
-  domain_name = "nickolaskraus.org"
+  domain_name = "nickolaskraus.io"
 }

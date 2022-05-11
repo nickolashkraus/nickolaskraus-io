@@ -15,7 +15,7 @@ Toilets aside, what I found most astonishing was the general sense of safety. Ch
 
 Placing the group above the individual is common place in Japan and is reflected in their work culture as well. Teams consist of individuals, some with more or less authority. The ultimate goal, however, is not one's personal advancement, but the advancement of the team and the accomplishment of shared objectives. Even as a red-blooded American who derives his grounding principles from individualism, I cannot help but given credence to the power of nation-based identities giving rise to an expanded circles of concern.
 
-Japan, like Germany, is a culture with which I am absolutely enamored. I plan to return to Japan and in the meantime have endeavored to learn the language. Follow my language learning journey [here](https://nickolaskraus.org/japanese/).
+Japan, like Germany, is a culture with which I am absolutely enamored. I plan to return to Japan and in the meantime have endeavored to learn the language. Follow my language learning journey [here](https://nickolaskraus.io/japanese/).
 
 ## Before You Go
 

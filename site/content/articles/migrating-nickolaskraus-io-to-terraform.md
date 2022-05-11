@@ -1,13 +1,13 @@
 ---
-title: "Migrating NickolasKraus.org to Terraform"
+title: "Migrating NickolasKraus.io to Terraform"
 date: 2022-01-03T00:00:00-06:00
 draft: false
-description: A walk through of the steps taken to migrate NickolasKraus.org to Terraform.
+description: A walk through of the steps taken to migrate NickolasKraus.io to Terraform.
 ---
 
-Back in 2018, I used the AWS CLI and [a collection of JSON files and Bash scripts](https://github.com/NickolasHKraus/nickolaskraus-org/tree/11c438a71905697bdb5fcd172fed95aa3d1cbf8a/.aws) to create the infrastructure for NickolasKraus.org. Since then, I have expanded by repetoire of Infrastructure-as-Code (IaC) tooling to include both CloudFormation and Terraform. With each new tool, I put together an article detailing how to create a static website on AWS. These articles can be found [here](https://nickolaskraus.org/articles/hosting-a-static-website-with-hugo-and-cloudformation/) and [here](https://nickolaskraus.org/articles/hosting-a-static-website-with-hugo-and-terraform/).
+Back in 2018, I used the AWS CLI and [a collection of JSON files and Bash scripts](https://github.com/NickolasHKraus/nickolaskraus.io/tree/11c438a71905697bdb5fcd172fed95aa3d1cbf8a/.aws) to create the infrastructure for NickolasKraus.io. Since then, I have expanded by repetoire of Infrastructure-as-Code (IaC) tooling to include both CloudFormation and Terraform. With each new tool, I put together an article detailing how to create a static website on AWS. These articles can be found [here](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation/) and [here](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-terraform/).
 
-Now in 2022, I have decided to put what I've learned into practice by migrating NickolasKraus.org to Terraform. This article provides a walk through of the steps taken to accomplish this task.
+Now in 2022, I have decided to put what I've learned into practice by migrating NickolasKraus.io to Terraform. This article provides a walk through of the steps taken to accomplish this task.
 
 ## Creating an S3 backend
 
@@ -32,10 +32,10 @@ This ensures that the state of the resources captured via code is exactly as con
 
 ### AWS Static Website Terraform Module
 
-To facilitate the process of capturing the infrastructure for NickolasKraus.org as code, I will be using the following public Terraform module:
+To facilitate the process of capturing the infrastructure for NickolasKraus.io as code, I will be using the following public Terraform module:
 * [infrable-io/terraform-aws-static-website](https://github.com/infrable-io/terraform-aws-static-website)
 
-Examples for using this Terraform module can be found under [`examples`](https://github.com/infrable-io/terraform-aws-static-website/tree/master/examples). You can also read my accompanying article, [Hosting a Static Website with Hugo and Terraform](https://nickolaskraus.org/articles/hosting-a-static-website-with-hugo-and-terraform/).
+Examples for using this Terraform module can be found under [`examples`](https://github.com/infrable-io/terraform-aws-static-website/tree/master/examples). You can also read my accompanying article, [Hosting a Static Website with Hugo and Terraform](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-terraform/).
 
 ### Creating the Terraform module
 
@@ -47,7 +47,7 @@ The Terraform module that uses terraform-aws-static-website is extremely terse:
 terraform {
   backend "s3" {
     bucket         = "nhk-terraform-state"
-    key            = "nickolaskraus-org/terraform.tfstate"
+    key            = "nickolaskraus.io/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "nhk-terraform-state"
   }
@@ -59,7 +59,7 @@ provider "aws" {
 
 module "terraform_aws_static_website" {
   source      = "git@github.com:infrable-io/terraform-aws-static-website.git"
-  domain_name = "nickolaskraus.org"
+  domain_name = "nickolaskraus.io"
 }
 ```
 
@@ -124,13 +124,13 @@ If these resources are not imported, the `terraform apply` will fail.
   ```bash
   terraform import \
     module.terraform_aws_static_website.aws_route53_record.dns_record_root \
-    Z3OMX3SLNACZXW_nickolaskraus.org_A
+    Z3OMX3SLNACZXW_nickolaskraus.io_A
   ```
 
   ```bash
   terraform import \
     module.terraform_aws_static_website.aws_route53_record.dns_record_www \
-    Z3OMX3SLNACZXW_www.nickolaskraus.org_A
+    Z3OMX3SLNACZXW_www.nickolaskraus.io_A
   ```
 
 After each import, the Terraform plan can be generated to ensure no changes would occur:

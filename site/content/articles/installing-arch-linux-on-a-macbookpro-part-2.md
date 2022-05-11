@@ -8,9 +8,9 @@ description: This is part two of a three part series on how to install macOS Big
 ## Overview
 This is part two of a three part series on how to install macOS Big Sur and Arch Linux on a MacBookPro11,3:
 
-* [Installing Arch Linux on a MacBook Pro - Part 1](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-1/)
-* [Installing Arch Linux on a MacBook Pro - Part 2](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-2/)
-* [Installing Arch Linux on a MacBook Pro - Part 3](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-3/)
+* [Installing Arch Linux on a MacBook Pro - Part 1](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-1/)
+* [Installing Arch Linux on a MacBook Pro - Part 2](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-2/)
+* [Installing Arch Linux on a MacBook Pro - Part 3](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-3/)
 
 ## Installing Arch Linux
 ### Step 1: Set the keyboard layout
@@ -240,4 +240,4 @@ Or via `pacman` while [chrooted](https://en.wikipedia.org/wiki/Chroot) into the 
 
 For comparison, packages available in the live installation can be found here ([packages.x86_64](https://gitlab.archlinux.org/archlinux/archiso/-/blob/master/configs/releng/packages.x86_64)). We will install necessary packages in part three.
 
-Continue to [Installing Arch Linux on a MacBook Pro - Part 3](https://nickolaskraus.org/articles/installing-arch-linux-on-a-macbookpro-part-3/)
+Continue to [Installing Arch Linux on a MacBook Pro - Part 3](https://nickolaskraus.io/articles/installing-arch-linux-on-a-macbookpro-part-3/)

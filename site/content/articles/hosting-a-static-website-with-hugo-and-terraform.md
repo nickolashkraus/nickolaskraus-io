@@ -5,9 +5,9 @@ draft: false
 description: This article details how to create a static website with Hugo and Terraform.
 ---
 
-In 2018, I created an [article](https://nickolaskraus.org/articles/hosting-a-static-website-with-hugo-and-aws/) on how to create a static website on AWS.
+In 2018, I created an [article](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-aws/) on how to create a static website on AWS.
 
-In 2019, I created an [article](https://nickolaskraus.org/articles/hosting-a-static-website-with-hugo-and-cloudformation/) on how to create a static website on AWS using CloudFormation.
+In 2019, I created an [article](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation/) on how to create a static website on AWS using CloudFormation.
 
 Now, in the final days of 2021, the final chapter has been written: how to create a static website on AWS using Terraform.
 

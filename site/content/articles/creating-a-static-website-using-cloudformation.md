@@ -5,7 +5,7 @@ draft: false
 description: This article details how to create a static website using CloudFormation.
 ---
 
-Creating static websites is a hobby of mine. This blog, in fact, was created using Hugo, a static site generator, and is hosted on AWS. The original article for creating a static website with Hugo and AWS can be found [here](https://nickolaskraus.org/articles/hosting-a-website-with-hugo-and-aws/). When I first detailed the steps for creating and hosting a static website on AWS, I used the AWS Management Console and AWS CLI. Both methods are slow and inefficient. In this article, I expedite the process using CloudFormation and a little bash scripting.
+Creating static websites is a hobby of mine. This blog, in fact, was created using Hugo, a static site generator, and is hosted on AWS. The original article for creating a static website with Hugo and AWS can be found [here](https://nickolaskraus.io/articles/hosting-a-website-with-hugo-and-aws/). When I first detailed the steps for creating and hosting a static website on AWS, I used the AWS Management Console and AWS CLI. Both methods are slow and inefficient. In this article, I expedite the process using CloudFormation and a little bash scripting.
 
 ## Overview
 
@@ -330,4 +330,4 @@ bucket-name.s3-website.region.amazonaws.com
 
 It should be noted that Amazon S3 does not support HTTPS connections when configured as a website endpoint. You must specify **HTTP Only** as the Origin Protocol Policy for your CloudFront distribution.
 
-For instructions on hosting a static website with Hugo, which uses subdirectory `index.html` files, see [Hosting a Static Website with Hugo and CloudFormation](https://nickolaskraus.org/articles/hosting-a-static-website-with-hugo-and-cloudformation).
+For instructions on hosting a static website with Hugo, which uses subdirectory `index.html` files, see [Hosting a Static Website with Hugo and CloudFormation](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation).
