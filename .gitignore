@@ -35,9 +35,3 @@ override.tf.json
 .hugo_build.lock
 site/public/
 site/resources/
-
-# Unix
-*.swp
-
-# OS X
-.DS_Store
