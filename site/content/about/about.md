@@ -5,6 +5,4 @@ draft: false
 layout: about.html
 ---
 
-<img src="img/picture.png" style="width: 75px; text-align:center margin: 10px 10px"/>
-
-Hello! My name is Nickolas Kraus. I live in the beautiful city of Ames, Iowa. I work at [Granular](https://granular.ag/), a agtech startup in Johnston, Iowa. I love solving problems and documenting my research. This blog is my attempt to synthesize what I've learned along the way.
+Hello! My name is Nickolas Kraus. I live in the beautiful city of Ames, Iowa. I am a Senior Software Engineer at [Workiva](https://www.workiva.com) and Founder at [Infrable](https://infrable.io). I love solving problems and documenting my research. This blog is my attempt to synthesize what I've learned along the way.
