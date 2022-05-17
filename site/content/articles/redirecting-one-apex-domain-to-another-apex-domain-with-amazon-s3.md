@@ -30,7 +30,7 @@ This feature of static website hosting with Amazon S3 facilitates redirection of
 
 To accomplished this, I extended the Terraform module that I use for hosting static websites with the following:
 
-```hcl
+```
 resource "aws_s3_bucket_website_configuration" "s3_root" {
   count  = var.redirect_domain_name == "" ? 1 : 0
   bucket = aws_s3_bucket.s3_root.bucket
