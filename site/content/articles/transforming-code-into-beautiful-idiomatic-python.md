@@ -3,6 +3,7 @@ title: "Transforming Code Into Beautiful, Idiomatic Python"
 date: 2020-01-26T00:00:00-06:00
 draft: false
 description: Notes from Raymond Hettinger's talk, "Transforming Code Into Beautiful, Idiomatic Python" from PyCon US 2013.
+tags: ["programming", "python"]
 ---
 
 When you see this, do that instead!

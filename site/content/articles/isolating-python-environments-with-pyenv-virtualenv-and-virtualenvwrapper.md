@@ -3,6 +3,7 @@ title: "Isolating Python Environments with pyenv, virtualenv, and virtualenvwrap
 date: 2018-03-25T00:00:00-06:00
 draft: false
 description: When working with multiple Python applications, the problem of conflicting dependencies and versions is bound to arise. Imagine you have an application that needs version 1 of a library, but another application requires version 2. How can you use both of these applications at the same time? When the Python environment is shared, it is easy to end up in a situation where upgrading the dependencies of one application, invalidates the dependencies of another. In order to mitigate this problem, is it necessary to isolate Python environments.
+tags: ["programming", "python"]
 ---
 
 This guide provides the motivation behind isolating Python environments and the means by which multiple Python versions and Python package versions can be managed effortlessly. Instead of installing *all* dependencies to, say, `/usr/lib/python2.7/site-packages` (or wherever your platform’s standard location is), `pyenv`, `virtualenv`, and `virtualenvwrapper` can be used to give each application is own, virtual environment.

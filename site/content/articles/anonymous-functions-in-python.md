@@ -3,6 +3,7 @@ title: "Anonymous Functions in Python"
 date: 2018-04-08T00:00:00-06:00
 draft: false
 description: A brief discussion of lambda functions in Python.
+tags: ["programming", "python"]
 ---
 
 An anonymous function is simply a function definition without an identifier. They exist in order to encapsulate simple logic into a syntactically lightweight form. In Python, anonymous functions are defined using the `lambda` keyword and have the following syntax:

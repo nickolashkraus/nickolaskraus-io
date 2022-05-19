@@ -4,6 +4,7 @@ date: 2018-10-28T00:00:00-06:00
 draft: false
 description: A complete guide to the Vim plugins that I use.
 aliases: ["./vim-plugins-that-i-use"]
+tags: ["programming", "vim"]
 ---
 
 I find the conceit in using the word *essential* off-putting. Essential implies that it is absolutely necessary. Plugins are not absolutely necessary in order to derive substantial value from Vim. For this reason, this article is humbly titled *Vim Plugins That I Use* and not *Essential Vim Plugins*. Like psilocybin (or any recreational drug for that matter), Vim plugins are used to enhance your experience. However, as a firm grounding in reality is prerequisite before entering pharmacologically induced states of altered consciousness, a strong grasp of pure Vim is necessary before experimenting with the vast bevy of plugins.

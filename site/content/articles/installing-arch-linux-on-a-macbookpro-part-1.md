@@ -3,6 +3,7 @@ title: "Installing Arch Linux on a MacBookPro - Part 1"
 date: 2021-01-01T00:00:00-06:00
 draft: false
 description: This is part one of a three part series on how to install macOS Big Sur and Arch Linux on a MacBookPro11,3.
+tags: ["technology", "arch-linux"]
 ---
 
 **Warning**: This guide is for the MacBookPro11,3 and does not apply to more recent MacBooks. These are very poorly supported. See [here](https://github.com/Dunedan/mbp-2016-linux) for more information. To determine the *Model Identifier* of your MacBookPro, go to  > **About This Mac** > **System Report...**. The Model Identifier should be listed under **Hardware Overview**. You can also identify your MacBook Pro model [here](https://support.apple.com/en-us/HT201300).

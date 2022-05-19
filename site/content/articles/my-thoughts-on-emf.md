@@ -3,6 +3,7 @@ title: "My Thoughts On EMF"
 date: 2021-12-20T00:00:00-06:00
 draft: false
 description: A mathematical analysis of the purported danger of electromagnetic fields.
+tags: ["health"]
 ---
 
 The danger of electromagnetic fields (EMF) has been ardently purported by holistic health types for several years. Such claims may have originated from epidemiological studies showing a link between one's proximity to power lines and adverse health outcomes. Foregoing the obvious limitations and confounding variables inherent in such studies, let's approach the issue of EMF from a mathematical perspective.

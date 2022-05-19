@@ -3,6 +3,7 @@ title: "The Art of Learning"
 date: 2018-06-10T00:00:00-06:00
 draft: false
 description: A review and reflection on Josh Waitzkin's book, The Art of Learning.
+tags: ["books"]
 ---
 
 *The Art of Learning* is a meditation on the human ability for cognitive and psychophysical excellence. It details the processes through which mastery of any skill can be achieved, at which point decision-making is effortless and thinking almost sublime. To accomplish this, Waitzkin regales the reader with an awe-inspiring account of his journey from novice to master in both chess and Tai Chi. He shares his insights into the art of *metalearning*, learning to learn, offering tangible methods to improve one's own ability while deftly dispelling the cognitive impediments that hinder potential. The symbiosis of both narrative and practical didacticism is a wholly enjoyable and galvanizing experience.

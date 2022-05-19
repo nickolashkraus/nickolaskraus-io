@@ -3,6 +3,7 @@ title: "Hosting a Static Website with Hugo and CloudFormation"
 date: 2019-08-18T00:00:00-06:00
 draft: false
 description: This article details how to create a static website with Hugo and CloudFormation.
+tags: ["aws", "hugo", "cloudformation"]
 ---
 
 In a previous [article](https://nickolaskraus.io/articles/hosting-a-website-with-hugo-and-aws/), I detailed the steps for creating and hosting a static website on AWS. This process can be easily accomplished using CloudFormation, which provides a common language for describing and provisioning infrastructure resources in AWS.

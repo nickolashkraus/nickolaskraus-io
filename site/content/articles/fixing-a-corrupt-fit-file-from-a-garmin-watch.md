@@ -3,6 +3,7 @@ title: "Fixing a corrupt FIT file from a Garmin watch"
 date: 2022-04-05T00:00:00-06:00
 draft: false
 description: Steps for fixing a corrupt FIT file from a Garmin watch.
+tags: ["technology", "fitness"]
 ---
 
 After IRONMAN 70.3 Texas, I noticed the swim portion was not syncing to Garmin Connect. After some digging, I came to the conclusion that the data was most likely corrupted. Indeed, it seemed Garmin had fixed the issue in a recent [software update](https://www8.garmin.com/support/download_details.jsp?id=15159):

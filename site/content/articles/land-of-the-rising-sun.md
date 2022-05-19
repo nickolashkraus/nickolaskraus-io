@@ -3,6 +3,7 @@ title: "Land of the Rising Sun"
 date: 2018-07-01T00:00:00-06:00
 draft: false
 description: A reflection on my time in Japan.
+tags: ["travel"]
 ---
 
 Until you experience Japan for yourself, it is hard to convey the unique splendor it arouses. Tokyo, Japan's largest city, is at once a bustling cityscape with all the trappings of urbanization, while also an oasis of sprawling gardens and lush flora. This juxtaposition is played throughout the city and its surrounding, offering a harmonizing medley of modernization and nature. The streets are often lined with manicured *kuromatsu*, or Japanese black pine, a species native to Japan, and public areas and walkways are usually bestrewn with vibrant flowerbeds. This is of apiece with the overall cleanliness of the city. Many of the streets are absolutely immaculate and it is not uncommon to see the proprietor of a restaurant or business tidying up the area outside of their residence.

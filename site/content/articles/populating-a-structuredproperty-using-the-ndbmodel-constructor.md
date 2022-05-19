@@ -3,6 +3,7 @@ title: "Populating a StructuredProperty Using the ndb.Model Constructor"
 date: 2018-04-01T00:00:00-06:00
 draft: false
 description: After taking a deep dive into the App Engine SDK for Python, I thought I would share some of my findings on some of the more esoteric features of the ndb.Model class. In particular, how one can populate a StructuredProperty using the ndb.Model constructor.
+tags: ["programming", "python", "google-app-engine"]
 ---
 
 This article is derived from a Stack Overflow question. The original question can be found [here](https://stackoverflow.com/questions/49572412/what-is-the-best-practice-to-populate-a-structuredproperty-through-the-ndb-model).
