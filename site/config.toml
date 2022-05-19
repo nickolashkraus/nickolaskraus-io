@@ -8,11 +8,24 @@ theme = "black-and-light-2"
 pygmentsStyle       = "tango"
 pygmentsCodeFences  = true
 
-googleAnalytics = "UA-115911814-1"
+# Google Analytics measurement ID (Google Analytics 4)
+googleAnalytics = "G-F40Z5JD5FQ"
 
 [params]
   siteName = "Nickolas Kraus"
   dateFormat = "January 2, 2006"
+
+  [params.seo]
+    meta_description = "Hello! My name is Nickolas Kraus."
+    meta_og_description = "Hello! My name is Nickolas Kraus."
+    meta_og_image = "logo.png"
+    meta_og_site_name = "Nickolas Kraus"
+    meta_og_title = "Nickolas Kraus"
+    meta_twitter_creator = "@NickolasHKraus"
+    meta_twitter_description = "Hello! My name is Nickolas Kraus."
+    meta_twitter_image = "logo.png"
+    meta_twitter_site = "@NickolasHKraus"
+    meta_twitter_title = "Nickolas Kraus"
 
 [[menu.main]]
   name = "About"
