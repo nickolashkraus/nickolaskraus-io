@@ -1,0 +1,33 @@
+###############################################################################
+# social.yaml (site/data/social.yaml)
+#
+# Required:
+#   * name: Name of social site
+#   * url: URL for social site
+###############################################################################
+- name: "Email"
+  url: "mailto:0x@nickolaskraus.io"
+
+- name: "Garmin"
+  url: "https://connect.garmin.com/modern/profile/6b22dde1-552e-45d4-9608-c5fe6b6d3ea4"
+
+- name: "GitHub"
+  url: "https://github.com/NickolasHKraus"
+
+- name: "Instagram"
+  url: "https://www.instagram.com/nickolashkraus"
+
+- name: "LinkedIn"
+  url: "https://linkedin.com/in/nickolas-kraus"
+
+- name: "RSS"
+  url: "https://nickolaskraus.io/index.xml"
+
+- name: "Stack Overflow"
+  url: "https://stackoverflow.com/users/9659079/nickolashkraus"
+
+- name: "Strava"
+  url: "https://www.strava.com/athletes/23618436"
+
+- name: "Twitter"
+  url: "https://twitter.com/NickolasHKraus"
