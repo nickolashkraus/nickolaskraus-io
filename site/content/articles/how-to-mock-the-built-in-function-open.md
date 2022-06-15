@@ -47,7 +47,7 @@ read_data = json.dumps({'a': 1, 'b': 2, 'c': 3})
 mock_open = mock.mock_open(read_data=read_data)
 ```
 
-**Note**: *read_data* is a string for the *~io.IOBase.read* method of the file handle to return. This is an empty string by default.
+**Note**: `read_data` is a string for the `~io.IOBase.read` method of the file handle to return. This is an empty string by default.
 
 Next, using `patch` as a context manager, `open` can be patched with the new object, `mock_open`:
 
