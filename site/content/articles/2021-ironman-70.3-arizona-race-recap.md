@@ -24,7 +24,6 @@ tags: ["triathlon", "ironman"]
 ---
 
 ## Race Recap
-
 I was satisfied with my performance at IRONMAN 70.3 Arizona.
 
 ### Swim
@@ -37,7 +36,6 @@ The T1 transition included about a 500 meter run back to the transition area. Th
 The run went well, but I had GI issues. I blame it on the food, since we had to eat out for most meals. I ran at an easy sub-8:00 min/mi pace, then a run specialist was nice enough to pace me at sub-7:00 min/mi for the final mile and a half.
 
 ## Retrospective
-
 At the end of the day, I accomplished what I set out to do. I didn't go sub-5:00 and didn't qualify for Worlds, which are now on my short list of goals for 2022. That said, I was able to complete the race in good form without going to the well. The only time a felt discomfort was in the final 1.5 miles.
 
 I'm not taking a true off-season. I want to be in the top ten at smaller races like this and that means going sub-4:30. My training will be focused on building a massive aerobic base, regaining my strength, and continuing to advance my swim.

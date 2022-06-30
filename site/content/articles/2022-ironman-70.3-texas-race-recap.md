@@ -24,7 +24,6 @@ tags: ["triathlon", "ironman"]
 ---
 
 ## Race Recap
-
 My performance at IRONMAN 70.3 Texas was good, but not great.
 
 ### Swim
@@ -37,7 +36,6 @@ The bike course was not a *PR chasers dream course* given the heavy headwind aft
 The run went pretty bad as well. In first 3 miles my hamstrings were super painful and I was worried I'd get full-on cramps. The cramps never came and the pain eventually subsided. Nevertheless, I had terrible GI issues on the run and had to stop to use the bathroom.
 
 ## Retrospective
-
 Reflecting on my performance, I've come a long way if an OK day of racing results in a sub-5 hour finish and a PR. However, I am still pretty unsatisfied with how I executed on race day.
 
 Some key takeaways from Sunday:

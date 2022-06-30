@@ -26,28 +26,23 @@ tags: ["triathlon", "ironman"]
 ---
 
 ## Race Recap
-
 Overall, my performance at IRONMAN 70.3 Des Moines was OK.
 
 ### Swim
-
 The swim turned out to be my most challenging event. I can consistently swim at 1:50 min./100 yd. for long durations, however my training leading up to the race was always indoors and almost always with buoyancy shorts. These factors turned out to be a serious crutch, which was revealed in a big way on Sunday.
 
 I exited the swim exhausted and far behind my goal. Worse still, the strain I put into the swim elevated my heart rate severely, which I would spend the remainder of the race trying to keep under control.
 
 ### Bike
-
 The bike portion, my strongest event, was hampered by the fact that I knew I would have to soft-pedal the course in order to have a chance at finishing the run.
 
 ### Run
-
 During the run, I started cramping in my quads and hamstrings, which I attribute to a poor nutritional strategy and overexertion in the swim. I spent most of the run at a slower pace because of it.
 
 ## Retrospective
-
 During training, I fell into the typical age-grouper trap of training too long at moderate intensity instead of following a prescribed 80/20 program with proper periodization. To address this, I've been reading the following two books:
-* The Triathlete's Training Bible by Joe Friel
-* 80/20 Triathlon by Matt Fitzgerald and David Warden
+* *The Triathlete's Training Bible* by Joe Friel
+* *80/20 Triathlon* by Matt Fitzgerald and David Warden
 
 Additionally, my nutrition just wasn't scientific. I used a mix I typically use for strength training, which did not serve me in this event.
 
