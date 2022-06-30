@@ -27,6 +27,7 @@ git add . && git commit -m "Update submodules"
 ## Deploy
 
 ```bash
+cd tf/
 terraform init
 terraform plan
 terraform deploy
