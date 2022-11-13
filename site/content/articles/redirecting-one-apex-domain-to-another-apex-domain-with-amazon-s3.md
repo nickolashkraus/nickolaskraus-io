@@ -1,5 +1,5 @@
 ---
-title: "Redirecting one apex domain to another apex domain with Amazon S3"
+title: "Redirecting One Apex Domain to Another Apex Domain with Amazon S3"
 date: 2022-05-12T00:00:00-06:00
 draft: false
 description: How to redirect one apex domain to another apex domain with Amazon S3

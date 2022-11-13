@@ -1,5 +1,5 @@
 ---
-title: "Transforming Code Into Beautiful, Idiomatic Python"
+title: "Transforming Code into Beautiful, Idiomatic Python"
 author: "Raymond Hettinger"
 date: 2020-01-26T00:00:00-06:00
 draft: false

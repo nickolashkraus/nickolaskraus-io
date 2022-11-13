@@ -1,5 +1,5 @@
 ---
-title: "My Thoughts On EMF"
+title: "My Thoughts on EMF"
 date: 2021-12-20T00:00:00-06:00
 draft: false
 description: A mathematical analysis of the purported danger of electromagnetic fields.
