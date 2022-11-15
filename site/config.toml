@@ -21,10 +21,10 @@ googleAnalytics = "G-F40Z5JD5FQ"
     meta_og_image = "logo.png"
     meta_og_site_name = "Nickolas Kraus"
     meta_og_title = "Nickolas Kraus"
-    meta_twitter_creator = "@NickolasHKraus"
+    meta_twitter_creator = "@nickolashkraus"
     meta_twitter_description = "Hello! My name is Nickolas Kraus."
     meta_twitter_image = "logo.png"
-    meta_twitter_site = "@NickolasHKraus"
+    meta_twitter_site = "@nickolashkraus"
     meta_twitter_title = "Nickolas Kraus"
 
 [[menu.main]]
