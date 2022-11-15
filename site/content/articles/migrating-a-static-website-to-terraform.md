@@ -7,7 +7,7 @@ aliases: ["./migrating-nickolaskraus-io-to-terraform"]
 tags: ["aws", "terraform"]
 ---
 
-Back in 2018, I used the AWS CLI and [a collection of JSON files and Bash scripts](https://github.com/nickolashkraus/nickolaskraus.io/tree/11c438a71905697bdb5fcd172fed95aa3d1cbf8a/.aws) to create the infrastructure for NickolasKraus.io. Since then, I have expanded by repetoire of Infrastructure-as-Code (IaC) tooling to include both CloudFormation and Terraform. With each new tool, I put together an article detailing how to create a static website on AWS. These articles can be found [here](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation/) and [here](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-terraform/).
+Back in 2018, I used the AWS CLI and [a collection of JSON files and Bash scripts](https://github.com/nickolashkraus/nickolaskraus-io/tree/11c438a71905697bdb5fcd172fed95aa3d1cbf8a/.aws) to create the infrastructure for NickolasKraus.io. Since then, I have expanded by repetoire of Infrastructure-as-Code (IaC) tooling to include both CloudFormation and Terraform. With each new tool, I put together an article detailing how to create a static website on AWS. These articles can be found [here](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation/) and [here](https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-terraform/).
 
 Now in 2022, I have decided to put what I've learned into practice by migrating NickolasKraus.io to Terraform. This article provides a walk through of the steps taken to accomplish this task.
 
