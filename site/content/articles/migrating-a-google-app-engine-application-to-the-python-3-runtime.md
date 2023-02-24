@@ -2,7 +2,7 @@
 title: "Migrating a Google App Engine Application to the Python 3 Runtime"
 date: 2022-07-25T00:00:00-06:00
 draft: false
-description:
+description: Reflections on migrating a large-scale Google App Engine application to Python 3.
 tags: ["programming", "python", "google-app-engine"]
 ---
 
