@@ -37,6 +37,9 @@ googleAnalytics = "G-F40Z5JD5FQ"
   name = "Projects"
   url  = "/projects"
 [[menu.main]]
+  name = "Notes"
+  url  = "/notes"
+[[menu.main]]
   name = "Resume"
   url  = "/resume.pdf"
 [[menu.main]]
