@@ -1,6 +1,6 @@
 ---
 title: "Source Control Hygiene"
-date: 2023-02-23T00:00:00-06:00
+date: 2023-03-23T00:00:00-06:00
 draft: false
 description: My thoughts on being a good steward of source control.
 tags: ["programming", "git"]
