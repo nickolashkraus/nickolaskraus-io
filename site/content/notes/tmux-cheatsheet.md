@@ -2,7 +2,7 @@
 title: "tmux Cheatsheet"
 date: 2018-10-21T00:00:00-06:00
 draft: false
-description: Helpful commands for tmux
+description: Helpful commands for tmux.
 tags: ["programming", "tmux"]
 ---
 
