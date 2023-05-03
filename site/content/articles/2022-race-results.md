@@ -23,7 +23,7 @@ tags: ["triathlon"]
 
 ---
 
-## [TRI Clear Lake Olympic Triathlon](https://clearlakeiowa.com/events/tri-clear-lake)
+## [TRI Clear Lake](https://clearlakeiowa.com/events/tri-clear-lake)
 * **Date**: May 28th, 2022
 * **Distance**: Olympic
 * **Location**: Clear Lake, IA
@@ -76,6 +76,10 @@ tags: ["triathlon"]
 
 [IRONMAN All World Athlete Age Group Rankings](https://www.ironman.com/all-world-athlete-agr)
 
+**Bronze**
+
+<div class="font-size-12px">
+
 Athlete        | Overall Position | Country Position | Country | Gender | Category | Overall Time | Points
 -------------- | ---------------- | ---------------- | ------- | ------ | -------- | ------------ | ------
 Nickolas Kraus |             1089 |              296 |      US |   Male |   M25-29 |     10:09:09 |  4,741
@@ -85,13 +89,11 @@ Event                           | Div Rank | Gender Rank | Overall Rank | Swim  
 2022 IRONMAN 70.3 Texas         |       20 |         188 |          210 | 00:32:26 |   2:32:42 | 1:44:32 |    4:55:00 |  2,576
 2022 IRONMAN 70.3 Coeur d'Alene |       29 |         223 |          267 | 00:35:44 |   2:44:40 | 1:47:05 |    5:14:09 |  2,165
 
-**Bronze**
-
 [USA Triathlon National Rankings](https://rankings.usatriathlon.org/Rankings/NationalRankings)
 
 Rank | First Name | Last Name | Age | Gender | State | Region  | Overall Score
 ---- | ---------- | --------- | --- | ------ | ----- | ------- | -------------
- 251 |   Nickolas |     Kraus |  28 |      M |  Iowa | Midwest |        89.362
+ 251 |   Nickolas |     Kraus |  29 |      M |  Iowa | Midwest |        89.362
 
 Race                       | Date       | Distance     | Time        | Score
 -------------------------- | ---------- | ------------ | ----------- | ------
@@ -100,21 +102,4 @@ TRI Clear Lake             | 05/28/2022 | Intermediate | 02:22:33.87 | 86.278
 IRONMAN 70.3 Coeur d'Alene | 06/26/2022 |         Long | 05:14:09.00 | 88.825
 Storm the Lake Triathlon   | 08/20/2022 |        Short | 01:03:31.70 | 89.911
 
----
-
-## Distances
-
-### Sprint
-* **Swim**: 0.5 mi (750m)
-* **Bike**: 12.4 mi (20km)
-* **Run**: 3.1 mi (5km)
-
-### Olympic
-* **Swim**: 0.93 mi (1.5km)
-* **Bike**: 24.8 mi (40km)
-* **Run**: 6.2 mi (10km)
-
-### IRONMAN 70.3
-* **Swim**: 1.2 mi (1.9km)
-* **Bike**: 56 mi (90km)
-* **Run**: 13.1 mi (21.1km)
+</div>
