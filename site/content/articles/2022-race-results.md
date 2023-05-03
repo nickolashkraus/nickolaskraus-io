@@ -57,7 +57,7 @@ tags: ["triathlon"]
 
 ---
 
-## [Storm the Lake Sprint Triathlon](https://runsignup.com/Race/IA/StormLake/StormtheLakeTriathlon)
+## [Storm the Lake Triathlon](https://runsignup.com/Race/IA/StormLake/StormtheLakeTriathlon)
 * **Date**: August 21st, 2021
 * **Distance**: Sprint
 * **Location**: Storm Lake, IA
