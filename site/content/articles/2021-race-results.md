@@ -95,6 +95,35 @@ tags: ["triathlon"]
 
 ---
 
+[IRONMAN All World Athlete Age Group Rankings](https://www.ironman.com/all-world-athlete-agr)
+
+Athlete        | Overall Position | Country Position | Country | Gender | Category | Overall Time | Points
+-------------- | ---------------- | ---------------- | ------- | ------ | -------- | ------------ | ------
+Nickolas Kraus |              759 |              321 |      US |   Male |   M25-29 |      9:36:41 |  4,391
+
+Event                        | Div Rank | Gender Rank | Overall Rank | Swim     | Bike      | Run     | Total Time | Points
+---------------------------- | -------- | ----------- | ------------ | -------- | --------- | ------- | ---------- | ------
+2021 IRONMAN 70.3 Des Moines |       73 |         679 |          886 | 00:47:57 |   1:22:52 | 2:09:15 |    4:32:50 |  1,810
+2021 IRONMAN 70.3 Arizona    |       13 |          77 |           81 | 00:35:49 |   2:34:21 | 1:45:18 |    5:03:51 |  2,581
+
+**Bronze**
+
+[USA Triathlon National Rankings](https://rankings.usatriathlon.org/Rankings/NationalRankings)
+
+Rank | First Name | Last Name | Age | Gender | State | Region  | Overall Score
+---- | ---------- | --------- | --- | ------ | ----- | ------- | -------------
+ 447 |   Nickolas |     Kraus |  28 |      M |  Iowa | Midwest |        84.428
+
+Race                     | Date       | Distance     | Time        | Score
+------------------------ | ---------- | ------------ | ----------- | ------
+IRONMAN 70.3 Des Moines  | 06/20/2021 |         Long | 04:32:50.00 | 75.578
+Ames Triathlon           | 06/27/2021 |        Short | 01:19:47.51 | 78.553
+Bluff Creek Triathlon    | 08/15/2021 | Intermediate | 02:34:39.01 | 81.261
+Storm the Lake Triathlon | 08/21/2021 |        Short | 01:14:44.00 | 83.963
+IRONMAN 70.3 Arizona     | 10/17/2021 |         Long | 05:03:51.00 | 88.362
+
+---
+
 ## Distances
 
 ### Sprint
