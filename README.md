@@ -30,7 +30,7 @@ git add . && git commit -m "Update submodules"
 cd tf/
 terraform init
 terraform plan
-terraform deploy
+terraform apply
 ```
 
 **NOTE**: The Amazon CloudFront distribution can take up to 30 minutes to provision.
