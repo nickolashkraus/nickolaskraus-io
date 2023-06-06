@@ -11,15 +11,15 @@ tags: ["triathlon"]
 * **Distance**: Olympic
 * **Location**: Clear Lake, IA
 
-### [Results]()
-* **Swim**:
-* **T1**: Swim-to-Bike:
-* **Bike**:
-* **T2**: Bike-to-Run:
-* **Run**:
-* **Overall**:
+### [Results](https://results.truetimeracing.com/myresults.aspx?uid=16535-1122-6-484218)
+* **Swim**: 00:27:10.8
+* **T1**: Swim-to-Bike: 00:01:42.4
+* **Bike**: 01:02:17.4
+* **T2**: Bike-to-Run: 00:01:45.6
+* **Run**: 00:40:34.2
+* **Overall**: 02:13:30.6
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: 2/18 | **Gender Rank**: 9/124 | **Overal Rank**: 11/185
 
 ---
 
