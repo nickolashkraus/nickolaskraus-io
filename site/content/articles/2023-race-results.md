@@ -19,7 +19,7 @@ tags: ["triathlon"]
 * **Run**: 00:40:34.2
 * **Overall**: 02:13:30.6
 
-**Division Rank**: 2/18 | **Gender Rank**: 9/124 | **Overal Rank**: 11/185
+**Division Rank**: 2/18 | **Gender Rank**: 9/124 | **Overall Rank**: 11/185
 
 ---
 
@@ -36,7 +36,7 @@ tags: ["triathlon"]
 * **Run**:
 * **Overall**:
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: | **Gender Rank**: | **Overall Rank**:
 
 ---
 
@@ -53,7 +53,7 @@ tags: ["triathlon"]
 * **Run**:
 * **Overall**:
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: | **Gender Rank**: | **Overall Rank**:
 
 ---
 
@@ -70,7 +70,7 @@ tags: ["triathlon"]
 * **Run**:
 * **Overall**:
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: | **Gender Rank**: | **Overall Rank**:
 
 ---
 
@@ -87,7 +87,7 @@ tags: ["triathlon"]
 * **Run**:
 * **Overall**:
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: | **Gender Rank**: | **Overall Rank**:
 
 ### [Results]()
 * **Swim**:
@@ -97,7 +97,7 @@ tags: ["triathlon"]
 * **Run**:
 * **Overall**:
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: | **Gender Rank**: | **Overall Rank**:
 
 ### [Results]()
 * **Swim**:
@@ -107,7 +107,7 @@ tags: ["triathlon"]
 * **Run**:
 * **Overall**:
 
-**Division Rank**: | **Gender Rank**: | **Overal Rank**:
+**Division Rank**: | **Gender Rank**: | **Overall Rank**:
 
 
 [IRONMAN All World Athlete Age Group Rankings](https://www.ironman.com/all-world-athlete-agr)

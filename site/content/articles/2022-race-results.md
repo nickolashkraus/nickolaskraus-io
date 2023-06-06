@@ -19,7 +19,7 @@ tags: ["triathlon"]
 * **Run**: 1:44:32
 * **Overall**: 4:55:00
 
-**Division Rank**: 20 | **Gender Rank**: 188 | **Overal Rank**: 210
+**Division Rank**: 20 | **Gender Rank**: 188 | **Overall Rank**: 210
 
 ---
 
@@ -36,7 +36,7 @@ tags: ["triathlon"]
 * **Run**: 00:43:16.3
 * **Overall**: 02:22:33.8
 
-**Division Rank**: 5/17 | **Gender Rank**: 17/115 | **Overal Rank**: 18/162
+**Division Rank**: 5/17 | **Gender Rank**: 17/115 | **Overall Rank**: 18/162
 
 ---
 
@@ -53,7 +53,7 @@ tags: ["triathlon"]
 * **Run**: 1:47:05
 * **Overall**: 5:14:09
 
-**Division Rank**: 29 | **Gender Rank**: 223 | **Overal Rank**: 267
+**Division Rank**: 29 | **Gender Rank**: 223 | **Overall Rank**: 267
 
 ---
 
@@ -70,7 +70,7 @@ tags: ["triathlon"]
 * **Run**: 00:20:07.4
 * **Overall**: 01:03:31.7
 
-**Division Rank**: 2/2 | **Gender Rank**: 3/26 | **Overal Rank**: 4/44
+**Division Rank**: 2/2 | **Gender Rank**: 3/26 | **Overall Rank**: 4/44
 
 ---
 

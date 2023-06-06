@@ -19,7 +19,7 @@ tags: ["triathlon", "ironman"]
 * **Run**: 2:09:15
 * **Overall**: 4:32:50
 
-**Division Rank**: 73 | **Gender Rank**: 679 | **Overal Rank**: 886
+**Division Rank**: 73 | **Gender Rank**: 679 | **Overall Rank**: 886
 
 †: The bike portion was only 28 miles due to weather delays.
 

@@ -19,7 +19,7 @@ tags: ["triathlon"]
 * **Run**: 00:40:34.2
 * **Overall**: 02:13:30.6
 
-**Division Rank**: 2/18 | **Gender Rank**: 9/124 | **Overal Rank**: 11/185
+**Division Rank**: 2/18 | **Gender Rank**: 9/124 | **Overall Rank**: 11/185
 
 ---
 

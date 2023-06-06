@@ -19,7 +19,7 @@ tags: ["triathlon"]
 * **Run**: 2:09:15
 * **Overall**: 4:32:50
 
-**Division Rank**: 73 | **Gender Rank**: 679 | **Overal Rank**: 886
+**Division Rank**: 73 | **Gender Rank**: 679 | **Overall Rank**: 886
 
 †: The bike portion was only 28 miles due to weather delays.
 
@@ -38,7 +38,7 @@ tags: ["triathlon"]
 * **Run**: 00:22:10
 * **Overall**: 1:19:48
 
-**Division Rank**: 4/17 | **Gender Rank**: 32/128 | **Overal Rank**: 36/204
+**Division Rank**: 4/17 | **Gender Rank**: 32/128 | **Overall Rank**: 36/204
 
 †: The Ames Triathlon was 0.31 mi (500 m) swim, 15.5 mi (24.9 km) bike, 3.1 mi (5 km) run.
 
@@ -57,7 +57,7 @@ tags: ["triathlon"]
 * **Run**: 00:47:33
 * **Overall**: 2:34:39
 
-**Division Rank**: 2/5 | **Gender Rank**: 13/63 | **Overal Rank**: 14/84
+**Division Rank**: 2/5 | **Gender Rank**: 13/63 | **Overall Rank**: 14/84
 
 ---
 
@@ -74,7 +74,7 @@ tags: ["triathlon"]
 * **Run**: 00:21:19
 * **Overall**: 1:14:44
 
-**Division Rank**: 1/1 | **Gender Rank**: 1/19 | **Overal Rank**: 1/41
+**Division Rank**: 1/1 | **Gender Rank**: 1/19 | **Overall Rank**: 1/41
 
 ---
 
@@ -91,7 +91,7 @@ tags: ["triathlon"]
 * **Run**: 1:45:18
 * **Overall**: 5:03:51
 
-**Division Rank**: 13 | **Gender Rank**: 77 | **Overal Rank**: 81
+**Division Rank**: 13 | **Gender Rank**: 77 | **Overall Rank**: 81
 
 ---
 

@@ -19,7 +19,7 @@ tags: ["triathlon", "ironman"]
 * **Run**: 1:44:32
 * **Overall**: 4:55:00
 
-**Division Rank**: 20 | **Gender Rank**: 188 | **Overal Rank**: 210
+**Division Rank**: 20 | **Gender Rank**: 188 | **Overall Rank**: 210
 
 ---
 
