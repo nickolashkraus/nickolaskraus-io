@@ -39,13 +39,13 @@ TRI Clear Lake takes place in Clear Lake, Iowa, a beautiful small town situated 
 
 Initially, I was disappointed with my swim. A gain of ~16 seconds seemed rather low given the solid swim block I had completed with the Masters swim squad leading up to the race. However, after reviewing my FIT files from the previous year, I was able to better assess my performance. First off, my swim overall felt very comfortable. I was able to focus on my form and sighting and strategize around the dynamics of the race. Unfortunately, I ended up swimming alone, since I failed to bridge to one of the middle packs. I felt relaxed in the swim for the first time in my triathlon career, which is a psychological win for sure. I could certainly have pushed harder and will focus on arm speed and pacing for my next race.
 
-![2022 TRI Clear Lake - Swim](/articles/img/2022-tri-clear-lake-swim.png)
+![2022 TRI Clear Lake - Swim](/articles/2023-tri-clear-lake-race-recap/img/2022-tri-clear-lake-swim.png)
 
 <div style="text-align: center; font-size: 10px">
   <em>The 2022 TRI Clear Lake swim course was almost 400 meters too short.</em>
 </div>
 
-![2023 TRI Clear Lake - Swim](/articles/img/2023-tri-clear-lake-swim.png)
+![2023 TRI Clear Lake - Swim](/articles/2023-tri-clear-lake-race-recap/img/2023-tri-clear-lake-swim.png)
 
 Garmin:
 * [2022 TRI Clear Lake - Swim](https://connect.garmin.com/modern/activity/8909716913)
@@ -54,8 +54,8 @@ Garmin:
 ### Bike
 My maturation as an athlete was demonstrated on the bike course. I didn't necessarily bike any harder (229W average), but went ~4 minutes faster. This was due to better wheels ([Zipp 808 Firecrest](https://www.sram.com/en/zipp/models/wh-808-ftlr-a1)), better bike positioning, and generally being more cognizant of speed, rather than power. I definitely over-biked, but in an Olympic distance race, you can get away with being a little reckless and allowing adrenaline to push the pace.
 
-![2022 TRI Clear Lake - Bike](/articles/img/2022-tri-clear-lake-bike.png)
-![2023 TRI Clear Lake - Bike](/articles/img/2023-tri-clear-lake-bike.png)
+![2022 TRI Clear Lake - Bike](/articles/2023-tri-clear-lake-race-recap/img/2022-tri-clear-lake-bike.png)
+![2023 TRI Clear Lake - Bike](/articles/2023-tri-clear-lake-race-recap/img/2023-tri-clear-lake-bike.png)
 
 Garmin:
 * [2022 TRI Clear Lake - Bike](https://connect.garmin.com/modern/activity/8909733938)
@@ -64,8 +64,8 @@ Garmin:
 ### Run
 My greatest improvement by far was on the run. I ran a 40:34.2 10K, which was a personal best of any 10K I had previously run. I could feel my quads cramping, which would have severely hurt my performance over anything but a 10K, but I was strong enough to run around ~3:50 min/k (6:10 min/mi) for the last 3km.
 
-![2022 TRI Clear Lake - Run](/articles/img/2022-tri-clear-lake-run.png)
-![2023 TRI Clear Lake - Run](/articles/img/2023-tri-clear-lake-run.png)
+![2022 TRI Clear Lake - Run](/articles/2023-tri-clear-lake-race-recap/img/2022-tri-clear-lake-run.png)
+![2023 TRI Clear Lake - Run](/articles/2023-tri-clear-lake-race-recap/img/2023-tri-clear-lake-run.png)
 
 Garmin:
 * [2022 TRI Clear Lake - Run](https://connect.garmin.com/modern/activity/8909719617)
