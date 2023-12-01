@@ -36,7 +36,6 @@ Given my podium position for the M30-34 category, my performance qualified me to
 TRI Clear Lake takes place in Clear Lake, Iowa, a beautiful small town situated on a natural spring-fed lake in northern Iowa midway between Des Moines and Minneapolis. The event is well-organized and professional. The swim, bike, and run courses are consistent with the official Olympic distances (1500m, 40km, 10km), are well marked, and heavily volunteered. It is a great destination to host a triathlon event and the organizers do a fantastic job.
 
 ### Swim
-
 Initially, I was disappointed with my swim. A gain of ~16 seconds seemed rather low given the solid swim block I had completed with the Masters swim squad leading up to the race. However, after reviewing my FIT files from the previous year, I was able to better assess my performance. First off, my swim overall felt very comfortable. I was able to focus on my form and sighting and strategize around the dynamics of the race. Unfortunately, I ended up swimming alone, since I failed to bridge to one of the middle packs. I felt relaxed in the swim for the first time in my triathlon career, which is a psychological win for sure. I could certainly have pushed harder and will focus on arm speed and pacing for my next race.
 
 ![2022 TRI Clear Lake - Swim](/articles/2023-tri-clear-lake-race-recap/img/2022-tri-clear-lake-swim.png)

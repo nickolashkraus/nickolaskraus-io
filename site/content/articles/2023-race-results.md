@@ -29,14 +29,14 @@ tags: ["triathlon"]
 * **Location**: Des Moines, IA
 
 ### [Results](https://www.ironman.com/im703-des-moines-results)
-* **Swim**:
-* **T1**: Swim-to-Bike:
-* **Bike**:
-* **T2**: Bike-to-Run:
-* **Run**:
-* **Overall**:
+* **Swim**: 00:36:51
+* **T1**: Swim-to-Bike: 00:02:09
+* **Bike**: 2:28:07
+* **T2**: Bike-to-Run: 00:03:15
+* **Run**: 1:32:37
+* **Overall**: 4:42:58
 
-**Division Rank**: | **Gender Rank**: | **Overall Rank**:
+**Division Rank**: 7 | **Gender Rank**: 42 | **Overall Rank**: 43
 
 ---
 
@@ -45,15 +45,32 @@ tags: ["triathlon"]
 * **Distance**: Sprint
 * **Location**: Manson, IA
 
-### [Results]()
-* **Swim**:
-* **T1**: Swim-to-Bike:
-* **Bike**:
-* **T2**: Bike-to-Run:
-* **Run**:
-* **Overall**:
+### [Results](https://results.truetimeracing.com/myresults.aspx?uid=16535-1168-1-500693)
+* **Swim**: 00:09:37
+* **T1**: Swim-to-Bike: 00:00:19
+* **Bike**: 00:28:33
+* **T2**: Bike-to-Run: 00:00:43
+* **Run**: 00:21:10
+* **Overall**: 01:00:25
 
-**Division Rank**: | **Gender Rank**: | **Overall Rank**:
+**Division Rank**: 1/3 | **Gender Rank**: 1/34 | **Overall Rank**: 1/49
+
+---
+
+## [USA Triathlon Age Group National Championships](https://www.usatriathlon.org/get-racing/nationals)
+* **Date**: August 5th, 2023
+* **Distance**: Olympic
+* **Location**: Milwaukee, WI
+
+### [Results](https://track.rtrt.me/e/USAT-AGE_GROUP-2023#/tracker/RB8PMVGR)
+* **Swim**: 00:25:39
+* **T1**: Swim-to-Bike: 00:02:06
+* **Bike**: 01:00:30
+* **T2**: Bike-to-Run: 00:01:14
+* **Run**: 00:40:27
+* **Overall**: 02:09:55
+
+**Division Rank**: 22/110 | **Gender Rank**: 137/1,201 | **Overall Rank**: 145/2,009
 
 ---
 
@@ -62,15 +79,15 @@ tags: ["triathlon"]
 * **Distance**: Sprint
 * **Location**: Storm Lake, IA
 
-### [Results]()
-* **Swim**:
-* **T1**: Swim-to-Bike:
-* **Bike**:
-* **T2**: Bike-to-Run:
-* **Run**:
-* **Overall**:
+### [Results](https://results.truetimeracing.com/myresults.aspx?uid=16535-1184-5-102840)
+* **Swim**: 00:17:56.7
+* **T1**: Swim-to-Bike: 00:00:38.3
+* **Bike**: 00:29:03.0
+* **T2**: Bike-to-Run: 00:00:39.4
+* **Run**: 00:20:01.2
+* **Overall**: 01:08:18.9
 
-**Division Rank**: | **Gender Rank**: | **Overall Rank**:
+**Division Rank**: 1 | **Gender Rank**: 1 | **Overall Rank**: 1
 
 ---
 
