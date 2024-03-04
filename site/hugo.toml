@@ -1,52 +1,58 @@
-baseURL = "https://nickolaskraus.io/"
-languageCode = "en-us"
-title = "Nickolas Kraus"
-author = "Nickolas Kraus"
-canonifyurls = true
-theme = "black-and-light-2"
-
-pygmentsStyle       = "tango"
-pygmentsCodeFences  = true
+baseURL = 'https://nickolaskraus.io'
+languageCode = 'en-us'
+title = 'Nickolas Kraus'
+theme = 'black-and-light-2'
 
 # Google Analytics measurement ID (Google Analytics 4)
-googleAnalytics = "G-F40Z5JD5FQ"
-
-[params]
-  siteName = "Nickolas Kraus"
-  dateFormat = "January 2, 2006"
-
-  [params.seo]
-    meta_description = "Hello! My name is Nickolas Kraus."
-    meta_og_description = "Hello! My name is Nickolas Kraus."
-    meta_og_image = "logo.png"
-    meta_og_site_name = "Nickolas Kraus"
-    meta_og_title = "Nickolas Kraus"
-    meta_twitter_creator = "@nickolashkraus"
-    meta_twitter_description = "Hello! My name is Nickolas Kraus."
-    meta_twitter_image = "logo.png"
-    meta_twitter_site = "@nickolashkraus"
-    meta_twitter_title = "Nickolas Kraus"
-
-[[menu.main]]
-  name = "About"
-  url  = "/about"
-[[menu.main]]
-  name = "Articles"
-  url  = "/articles"
-[[menu.main]]
-  name = "Projects"
-  url  = "/projects"
-[[menu.main]]
-  name = "Notes"
-  url  = "/notes"
-[[menu.main]]
-  name = "Resume"
-  url  = "/resume.pdf"
-[[menu.main]]
-  name = "Transcripts"
-  url  = "/transcripts"
+googleAnalytics = 'G-F40Z5JD5FQ'
 
 [markup]
+  [markup.highlight]
+  codeFences = true
+  guessSyntax = false
+  highlight = true
+  # See: https://xyproto.github.io/splash/docs/
+  # style = 'bw'
+  # Use an external CSS file. See assets/scss/syntax.scss.
+  noClasses=false
   [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    [markup.goldmark.extensions]
+    taskList = false
+    typographer = false
+  [markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  siteName = 'Nickolas Kraus'
+  dateFormat = 'January 2, 2006'
+
+  [params.seo]
+  meta_description = 'Hello! My name is Nickolas Kraus.'
+  meta_og_title = 'Nickolas Kraus'
+  meta_og_site_name = 'Nickolas Kraus'
+  meta_og_description = 'Hello! My name is Nickolas Kraus.'
+  meta_og_image = 'logo.png'
+  meta_twitter_title = 'Nickolas Kraus'
+  meta_twitter_site = '@nickolashkraus'
+  meta_twitter_creator = '@nickolashkraus'
+  meta_twitter_description = 'Hello! My name is Nickolas Kraus.'
+  meta_twitter_image = 'logo.png'
+
+[[menu.main]]
+name = 'About'
+url  = '/about'
+[[menu.main]]
+name = 'Articles'
+url  = '/articles'
+[[menu.main]]
+name = 'Projects'
+url  = '/projects'
+[[menu.main]]
+name = 'Notes'
+url  = '/notes'
+[[menu.main]]
+name = 'Resume'
+url  = '/resume.pdf'
+[[menu.main]]
+name = 'Transcripts'
+url  = '/transcripts'
