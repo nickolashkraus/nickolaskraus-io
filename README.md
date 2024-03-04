@@ -1,8 +1,11 @@
-# [NickolasKraus.io](https://nickolaskraus.io)
+<div align="center">
+  <a href="https://nickolaskraus.io">
+    <p>NickolasKraus.io</p>
+  </a>
+  <p align="center">My personal website</p>
+</div>
 
-[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/nickolashkraus/nickolaskraus-io/blob/master/LICENSE)
-
-[NickolasKraus.io](https://nickolaskraus.io) is my personal website. It is generated using [Hugo](https://gohugo.io) and hosted on [AWS](https://aws.amazon.com).
+---
 
 ## Development
 
