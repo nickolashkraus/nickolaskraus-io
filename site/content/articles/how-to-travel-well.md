@@ -1,7 +1,7 @@
 ---
 title: "How To Travel Well"
 date: 2023-03-26T00:00:00-06:00
-draft: false
+draft: true
 description: My routines and habits for making travel bearable.
 tags: ["lifestyle", "travel"]
 ---

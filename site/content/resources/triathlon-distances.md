@@ -1,9 +1,10 @@
 ---
 title: "Triathlon Distances"
-date: 2023-05-03T00:00:00-06:00
 draft: false
 description: Triathlon distances in metric and imperial units.
 layout: table
+aliases: ["./articles/triathlon-distances/"]
+weight: -1
 tags: ["triathlon"]
 ---
 

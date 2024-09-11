@@ -41,18 +41,29 @@ googleAnalytics = 'G-F40Z5JD5FQ'
 [[menu.main]]
 name = 'About'
 url  = '/about'
+weight = 10
+
 [[menu.main]]
 name = 'Articles'
 url  = '/articles'
+weight = 20
+
 [[menu.main]]
-name = 'Projects'
-url  = '/projects'
+name = 'Resources'
+url  = '/resources'
+weight = 30
+
 [[menu.main]]
 name = 'Notes'
 url  = '/notes'
+weight = 40
+
+[[menu.main]]
+name = 'Projects'
+url  = '/projects'
+weight = 50
+
 [[menu.main]]
 name = 'Resume'
 url  = '/resume.pdf'
-[[menu.main]]
-name = 'Transcripts'
-url  = '/transcripts'
+weight = 60

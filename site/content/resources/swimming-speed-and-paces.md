@@ -1,9 +1,10 @@
 ---
 title: "Swimming Speed and Paces"
-date: 2023-05-06T00:00:00-06:00
 draft: false
 description: Swimming speed and paces in metric and imperial units for triathlon distances.
 layout: table
+aliases: ["./articles/swimming-speed-and-paces/"]
+weight: -2
 tags: ["triathlon", "swimming"]
 ---
 
