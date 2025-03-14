@@ -25,36 +25,83 @@ theme = 'black-and-light-2'
     unsafe = true
 
 [params]
-  siteName = 'Nickolas Kraus'
-  dateFormat = 'January 2, 2006'
+  [params.about]
+  title = 'Nickolas Kraus'
+  description = 'Nickolas Kraus'
 
   [params.seo]
-  meta_description = 'Hello! My name is Nickolas Kraus.'
   meta_og_title = 'Nickolas Kraus'
-  meta_og_site_name = 'Nickolas Kraus'
-  meta_og_description = 'Hello! My name is Nickolas Kraus.'
+  meta_og_description = 'Nickolas Kraus'
+  meta_og_site_name = 'nickolaskraus.io'
   meta_og_image = 'logo.png'
   meta_twitter_title = 'Nickolas Kraus'
+  meta_twitter_description = 'Nickolas Kraus'
   meta_twitter_site = '@nickolashkraus'
   meta_twitter_creator = '@nickolashkraus'
-  meta_twitter_description = 'Hello! My name is Nickolas Kraus.'
   meta_twitter_image = 'logo.png'
 
-[[menu.main]]
+  [[params.socials]]
+  name = 'Email'
+  url = 'mailto:0x@nickolaskraus.io'
+
+  [[params.socials]]
+  name = 'Garmin'
+  url = 'https://connect.garmin.com/modern/profile/6b22dde1-552e-45d4-9608-c5fe6b6d3ea4'
+
+  [[params.socials]]
+  name = 'GitHub'
+  url = 'https://github.com/nickolashkraus'
+
+  [[params.socials]]
+  name = 'Instagram'
+  url = 'https://www.instagram.com/nickolashkraus'
+
+  [[params.socials]]
+  name = 'LinkedIn'
+  url = 'https://linkedin.com/in/nickolas-kraus'
+
+  [[params.socials]]
+  name = 'RSS'
+  url = 'https://nickolaskraus.io/index.xml'
+
+  [[params.socials]]
+  name = 'Stack Overflow'
+  url = 'https://stackoverflow.com/users/9659079/nickolashkraus'
+
+  [[params.socials]]
+  name = 'Strava'
+  url = 'https://www.strava.com/athletes/23618436'
+
+  [[params.socials]]
+  name = 'X'
+  url = 'https://x.com/nickolashkraus'
+
+[[menus.main]]
 name = 'About'
-url  = '/about'
-[[menu.main]]
+pageRef = '/about'
+weight = 10
+
+[[menus.main]]
 name = 'Articles'
-url  = '/articles'
-[[menu.main]]
+pageRef = '/articles'
+weight = 20
+
+[[menus.main]]
 name = 'Projects'
-url  = '/projects'
-[[menu.main]]
+pageRef = '/projects'
+weight = 30
+
+[[menus.main]]
 name = 'Notes'
-url  = '/notes'
-[[menu.main]]
+pageRef = '/notes'
+weight = 40
+
+[[menus.main]]
 name = 'Resume'
-url  = '/resume.pdf'
-[[menu.main]]
+pageRef = '/resume'
+weight = 50
+
+[[menus.main]]
 name = 'Transcripts'
-url  = '/transcripts'
+pageRef = '/transcripts'
+weight = 60
