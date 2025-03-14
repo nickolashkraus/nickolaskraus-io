@@ -4,7 +4,9 @@ title = 'Nickolas Kraus'
 theme = 'black-and-light-2'
 
 # Google Analytics measurement ID (Google Analytics 4)
-googleAnalytics = 'G-F40Z5JD5FQ'
+[services]
+  [services.googleAnalytics]
+    id = 'G-F40Z5JD5FQ'
 
 [markup]
   [markup.highlight]
@@ -13,14 +15,14 @@ googleAnalytics = 'G-F40Z5JD5FQ'
   highlight = true
   # See: https://xyproto.github.io/splash/docs/
   # style = 'bw'
-  # Use an external CSS file. See assets/scss/syntax.scss.
+  # Uses a custum, external CSS file. See assets/scss/syntax.scss.
   noClasses=false
   [markup.goldmark]
     [markup.goldmark.extensions]
     taskList = false
     typographer = false
-  [markup.goldmark.renderer]
-  unsafe = true
+    [markup.goldmark.renderer]
+    unsafe = true
 
 [params]
   siteName = 'Nickolas Kraus'
