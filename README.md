@@ -2,7 +2,7 @@
   <a href="https://nickolaskraus.io">
     <img src="https://raw.githubusercontent.com/nickolashkraus/nickolaskraus-io/master/site/static/logo.png" width="194" />
   </a>
-  <p align="center">My personal website</p>
+  <p align="center">nickolaskraus.io</p>
 </div>
 
 ---
