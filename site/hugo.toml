@@ -16,7 +16,7 @@ theme = 'black-and-light-2'
   # See: https://xyproto.github.io/splash/docs/
   # style = 'bw'
   # Uses a custum, external CSS file. See assets/scss/syntax.scss.
-  noClasses=false
+  noClasses = false
   [markup.goldmark]
     [markup.goldmark.extensions]
     taskList = false
