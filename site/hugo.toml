@@ -78,30 +78,30 @@ theme = 'black-and-light-2'
 
 [[menus.main]]
 name = 'About'
-pageRef = '/about'
+url  = '/about'
 weight = 10
 
-[[menus.main]]
+[[menu.main]]
 name = 'Articles'
-pageRef = '/articles'
+url  = '/articles'
 weight = 20
 
-[[menus.main]]
-name = 'Projects'
-pageRef = '/projects'
+[[menu.main]]
+name = 'Resources'
+url  = '/resources'
 weight = 30
 
-[[menus.main]]
+[[menu.main]]
 name = 'Notes'
-pageRef = '/notes'
+url  = '/notes'
 weight = 40
 
-[[menus.main]]
-name = 'Resume'
-pageRef = '/resume'
+[[menu.main]]
+name = 'Projects'
+url  = '/projects'
 weight = 50
 
-[[menus.main]]
-name = 'Transcripts'
-pageRef = '/transcripts'
+[[menu.main]]
+name = 'Resume'
+url  = '/resume.pdf'
 weight = 60

@@ -1,9 +1,10 @@
 ---
 title: "Cycling Speed and Paces"
-date: 2023-05-05T00:00:00-06:00
 draft: false
 description: Cycling speed and paces in metric and imperial units for triathlon distances.
 layout: table
+aliases: ["./articles/cycling-speed-and-paces/"]
+weight: -3
 tags: ["triathlon", "cycling"]
 ---
 
