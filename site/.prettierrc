@@ -1,0 +1,19 @@
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 100,
+  "endOfLine": "lf",
+  "tailwindStylesheet": "assets/css/main.css",
+  "goTemplateBracketSpacing": true,
+  "plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-go-template"],
+  "overrides": [
+    {
+      "files": ["*.html"],
+      "options": {
+        "parser": "go-template"
+      }
+    }
+  ]
+}
