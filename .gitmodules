@@ -1,6 +1,0 @@
-[submodule "site/themes/black-and-light-2"]
-	path = site/themes/black-and-light-2
-	url = git@github.com:nickolashkraus/black-and-light-2.git
-[submodule "site/themes/paperwhite"]
-	path = site/themes/paperwhite
-	url = git@github.com:nickolashkraus/paperwhite.git
