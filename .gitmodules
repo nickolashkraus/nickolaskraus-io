@@ -1,0 +1,3 @@
+[submodule "site/themes/paperwhite"]
+	path = site/themes/paperwhite
+	url = git@github.com:nickolashkraus/paperwhite.git
