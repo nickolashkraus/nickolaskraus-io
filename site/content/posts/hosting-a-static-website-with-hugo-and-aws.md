@@ -1,24 +1,25 @@
 +++
 title = 'Hosting a Static Website with Hugo and AWS'
 date = 2018-02-18T00:00:00-00:00
+lastmod = 2025-04-30T00:00:00-00:00
 draft = false
 description = '''
 This article details the steps for creating and hosting a static website on
 AWS. It provides both the manual steps (via the Amazon Management Console) and
-the semi-automated steps using AWS CLI.
+the semi-automated steps using the AWS CLI.
 '''
 tags = ['aws', 'hugo', 'static-website']
 +++
 
 This article details the steps for creating and hosting a static website on
 AWS. It provides both the manual steps (via the Amazon Management Console) and
-the semi-automated steps using AWS CLI.
+the semi-automated steps using the AWS CLI.
 
 ## Hugo
 
-Hugo is a static site generator. The purpose of a static website generator is
-to render content into HTML files *before* the request for the content is made
-— increasing performance and reducing load time. To achieve this, Hugo uses a
+Hugo is a static site generator. The purpose of a static site generator is to
+render content into HTML files *before* the request for the content is made —
+increasing performance and reducing load time. To achieve this, Hugo uses a
 source directory of files and templates as input to create a complete website.
 
 ### Getting Started
@@ -106,13 +107,13 @@ The website is then available at the AWS region-specific website endpoint of
 the bucket. For example:
 
 ```
-<bucket-name>.s3-website-<AWS-region>.amazonaws.com
+<bucket-name>.s3-website-<region>.amazonaws.com
 ```
 
 or
 
 ```
-<bucket-name>.s3-website.<AWS-region>.amazonaws.com
+<bucket-name>.s3-website.<region>.amazonaws.com
 ```
 
 Taking this example further, say you create a bucket called `my-bucket` in the
@@ -188,7 +189,7 @@ website under `.aws`[^2].
     pip install --upgrade awscli
     ```
 
-**NOTE**: You will need to configure AWS CLI. To do so, consult the AWS CLI
+**NOTE**: You will need to configure the AWS CLI. To do so, consult the AWS CLI
 [documentation](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html).
 
 ### Step 1: Create S3 buckets
@@ -256,7 +257,7 @@ website under `.aws`[^2].
     }
     ```
 
-**NOTE**: Change `example-bucket-root` to the name of your root bucket.
+    **NOTE**: Change `example-bucket-root` to the name of your root bucket.
 
 #### AWS CLI
 
@@ -268,7 +269,7 @@ website under `.aws`[^2].
     aws s3 mb s3://$S3_BUCKET_LOGS --region $REGION
     ```
 
-2. Create the `cdn` folder:
+2. Create the `cdn/` folder:
 
     ```bash
     aws s3api put-object --bucket $S3_BUCKET_LOGS --key cdn/
@@ -284,12 +285,12 @@ website under `.aws`[^2].
     --grant-read-acp 'URI="http://acs.amazonaws.com/groups/s3/LogDelivery"'
     ```
 
-**NOTE**: You cannot use an email address to specify a grantee for any AWS
-Region that was created after 12/8/2014. The following Regions were created
-after 12/8/2014: US East (Ohio), Canada (Central), Asia Pacific (Mumbai), Asia
-Pacific (Seoul), EU (Frankfurt), EU (London), EU (Paris), China (Beijing),
-China (Ningxia), and AWS GovCloud (US). Instead, pass `id` with the canonical
-user ID to the `--grant-full-control` flag.
+    **NOTE**: You cannot use an email address to specify a grantee for any AWS
+    Region that was created after 12/8/2014. The following Regions were created
+    after 12/8/2014: US East (Ohio), Canada (Central), Asia Pacific (Mumbai),
+    Asia Pacific (Seoul), EU (Frankfurt), EU (London), EU (Paris), China
+    (Beijing), China (Ningxia), and AWS GovCloud (US). Instead, pass `id` with
+    the canonical user ID to the `--grant-full-control` flag.
 
 **S3 Bucket for the Root Domain**
 
@@ -318,7 +319,7 @@ user ID to the `--grant-full-control` flag.
     }
     ```
 
-**NOTE**: Change `example-bucket-logs` to the name of your log bucket.
+    **NOTE**: Change `example-bucket-logs` to the name of your log bucket.
 
 3. Enable static website hosting:
 
@@ -370,7 +371,7 @@ user ID to the `--grant-full-control` flag.
     }
     ```
 
-**NOTE**: Change `example-bucket-root` to the name of your root bucket.
+    **NOTE**: Change `example-bucket-root` to the name of your root bucket.
 
 ### Step 2: Configure Amazon CloudFront
 
@@ -410,19 +411,20 @@ corner.
 
 1. Go to https://console.aws.amazon.com/cloudfront.
 2. Click **Create Distribution**.
-3. In the **Select a delivery method for your content** section, choose **Get Started** under **Web**.
+3. In the **Select a delivery method for your content** section, choose **Get
+   Started** under **Web**.
 4. Fill out the **Create Distribution** form (see below).
-5. Click **Create Distribution**
+5. Click **Create Distribution**.
 
 **Origin Settings**
 
-|                        |                                                             |
-|------------------------|-------------------------------------------------------------|
+|                        |                                                         |
+|------------------------|---------------------------------------------------------|
 | Origin Domain Name     | `example-bucket-root.s3-website.<region>.amazonaws.com` |
-| Origin Path            | `N/A`                                                       |
-| Origin ID              | `S3-example-bucket-root`                                    |
-| Restrict Bucket Access | `No`                                                        |
-| Origin Custom Headers  | `N/A`                                                       |
+| Origin Path            | `N/A`                                                   |
+| Origin ID              | `S3-example-bucket-root`                                |
+| Restrict Bucket Access | `No`                                                    |
+| Origin Custom Headers  | `N/A`                                                   |
 
 **Default Cache Behavior Settings**
 
@@ -469,7 +471,7 @@ will need to use the S3 static website URL. If you do not use the S3 static
 website URL, but instead use the S3 REST endpoint
 (example-bucket-root.s3.amazonaws.com), you will not get this functionality.
 CloudFront provides default root object support, such that example.com will
-return `index.html`, but this will not work for any subdirectories (ex.
+return `index.html`, but this will not work for any subdirectories (e.g.,
 example.com/blog). The solution is to simply use the S3 static website URL and
 create a custom origin as opposed to a S3 Origin.
 
@@ -491,7 +493,8 @@ us-east-1` option when requesting a ticket.
     --idempotency-token 1337
     ```
 
-**NOTE**: The returned `CertificateArn` must be used for the following commands.
+    **NOTE**: The returned `CertificateArn` must be used for the following
+    commands.
 
 2. Use DNS to validate domain ownership:
 
@@ -765,7 +768,8 @@ us-east-1` option when requesting a ticket.
     --tech-contact file://$R53_CONTACT_INFO
     ```
 
-    **NOTE**: The Amazon Route 53 API can only be used in the `us-east-1` region.
+    **NOTE**: The Amazon Route 53 API can only be used in the `us-east-1`
+    region.
 
     `r53_contact_info.json`
 
@@ -854,7 +858,7 @@ us-east-1` option when requesting a ticket.
 2. Select **Upload**.
 3. Select the contents of `public/` and click **Next**.
 4. Under **Manage public permissions**, select **Grant public read access to
-   this object(s)** and click **Next**
+   this object(s)** and click **Next**.
 5. Under **Storage class**, choose **Standard** and **Encryption** **None**
    and click **Next**.
 6. Click **Upload**.
