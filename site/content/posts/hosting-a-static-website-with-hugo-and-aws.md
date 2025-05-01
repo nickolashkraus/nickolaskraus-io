@@ -936,5 +936,5 @@ history: [Hosting a Static Website with Hugo and CloudFormation][Hosting a
 Static Website with Hugo and CloudFormation] and [Hosting a Static Website with
 Hugo and Terraform][Hosting a Static Website with Hugo and Terraform].
 
-[Hosting a Static Website with Hugo and CloudFormation]: https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation
-[Hosting a Static Website with Hugo and Terraform]: https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-terraform
+[Hosting a Static Website with Hugo and CloudFormation]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-cloudformation
+[Hosting a Static Website with Hugo and Terraform]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-terraform
