@@ -8,7 +8,7 @@ This article details the steps for creating and hosting a static website on
 AWS. It provides both the manual steps (via the Amazon Management Console) and
 the semi-automated steps using the AWS CLI.
 '''
-tags = ['aws', 'hugo', 'static-website']
+tags = ['programming', 'aws', 'hugo', 'static-website']
 +++
 
 This article details the steps for creating and hosting a static website on
@@ -683,7 +683,7 @@ us-east-1` option when requesting a ticket.
     `example-bucket-root` to the name of your root bucket, and finally, change
     `ACMCertificateArn` and `Certificate` to the arn of your newly created
     certificate.
-    
+
     **NOTE**: To get the default `index.html`/`404.html` page functionality,
     you will need to use the S3 static website URL. If you do not use the S3
     static website URL, but instead use the S3 REST endpoint
@@ -843,7 +843,7 @@ us-east-1` option when requesting a ticket.
 
     **NOTE**: Change `example.com` to the name of your domain. Change `DNSName`
     to the domain name of your newly created CloudFront Distribution.
-    
+
     **NOTE**: The `HostZoneId` must be set to `Z2FDTNDATAQYW2` for CloudFront
     distributions. Alias resource record sets for CloudFront cannot be created
     in a private zone.
