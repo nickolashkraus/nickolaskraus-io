@@ -47,12 +47,12 @@ exception message?
 
 ## Solution
 
-The solution is to use [`assertRaises`][`assertRaises`]. `assertRaises` allows
-an exception to be encapsulated, which means that the test can throw an
+The solution is to use [`assertRaises()`][`assertRaises()`]. `assertRaises()`
+allows an exception to be encapsulated, which means that the test can throw an
 exception without exiting execution, as is normally the case for unhandled
 exceptions.
 
-There are two ways to use `assertRaises`:
+There are two ways to use `assertRaises()`:
 
 1. Using keyword arguments.
 2. Using a context manager.
@@ -126,5 +126,5 @@ will cause the unit test to fail.
 [^1]: Seven years and 9 minor version updates later, this approach still holds
 up. However, I use [`pytest-raises`][`pytest-raises`] now.
 
-[`assertRaises`]: https://docs.python.org/dev/library/unittest.html#unittest.TestCase.assertRaises
+[`assertRaises()`]: https://docs.python.org/dev/library/unittest.html#unittest.TestCase.assertRaises
 [`pytest-raises`]: https://docs.pytest.org/en/stable/reference/reference.html#pytest-raises
