@@ -1,6 +1,6 @@
 +++
 title = 'Using SSL/TLS with Google App Engine'
-date = 2018-03-04T00:00:00-06:00
+date = 2018-03-04T00:00:00-00:00
 lastmod = 2025-05-01T00:00:00-00:00
 draft = false
 description = '''
