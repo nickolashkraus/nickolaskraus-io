@@ -7,7 +7,12 @@
         </article>
         {{ range .Site.Sections }}
           <div class="pb-4">
-            <h2 class="pb-4 text-2xl">{{ .Title }}</h2>
+            <h2 class="pb-2 text-2xl">{{ .Title }}</h2>
+            <ul class="list-inside list-disc pl-2">
+              {{ range .Pages }}
+                <li><a class="underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+              {{ end }}
+            </ul>
           </div>
         {{ end }}
       </main>
