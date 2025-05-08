@@ -9,7 +9,7 @@ share some of my findings on some of the more esoteric features of the
 ndb.Model class. In particular, how one can populate a StructuredProperty using
 the ndb.Model constructor.
 '''
-tags = ["programming", "python", "google-app-engine"]
+tags = ['programming', 'python', 'google-app-engine']
 +++
 
 After doing a deep dive into the App Engine SDK for Python, I thought I would
@@ -58,13 +58,13 @@ I want to create a `Contact` using the following Python dictionaries:
 
 ```python
 phone_number_dicts = [
-    {"phone_type": "home", "number": "122"},
-    {"phone_type": "work", "number": "123"}
+    {'phone_type': 'home', 'number': '122'},
+    {'phone_type': 'work', 'number': '123'}
 ]
 
 contact = Contact(
-    name = "some name",
-    birthday = "some day",
+    name = 'some name',
+    birthday = 'some day',
     phone_numbers = phone_number_dicts
 )
 ```
