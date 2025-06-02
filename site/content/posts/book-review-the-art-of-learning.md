@@ -1,6 +1,6 @@
 +++
 title = 'Book Review: The Art of Learning'
-date = 2018-06-10T00:00:00-06:00
+date = 2018-06-10T00:00:00-00:00
 lastmod = 2025-05-11T00:00:00-00:00
 draft = false
 description = '''
