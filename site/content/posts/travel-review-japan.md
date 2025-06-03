@@ -19,9 +19,9 @@ black pine, a species native to Japan, and public areas and walkways are
 usually adorned with vibrant flowerbeds. This is of a piece with the overall
 cleanliness of the city. Many of the streets are absolutely immaculate and it
 is not uncommon to see the proprietor of a restaurant or business tidying up
-the area outside their residence[^1].
+the area outside their establishment[^1].
 
-Such zeal for cleanliness does not stop at the threshold, rather, it
+Such zeal for cleanliness does not stop at the threshold; rather, it
 intensifies when entering the home. The house is treated as sacred, piety takes
 the form of sacraments in orderliness. For example, one does not wear shoes in
 the house and if one chooses to wear house slippers, said house slippers shall
@@ -30,14 +30,13 @@ the house and if one chooses to wear house slippers, said house slippers shall
 The bathroom is another holy place in Japanese culture. A testament to Japan's
 technological advancement and almost neurotic desire for cleanliness, they
 represent a halcyonic confluence of Japanese proclivities. Infamous are the
-Toto toilets which one will find even in public restrooms, which are an
-ingenious accoutrement to the bathroom experience and absolute game-changer in
-practice. One need not know how to read Japanese to partake in a ritual
-butt-washing, since, as with most instructions in Japan, functionality is
-conveyed via subtle pictography. (A dotted water jet striking a pair of
-aesthetically curved half-moons that provide an artful facsimile of the human
-buttocks, for example). Positioning and pressure are also configurable to
-accommodate the power user[^2].
+Toto toilets, which can be found even in public restrooms and are an excellent
+accoutrement to the bathroom experience. One need not know how to read
+Japanese to partake in a ritual butt-washing, since, as with most instructions
+in Japan, functionality is conveyed via subtle pictography.  (A dotted water
+jet striking a pair of aesthetically curved half-moons that provide an artful
+facsimile of the human buttocks, for example). Positioning and pressure are
+also configurable to accommodate the power user[^2].
 
 Toilets aside, what I found most astonishing was the general sense of safety.
 Children starting at 5 years of age can be seen taking the subway to and from
@@ -97,15 +96,15 @@ establishment has an area to securely store your sodden parasol.
 
 ### Tokyo
 
-#### Meiji Jingu Shrine and Yoyogi Park
+#### Meiji Jingu and Yoyogi Park
 
 Located in Shibuya, Tokyo, this experience offers a beautiful and tranquil
 stroll through the meandering paths of Yoyogi Park culminating in the imperial
-Meiji Jingu Shrine.
+Meiji Shrine.
 
-#### Kabukichō
+#### Kabukicho
 
-Wash your hands and try to forget the gaudy lasciviousness that is Kabukichō.
+Wash your hands and try to forget the gaudy lasciviousness that is Kabukicho.
 This is where most of the *tourists* come to be dazzled by cartoonish
 attractions and cheap entertainment. This is not the best Tokyo has to offer.
 
@@ -114,16 +113,16 @@ attractions and cheap entertainment. This is not the best Tokyo has to offer.
 Situated on Tokyo Bay, Odaiba offers a nice respite from the city and many live
 events. There is *a lot* to see and do.
 
-#### Tsukiji Market
+#### Tsukiji Market[^4]
 
 Acute insomnia from a 14-hour time difference might enable you to be at the
-fish auction by 5AM, however the fish market does not disappoint later in the
+fish auction by 5AM; however the fish market does not disappoint later in the
 day. Tsukiji offers the freshest, most delicious sashimi in the world.
 
-#### Ueno Toshogu Shrine
+#### Ueno Park
 
-The Peony Garden at Ueno Toshogu nestled in the Ueno Onshi Park, is truly
-beautiful in May.
+The Peony Garden at Ueno Toshogu nestled in Ueno Park is truly beautiful in
+May.
 
 #### Shinjuku Gyoen National Garden
 
@@ -132,14 +131,14 @@ paths and dotted with small ponds and shrines is exquisite.
 
 ### Kyoto
 
-#### Arashiyama Bamboo Forest
+#### Arashiyama Bamboo Grove
 
 Watching sunlight play softly off the leaves falling amidst towering bamboo is
-truly surreal. There is a subtle magic and enchantment which pervades
-Arashiyama, which must be experienced. Again, get here early before the throngs
-of people arrive.
+truly surreal. There is a subtle magic and enchantment that pervades Arashiyama
+and must be experienced. Again, get here early before the throngs of people
+arrive.
 
-#### Fushimi Inari-taisha Shrine
+#### Fushimi Inari Shrine
 
 Luckily this experience requires a bit of physical exertion, so those of feeble
 resolve quickly turn back, leaving the hallowed path to the summit unsullied.
@@ -159,9 +158,9 @@ quite good. Even an orthorexic like myself could find something clean and
 healthy to eat. Raw cabbage, tomatoes, chicken, and hard-boiled eggs are all on
 the menu, all under ¥400. The beer is also great.
 
-#### Ramen Zundou-ya Shinjuku Shop
+#### Ramen Zundou-ya
 
-Simply the best ramen in Tokyo. Hands down. Full-stop. Period.
+Simply the best ramen in Tokyo. Hands down. Full stop.
 
 #### Jasmine Thai Yotsuya
 
@@ -173,3 +172,4 @@ Map](https://drive.google.com/open?id=1r_SzJ2t8kyvXsvWH48raxZpN8OcLVe0J&usp=shar
 [^1]: My writing from 2018 makes me cringe.
 [^2]: OK, this paragraph gave me a chuckle.
 [^3]: I gave up learning Japanese after 2–3 months.
+[^4]: The Tsukiji wholesale market relocated to Toyosu Market in late 2018.
