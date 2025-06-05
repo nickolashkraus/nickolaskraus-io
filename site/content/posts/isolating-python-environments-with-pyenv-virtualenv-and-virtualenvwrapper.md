@@ -313,9 +313,9 @@ check under `/Library/Developer/CommandLineTools/Packages/` as some versions of
 macOS will have the `.pkg` already installed.
 
 ```bash
-sudo installer \
--pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg \
--target /
+sudo installer
+  -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg
+  -target /
 ```
 
 Next, add the following lines to your `.bashrc`, `.zshrc`, or `.bash_profile`,
