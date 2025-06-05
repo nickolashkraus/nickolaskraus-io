@@ -1,0 +1,398 @@
++++
+title = 'My Local Development Setup (2018)'
+date = 2018-10-21T00:00:00-00:00
+lastmod = 2025-06-03T00:00:00-00:00
+draft = false
+description = '''
+A comprehensive list of the applications, utilities, tools, and productivity
+modifications that I use.
+'''
+tags = ['programming']
++++
+
+I like my local development setup to be lean and automated. This allows me to
+get up and running with a new machine in under an hour. The following is a
+comprehensive list of the applications, utilities, tools, and productivity
+modifications that I use.
+
+This article references several configuration files. These configuration files
+(typically referred to as *dotfiles*) can be found
+[here](https://github.com/nickolashkraus/dotfiles)[^1].
+
+## macOS
+
+**Rebind Caps Lock to Control**
+
+To rebind Caps Lock (⇪) to Control (⌃) go to **System Preferences** >
+**Keyboard** > **Modifier Keys…** and change **Caps Lock (⇪) Key:** to
+**^Control**.
+
+**Configure Shortcuts**
+
+To configure macOS shortcuts, go to **System Preferences** > **Keyboard** >
+**Shortcuts**.
+
+For macOS, my shortcuts are as follows:
+
+|                           |           |
+| ------------------------- | --------- |
+| Show Spotlight search[^2] |  `^Space` |
+
+To configure application shortcuts, go to **App Shortcuts** > **+** and enter
+the **Menu Title** as given in the application and the desired keyboard
+shortcut.
+
+For Chrome[^3], my shortcuts are as follows:
+
+| Menu Title          |  Shortcut |
+| ------------------- | --------- |
+| New Tab             | `^T`      |
+| Select Next Tab     | `^K`      |
+| Select Previous Tab | `^J`      |
+| Close Tab           | `^W`      |
+| Find…               | `^F`      |
+| Find Next           | `^G`      |
+| Find Previous       | `^B`      |
+| New Window          | `^N`      |
+| Close Window        | `^Q`      |
+| Open Location…      | `^L`      |
+| Reload This Page    | `^R`      |
+
+**Remove Dock auto-hide Delay**
+
+On the off chance that I use the dock, this ensures that it appears without a
+delay:
+
+```bash
+defaults write com.apple.dock autohide-time-modifier -int 0
+defaults write com.apple.dock autohide-delay -int 0
+```
+
+**Enable Key Repeat**
+
+To enable key repeat, use the following command:
+
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
+
+To modify key repeat speed, go to **System Preferences** > **Keyboard**, and
+increase or decrease *Key Repeat* and *Delay Until Repeat*.
+
+## Git
+
+[Git](https://git-scm.com) is a version-control system for tracking changes in
+computer files and coordinating work on those files among multiple people.
+
+**Installation**
+
+The easiest way to install Git on macOS is to install the Xcode Command Line
+Tools:
+
+```bash
+xcode-select --install
+```
+
+**Configuration**
+
+* [.gitconfig](https://github.com/nickolashkraus/dotfiles/blob/master/.gitconfig)
+
+```bash
+ln -s ~/path/to/remote/.gitconfig ~/.gitconfig
+```
+
+## iTerm2
+
+[iTerm2](https://www.iterm2.com) is a replacement for the standard macOS
+terminal.
+
+**Installation**
+
+```bash
+curl -LOk https://iterm2.com/downloads/stable/iTerm2-3_2_7.zip
+unzip -q iTerm2-3_2_7.zip
+mv iTerm.app /Applications
+rm iTerm2-3_2_7.zip
+```
+
+**Configuration**
+
+* [com.googlecode.iterm2.plist](https://github.com/nickolashkraus/dotfiles/blob/master/iTerm2/com.googlecode.iterm2.plist)
+* [gruvbox-dark.itermcolors](https://github.com/nickolashkraus/dotfiles/blob/master/iTerm2/gruvbox-dark.itermcolors)
+
+To set the [plist](https://en.wikipedia.org/wiki/Property_list), go to
+**Preferences** > **General**. Under **Preferences**, set *Load preferences
+from a custom folder of URL* to the location of `com.googlecode.iterm2.plist`.
+
+To set the color scheme, go to **Preferences** > **Profiles** > **Colors** >
+**Color Presets…** > **Import…** and import `gruvbox-dark.itermcolors`.
+*colorscheme* will then appear under **Color Presets…**.
+
+## Zsh
+
+[Oh My Zsh](https://ohmyz.sh) is an open source, community-driven framework for
+managing your Zsh configuration. I use a
+[fork](https://github.com/nickolashkraus/oh-my-zsh) containing my custom amuse
+theme[^4].
+
+**Installation**
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Or use:
+
+```bash
+cd ~
+git clone https://github.com/nickolashkraus/oh-my-zsh .oh-my-zsh
+cd .oh-my-zsh
+git remote add upstream git@github.com:robbyrussell/oh-my-zsh.git
+```
+
+**Configuration**
+
+* [.zshrc](https://github.com/nickolashkraus/dotfiles/blob/master/.zshrc)
+
+```bash
+ln -s ~/path/to/remote/.zshrc ~/.zshrc
+```
+
+## Powerline
+
+[Powerline](https://github.com/powerline/powerline) is a statusline plugin for
+Vim and provides statuslines and prompts for several other applications
+including tmux.
+
+**Installation**
+
+```bash
+pip install --user powerline-status
+```
+
+This will install Powerline into the Python user install directory for your
+platform. On macOS, this is typically `~/.local/`.
+
+**NOTE**: If you use a virtualenv, you will need to install `powerline-status`
+into it as well.
+
+**Configuration**
+
+* No further configuration is needed.
+
+## Powerline fonts
+
+[Powerline fonts](https://github.com/powerline/fonts) are pre-patched and
+adjusted fonts for usage with the Powerline statusline plugin.
+
+**Installation**
+
+```bash
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
+```
+
+**Configuration**
+
+* No further configuration is needed.
+
+## Homebrew
+
+[Homebrew](https://brew.sh) is an exceptional package manager for macOS.
+
+**Installation**
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+**Configuration**
+
+* No further configuration is needed.
+
+## tmux
+
+[tmux](https://github.com/tmux/tmux) is a terminal multiplexer. It enables a
+number of terminals to be created, accessed, and controlled from a single
+screen.
+
+**Installation**
+
+```bash
+brew install tmux
+```
+
+**Configuration**
+
+* [.tmux.conf](https://github.com/nickolashkraus/dotfiles/blob/master/.tmux.conf)
+
+```bash
+ln -s ~/path/to/remote/.tmux.conf ~/.tmux.conf
+```
+
+## Vim
+
+[Vim](https://www.vim.org) is an enhanced clone of the vi editor. It is highly
+configurable and extremely useful for productive, efficient programming.
+
+**Installation**
+
+```bash
+brew install vim
+```
+
+**Configuration**
+
+* [.vimrc](https://github.com/nickolashkraus/dotfiles/blob/master/.vimrc)
+
+```bash
+ln -s ~/path/to/remote/.vimrc ~/.vimrc
+```
+
+## Vundle
+
+[Vundle](https://github.com/VundleVim/Vundle.vim) is a Vim plugin manager. It
+allows you to install, update, and configure Vim plugins all from within your
+`.vimrc`.
+
+**Installation**
+
+```bash
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+To install Vim plugins, execute:
+
+```bash
+vim +PluginInstall +qall
+```
+
+**Configuration**
+
+* No further configuration is needed.
+
+## mpv
+
+[mpv](https://mpv.io) is a free, open source, and cross-platform media player.
+
+**Installation**
+
+```bash
+brew install mpv
+```
+
+**Configuration**
+
+* [mpv.conf](https://github.com/nickolashkraus/dotfiles/blob/master/.mpv/mpv.conf)
+
+```bash
+ln -s ~/path/to/remote/mpv.conf ~/.config/mpv/mpv.conf
+```
+
+## Spectacle
+
+[Spectacle](https://www.spectacleapp.com) is a simple, customizable
+application for moving and resizing windows[^5].
+
+**Installation**
+
+```bash
+curl -LOk https://s3.amazonaws.com/spectacle/downloads/Spectacle+1.2.zip
+unzip -q Spectacle+1.2.zip
+mv Spectacle.app /Applications
+rm Spectacle+1.2.zip
+```
+
+**Configuration**
+
+* [Shortcuts.json](https://github.com/nickolashkraus/dotfiles/blob/master/Shortcuts.json)
+
+```bash
+ln -s ~/path/to/remote/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
+```
+
+## Ag
+
+[Ag](https://github.com/ggreer/the_silver_searcher) (The Silver Searcher) is a
+code searching tool similar to `ack`, with a focus on speed.
+
+**Installation**
+
+```bash
+brew install ag
+```
+
+**Configuration**
+
+* [.agignore](https://github.com/nickolashkraus/dotfiles/blob/master/.agignore)
+
+```bash
+ln -s ~/path/to/remote/.agignore ~/.agignore
+```
+
+Once you have Ag installed, you can use it with
+[ack.vim](https://github.com/mileszs/ack.vim) by adding the following line to
+your `.vimrc`:
+
+```vim
+let g:ackprg = 'ag --nogroup --nocolor --column'
+```
+
+## fzf
+
+[fzf](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy
+finder.
+
+**Installation**
+
+```bash
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+```
+
+**Configuration**
+
+Once you have fzf installed, you can enable it inside Vim simply by adding the
+directory to `&runtimepath` in your `.vimrc`:
+
+```vim
+" if installed using Homebrew
+set rtp+=/usr/local/opt/fzf
+```
+
+## Other Applications
+
+**Bear**
+
+[Bear](https://bear.app) is a beautiful, flexible writing app for crafting
+notes and prose. I love this application because it allows me to write in
+Markdown.
+
+**Gifox**
+
+[Gifox](https://gifox.io) is a delightful GIF recording and sharing app. It is
+great for quickly creating GIFs.
+
+**Trello**
+
+[Trello](https://trello.com) is a simple and effective project management tool.
+I use Trello for organizing all my personal projects.
+
+There you have it, a comprehensive list of the applications, utilities, tools,
+and productivity modifications that I use. I am always looking for new ways to
+increase my effectiveness and will update this article with any new
+applications or utilities that I find.
+
+[^1]: I have completely automated the setup of a new macOS workstation
+[here](https://github.com/nickolashkraus/nhk-mac).
+[^2]: I use [Alfred](https://www.alfredapp.com) now instead of Spotlight.
+[^3]: I use [Firefox](https://www.mozilla.org/en-US/firefox/new) now instead of
+Chrome.
+[^4]: Instead of maintaining a fork only for my custom theme, I now just use a
+[`.zsh-theme`](https://github.com/nickolashkraus/dotfiles/blob/master/nhk.zsh-theme)
+file.
+[^5]: I use [yabai](https://github.com/koekeishiya/yabai) for window
+management.
