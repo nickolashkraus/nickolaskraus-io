@@ -4,7 +4,7 @@ date = 2018-10-28T00:00:00-00:00
 lastmod = 2025-07-03T00:00:00-00:00
 draft = false
 description = '''
-A comprehensive walk through of my Vim configuration and plugins that I use.
+A comprehensive walk-through of my Vim configuration and plugins that I use.
 '''
 tags = ['programming', 'vim']
 +++
@@ -14,7 +14,7 @@ that it is absolutely necessary. Plugins are not absolutely necessary in order
 to derive substantial value from Vim. For this reason, this article is humbly
 titled *Vim Plugins That I Use*[^1] and not *Essential Vim Plugins*. Like
 psilocybin (or any recreational drug for that matter), Vim plugins are used to
-enhance your experience. However, as a firm grounding in reality is
+enhance your experience. However, as a firm grounding in reality is a
 prerequisite before entering pharmacologically induced states of altered
 consciousness, a strong grasp of pure Vim is necessary before experimenting
 with the vast bevy of plugins.
@@ -58,7 +58,7 @@ run:
 vim +PluginInstall +qall
 ```
 
-It should be noted, that you will still need to compile YouCompleteMe.
+It should be noted that you will still need to compile YouCompleteMe.
 
 ## Vundle
 
@@ -265,7 +265,7 @@ the matching line.
 #### Overview
 
 Auto Pairs allows you to insert or delete brackets, parentheses, or quotes in
-pair.
+pairs.
 
 #### Installation
 
@@ -302,13 +302,13 @@ Plugin 'scrooloose/nerdtree'
 #### Configuration
 
 ```vim
-" map toggle NERDTree to ^Ctrl + n
+" map toggle NERDTree to <C-N>
 map <C-N> :NERDTreeToggle<CR>
 
 " show hidden files by default
 let NERDTreeShowHidden=1
 
-" ignore specifc files
+" ignore specific files
 let NERDTreeIgnore=['\.pyc$', '\~$', '\.swp$']
 ```
 
@@ -338,7 +338,7 @@ or press `?` for help.
 
 #### Overview
 
-If you use an IDE, you are accustom to having syntax errors displayed out of
+If you use an IDE, you are accustomed to having syntax errors displayed out of
 the box. This obfuscation removes the need for understanding how language
 checkers work. Syntastic disambiguates this process. It runs files through
 external syntax checkers and displays any resulting errors to the user.
@@ -458,7 +458,7 @@ Open the output of `git status`:
 :Gstatus
 ```
 
-Press `-` to add/reset a file or `p` to add/reset with the `—patch` option.
+Press `-` to add/reset a file or `p` to add/reset with the `--patch` option.
 
 Commit the current file and edit the commit message inside Vim:
 
@@ -574,7 +574,7 @@ yss<new>
 add spaces, a closed character (`)`,`]`,`}`) will not.
 
 **CAVEAT**: Ensure that if you set a `timeoutlen` that it is not too short. The
-following does **not** allow a secondary key stoke to register before entering
+following does **not** allow a secondary keystroke to register before entering
 `INSERT` mode.
 
 **Bad**
@@ -688,7 +688,7 @@ let g:autoformat_verbosemode=1
 let verbose=1
 ```
 
-###  vim-python-pep8-indent {#vim-python-pep8-indent}
+### vim-python-pep8-indent {#vim-python-pep8-indent}
 
 [Vimjas/vim-python-pep8-indent](https://github.com/Vimjas/vim-python-pep8-indent)
 
@@ -803,7 +803,7 @@ testing has gone into making this colorscheme technically and aesthetically
 superior.
 
 I personally use the degraded 256 colorscheme, which offers grey monotones as
-oppose to blue to accommodate the limited 256 terminal palette.
+opposed to blue to accommodate the limited 256 terminal palette.
 
 #### Installation
 
