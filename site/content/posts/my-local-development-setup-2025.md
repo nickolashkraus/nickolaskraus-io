@@ -120,7 +120,7 @@ Here is a rundown of my development setup and workflows:
     comprises my applications (Firefox, Bear, Slack, etc.).[^5]
 - Hotkeys are configured for quickly switching between terminal windows
   (`Ctrl - Return`) or each terminal individually (`Ctrl - 1` and `Ctrl - 2`).
-  To summon the browser, I use `Ctrl - f`.
+  To summon the browser, I use `Ctrl - 3`.
 - Using tmux, I can scroll, select, copy, and paste text. In the browser, I use
   [Vimium][Vimium] for keyboard-driven navigation.[^6]
 
