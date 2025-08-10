@@ -586,5 +586,5 @@ original link was for.
 [`AWS::ApiGateway::Model`]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-model.html
 [`AWS::ApiGateway::Stage`]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html
 [`AWS::ApiGateway::Deployment`]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html
-[HTTPie]: https://httpie.org/
+[HTTPie]: https://httpie.org
 [nickolashkraus/cloudformation-templates]: https://github.com/nickolashkraus/cloudformation-templates
