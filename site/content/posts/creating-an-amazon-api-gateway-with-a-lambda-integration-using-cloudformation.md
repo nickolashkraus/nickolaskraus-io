@@ -8,7 +8,7 @@ A typical use case for Amazon API Gateway is to use it in conjunction with an
 AWS Lambda function. In this article, we will create an API Gateway with
 a Lambda integration.
 '''
-tags = ["aws", "cloudformation",  "api-gateway"]
+tags = ['programming', 'aws', 'cloudformation',  'api-gateway']
 +++
 
 In my last article, I discussed how to set up an API Gateway with a mock
