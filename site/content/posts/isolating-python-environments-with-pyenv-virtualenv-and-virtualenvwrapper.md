@@ -38,33 +38,33 @@ First, a brief overview of the technologies that we will be using:
 
 [**Homebrew**](https://brew.sh/)
 
-* If you use macOS, you are aware of its excellent third-party package manager.
+- If you use macOS, you are aware of its excellent third-party package manager.
   We will use Homebrew to create a global Python environment and `pip`
   installation.
 
 [`pyenv`](https://github.com/pyenv/pyenv)
 
-* `pyenv` allows the user to switch between multiple versions of Python. For
+- `pyenv` allows the user to switch between multiple versions of Python. For
   our application, we will use `pyenv` to switch between Python version
   installations, however, `pyenv` also allows the user to create global—but
   separate—package environments unique to a Python version install.
 
 [`virtualenvwrapper`](http://virtualenvwrapper.readthedocs.io/en/latest/)
 
-* `virtualenvwrapper` provides a set of commands which makes working with
+- `virtualenvwrapper` provides a set of commands which makes working with
   virtual environments much more pleasant. It also keeps all your virtual
   environments in one place.
 
 [`virtualenv`](https://virtualenv.pypa.io/en/stable/)
 
-* `virtualenv` creates an environment that has its own installation
+- `virtualenv` creates an environment that has its own installation
   directories that do not share libraries with other `virtualenv`
   environments. It keeps dependencies required by different projects in
   separate places, while keeping the global `site-packages` directory clean and
   manageable.
 
-Note the order in which the above tools are listed. You can think of each as a
-shell wrapping the tools below it. `virtualenv` is our core technology, which
+Note the order in which the above tools are listed. You can think of each as
+a shell wrapping the tools below it. `virtualenv` is our core technology, which
 enables the creation of separate Python package version environments.
 `virtualenvwrapper` simplifies the capabilities of `virtualenv` and
 consolidates environments into a single location. `pyenv` allows the Python
@@ -508,15 +508,15 @@ This error is due to the fact that virtualenv uses the absolute path of the
 Python 2 installation (`#!/usr/local/opt/python/bin/python2.7`). As of March
 1st, 2018, Homebrew updated the `python` formula to use Python 3:
 
->On 1st March 2018 the `python` formula will be upgraded to Python 3.x and a
->`python@2` formula will be added for installing Python 2.7 (although this will
->be keg-only so neither `python` nor `python2` will be added to the `PATH` by
->default without a manual `brew link --force`). We will maintain `python2`,
+>On 1st March 2018 the `python` formula will be upgraded to Python 3.x and
+>a `python@2` formula will be added for installing Python 2.7 (although this
+>will be keg-only so neither `python` nor `python2` will be added to the `PATH`
+>by default without a manual `brew link --force`). We will maintain `python2`,
 >`python3` and `python@3` aliases. Any formulae that use `depends_on` "python"
 >outside Homebrew/core will need to be updated at this point if they wish to
->keep using Python 2. NOTE: macOS has provided Python 2.7 since OS X Lion (10.7)
->so you can update formulae that need Python 2 today by removing `depends_on`
->"python" so they use the system Python instead.
+>keep using Python 2. NOTE: macOS has provided Python 2.7 since OS X Lion
+>(10.7) so you can update formulae that need Python 2 today by removing
+>`depends_on` "python" so they use the system Python instead.
 
 Virtualenv changed the path of the Python 2 installation to use the `python@2`
 formula (`#!/usr/local/opt/python@2/bin/python2.7`).
