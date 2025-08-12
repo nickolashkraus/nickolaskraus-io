@@ -23,9 +23,9 @@ experience.
 From this book, I gleaned three fundamental insights into the nature of
 learning and cognitive growth:
 
-* The Soft Zone
-* Investment In Loss
-* Making Smaller Circles
+- The Soft Zone
+- Investment In Loss
+- Making Smaller Circles
 
 ## The Soft Zone
 
@@ -33,14 +33,14 @@ learning and cognitive growth:
 
 Nestled within the transcendent forms of high cognitive performance, of which
 Waitzkin talks at length, are more practical means to induce concentration and
-*flow*. Waitzkin introduces what sport psychologists call *The Soft Zone*, a
-state of acute, but tempered concentration. *The Soft Zone* allows one to work
-and think critically in non-ideal environments–among the chatter of colleagues
-or when at the mercy of a distracting workspace. The temptation for many is to
-retreat to a *Hard Zone*, a state of concentration that demands the cooperation
-of the outside world. This, however, is impossible. To counter this, Waitzkin
-offers the timeless aphorism: *To walk a thorny road, we may cover its every
-inch with leather or we can make sandals.*
+*flow*. Waitzkin introduces what sport psychologists call *The Soft Zone*,
+a state of acute, but tempered concentration. *The Soft Zone* allows one to
+work and think critically in non-ideal environments–among the chatter of
+colleagues or when at the mercy of a distracting workspace. The temptation for
+many is to retreat to a *Hard Zone*, a state of concentration that demands the
+cooperation of the outside world. This, however, is impossible. To counter
+this, Waitzkin offers the timeless aphorism: *To walk a thorny road, we may
+cover its every inch with leather or we can make sandals.*
 
 ## Investment In Loss
 
@@ -50,9 +50,9 @@ inch with leather or we can make sandals.*
 Investment in loss is simply giving yourself to the learning process. One of
 the most important aspects of life-long learning is to release one's ego when
 in pursuit of new areas of growth. True growth comes at the point of
-resistance–the edges of our skill and understanding. Locking oneself within a
-walled garden relegates our ability to a local maximum, leaving higher peaks of
-achievement unexplored. Learning is as much about our own humility, as it is
+resistance–the edges of our skill and understanding. Locking oneself within
+a walled garden relegates our ability to a local maximum, leaving higher peaks
+of achievement unexplored. Learning is as much about our own humility, as it is
 about effort and discipline.
 
 ## Making Smaller Circles
