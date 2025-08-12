@@ -11,10 +11,10 @@ tags = ['programming', 'nginx', 'macos']
 +++
 
 This guide provides a walkthrough for how to create a self-signed SSL/TLS
-certificate for an NGINX web server on macOS[^1]. Additionally, I created a
-GitHub repository,
-[Self-Signed](https://github.com/nickolashkraus/self-signed), which provides a
-working example.
+certificate for an NGINX web server on macOS[^1]. Additionally, I created
+a GitHub repository,
+[Self-Signed](https://github.com/nickolashkraus/self-signed), which provides
+a working example.
 
 ## Overview
 
@@ -29,8 +29,8 @@ sites they are connecting to.
 
 While a self-signed certificate will encrypt communication between your server
 and any clients, it cannot be used to verify the authenticity of the
-connection. This is because a self-signed certificate is not signed by a
-trusted certificate authority (CA) included in the browser's root store.
+connection. This is because a self-signed certificate is not signed by
+a trusted certificate authority (CA) included in the browser's root store.
 
 A CA-signed certificate is preferred in *all* cases where the web interface is
 user-facing, however there are instances where creating a self-signed

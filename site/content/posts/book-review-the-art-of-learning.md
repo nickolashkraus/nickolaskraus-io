@@ -57,8 +57,8 @@ about effort and discipline.
 
 ## Making Smaller Circles
 
->It is rarely a mysterious technique that drives us to the top, but rather a
->profound mastery of what may well be a basic skill set...
+>It is rarely a mysterious technique that drives us to the top, but rather
+>a profound mastery of what may well be a basic skill set...
 
 *Making smaller circles* is the process of perfecting the most elementary parts
 of a much grander goal. It involves asking oneself, *what can I do now that,

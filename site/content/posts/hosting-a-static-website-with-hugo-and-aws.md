@@ -18,9 +18,10 @@ the semi-automated steps using the AWS CLI.
 ## Hugo
 
 Hugo is a static site generator. The purpose of a static site generator is to
-render content into HTML files *before* the request for the content is made —
-increasing performance and reducing load time. To achieve this, Hugo uses a
-source directory of files and templates as input to create a complete website.
+render content into HTML files *before* the request for the content is made
+— increasing performance and reducing load time. To achieve this, Hugo uses
+a source directory of files and templates as input to create a complete
+website.
 
 ### Getting Started
 
@@ -90,9 +91,9 @@ that developers can leverage when developing their applications. The services
 include computing, storage, database, and application services (messaging and
 queuing). For this application, we will use:
 
-* Amazon S3
-* Amazon CloudFront
-* Amazon Route 53
+- Amazon S3
+- Amazon CloudFront
+- Amazon Route 53
 
 Before diving in, it is advisable to have at least a cursory understanding of
 the different AWS services we will be using as well as a general idea of the
@@ -174,8 +175,8 @@ when executing the commands, so you know what everything is doing. When using
 the AWS CLI, the goal is to replicate the configuration that we obtained using
 the AWS Management Console.
 
-To simplify the AWS CLI commands, we will use environment variables set using a
-shell script. This script as well as the JSON files used to configure the
+To simplify the AWS CLI commands, we will use environment variables set using
+a shell script. This script as well as the JSON files used to configure the
 various AWS services can be found in the GitHub
 [repository](https://github.com/nickolashkraus/nickolaskraus-io) for this
 website under `.aws`[^2].
@@ -932,9 +933,9 @@ generated via the AWS CLI.
 [Paperwhite](https://github.com/nickolashkraus/paperwhite).
 [^2]: In the years since I first wrote this article, my methods for hosting
 static websites have evolved greatly. See these other articles for a full
-history: [Hosting a Static Website with Hugo and CloudFormation][Hosting a
-Static Website with Hugo and CloudFormation] and [Hosting a Static Website with
-Hugo and Terraform][Hosting a Static Website with Hugo and Terraform].
+history: [Hosting a Static Website with Hugo and CloudFormation][Hosting
+a Static Website with Hugo and CloudFormation] and [Hosting a Static Website
+with Hugo and Terraform][Hosting a Static Website with Hugo and Terraform].
 
 [Hosting a Static Website with Hugo and CloudFormation]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-cloudformation
 [Hosting a Static Website with Hugo and Terraform]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-terraform

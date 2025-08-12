@@ -23,8 +23,8 @@ can be found [here][Stack Overflow].
 ## Question
 
 I looked into the `ndb` GitHub sample code, but I couldn't find any example
-that shows how to create an `ndb` entity using a constructor that contains a
-`StructuredProperty`.
+that shows how to create an `ndb` entity using a constructor that contains
+a `StructuredProperty`.
 
 Here is the GitHub [example][structured_property_models.py][^1].
 

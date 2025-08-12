@@ -86,10 +86,10 @@ establishment has an area to securely store your sodden parasol.
 
 ## Things To Know
 
-* Don’t worry about restrooms. They are ubiquitous and very clean.
-* Nigiri, a thin slice of raw fish over pressed vinegared rice should be picked
+- Don't worry about restrooms. They are ubiquitous and very clean.
+- Nigiri, a thin slice of raw fish over pressed vinegared rice should be picked
   up from the rice side, whether with your hands or chopsticks.
-* People do not get going until 8AM or 9AM. If you want to experience something
+- People do not get going until 8AM or 9AM. If you want to experience something
   in peace and solitude, get going early.
 
 ## Places To See

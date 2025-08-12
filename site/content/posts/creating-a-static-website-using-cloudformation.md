@@ -21,10 +21,10 @@ a little Bash scripting.
 
 Hosting a static website on AWS makes use of the following resources:
 
-* Amazon S3
-* AWS Certificate Manager
-* Amazon CloudFront
-* Amazon Route 53
+- Amazon S3
+- AWS Certificate Manager
+- Amazon CloudFront
+- Amazon Route 53
 
 ## Prerequisites
 

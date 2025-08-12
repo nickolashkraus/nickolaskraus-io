@@ -11,8 +11,8 @@ tags = ['programming']
 +++
 
 I like my local development setup to be lean and automated. This allows me to
-get up and running with a new machine in under an hour. The following is a
-comprehensive list of the applications, utilities, tools, and productivity
+get up and running with a new machine in under an hour. The following is
+a comprehensive list of the applications, utilities, tools, and productivity
 modifications that I use.
 
 This article references several configuration files. These configuration files
@@ -60,8 +60,8 @@ For Chrome[^3], my shortcuts are as follows:
 
 **Remove Dock auto-hide Delay**
 
-On the off chance that I use the dock, this ensures that it appears without a
-delay:
+On the off chance that I use the dock, this ensures that it appears without
+a delay:
 
 ```bash
 defaults write com.apple.dock autohide-time-modifier -int 0
@@ -95,7 +95,7 @@ xcode-select --install
 
 **Configuration**
 
-* [.gitconfig](https://github.com/nickolashkraus/dotfiles/blob/master/.gitconfig)
+- [.gitconfig](https://github.com/nickolashkraus/dotfiles/blob/master/.gitconfig)
 
 ```bash
 ln -s ~/path/to/remote/.gitconfig ~/.gitconfig
@@ -117,8 +117,8 @@ rm iTerm2-3_2_7.zip
 
 **Configuration**
 
-* [com.googlecode.iterm2.plist](https://github.com/nickolashkraus/dotfiles/blob/master/iTerm2/com.googlecode.iterm2.plist)
-* [gruvbox-dark.itermcolors](https://github.com/nickolashkraus/dotfiles/blob/master/iTerm2/gruvbox-dark.itermcolors)
+- [com.googlecode.iterm2.plist](https://github.com/nickolashkraus/dotfiles/blob/master/iTerm2/com.googlecode.iterm2.plist)
+- [gruvbox-dark.itermcolors](https://github.com/nickolashkraus/dotfiles/blob/master/iTerm2/gruvbox-dark.itermcolors)
 
 To set the [plist](https://en.wikipedia.org/wiki/Property_list), go to
 **Preferences** > **General**. Under **Preferences**, set *Load preferences
@@ -131,9 +131,9 @@ To set the color scheme, go to **Preferences** > **Profiles** > **Colors** >
 ## Zsh
 
 [Oh My Zsh](https://ohmyz.sh) is an open source, community-driven framework for
-managing your Zsh configuration. I use a
-[fork](https://github.com/nickolashkraus/oh-my-zsh) containing my custom amuse
-theme[^4].
+managing your Zsh configuration. I use
+a [fork](https://github.com/nickolashkraus/oh-my-zsh) containing my custom
+amuse theme[^4].
 
 **Installation**
 
@@ -152,7 +152,7 @@ git remote add upstream git@github.com:robbyrussell/oh-my-zsh.git
 
 **Configuration**
 
-* [.zshrc](https://github.com/nickolashkraus/dotfiles/blob/master/.zshrc)
+- [.zshrc](https://github.com/nickolashkraus/dotfiles/blob/master/.zshrc)
 
 ```bash
 ln -s ~/path/to/remote/.zshrc ~/.zshrc
@@ -178,7 +178,7 @@ into it as well.
 
 **Configuration**
 
-* No further configuration is needed.
+- No further configuration is needed.
 
 ## Powerline fonts
 
@@ -197,7 +197,7 @@ rm -rf fonts
 
 **Configuration**
 
-* No further configuration is needed.
+- No further configuration is needed.
 
 ## Homebrew
 
@@ -211,12 +211,12 @@ rm -rf fonts
 
 **Configuration**
 
-* No further configuration is needed.
+- No further configuration is needed.
 
 ## tmux
 
-[tmux](https://github.com/tmux/tmux) is a terminal multiplexer. It enables a
-number of terminals to be created, accessed, and controlled from a single
+[tmux](https://github.com/tmux/tmux) is a terminal multiplexer. It enables
+a number of terminals to be created, accessed, and controlled from a single
 screen.
 
 **Installation**
@@ -227,7 +227,7 @@ brew install tmux
 
 **Configuration**
 
-* [.tmux.conf](https://github.com/nickolashkraus/dotfiles/blob/master/.tmux.conf)
+- [.tmux.conf](https://github.com/nickolashkraus/dotfiles/blob/master/.tmux.conf)
 
 ```bash
 ln -s ~/path/to/remote/.tmux.conf ~/.tmux.conf
@@ -246,7 +246,7 @@ brew install vim
 
 **Configuration**
 
-* [.vimrc](https://github.com/nickolashkraus/dotfiles/blob/master/.vimrc)
+- [.vimrc](https://github.com/nickolashkraus/dotfiles/blob/master/.vimrc)
 
 ```bash
 ln -s ~/path/to/remote/.vimrc ~/.vimrc
@@ -272,7 +272,7 @@ vim +PluginInstall +qall
 
 **Configuration**
 
-* No further configuration is needed.
+- No further configuration is needed.
 
 ## mpv
 
@@ -286,7 +286,7 @@ brew install mpv
 
 **Configuration**
 
-* [mpv.conf](https://github.com/nickolashkraus/dotfiles/blob/master/.mpv/mpv.conf)
+- [mpv.conf](https://github.com/nickolashkraus/dotfiles/blob/master/.mpv/mpv.conf)
 
 ```bash
 ln -s ~/path/to/remote/mpv.conf ~/.config/mpv/mpv.conf
@@ -308,7 +308,7 @@ rm Spectacle+1.2.zip
 
 **Configuration**
 
-* [Shortcuts.json](https://github.com/nickolashkraus/dotfiles/blob/master/Shortcuts.json)
+- [Shortcuts.json](https://github.com/nickolashkraus/dotfiles/blob/master/Shortcuts.json)
 
 ```bash
 ln -s ~/path/to/remote/Shortcuts.json ~/Library/Application\ Support/Spectacle/Shortcuts.json
@@ -316,8 +316,8 @@ ln -s ~/path/to/remote/Shortcuts.json ~/Library/Application\ Support/Spectacle/S
 
 ## Ag
 
-[Ag](https://github.com/ggreer/the_silver_searcher) (The Silver Searcher) is a
-code searching tool similar to `ack`, with a focus on speed.
+[Ag](https://github.com/ggreer/the_silver_searcher) (The Silver Searcher) is
+a code searching tool similar to `ack`, with a focus on speed.
 
 **Installation**
 
@@ -327,7 +327,7 @@ brew install ag
 
 **Configuration**
 
-* [.agignore](https://github.com/nickolashkraus/dotfiles/blob/master/.agignore)
+- [.agignore](https://github.com/nickolashkraus/dotfiles/blob/master/.agignore)
 
 ```bash
 ln -s ~/path/to/remote/.agignore ~/.agignore
@@ -391,8 +391,8 @@ applications or utilities that I find.
 [^2]: I use [Alfred](https://www.alfredapp.com) now instead of Spotlight.
 [^3]: I use [Firefox](https://www.mozilla.org/en-US/firefox/new) now instead of
 Chrome.
-[^4]: Instead of maintaining a fork only for my custom theme, I now just use a
-[`.zsh-theme`](https://github.com/nickolashkraus/dotfiles/blob/master/nhk.zsh-theme)
+[^4]: Instead of maintaining a fork only for my custom theme, I now just use
+a [`.zsh-theme`](https://github.com/nickolashkraus/dotfiles/blob/master/nhk.zsh-theme)
 file.
 [^5]: I use [yabai](https://github.com/koekeishiya/yabai) for window
 management.
