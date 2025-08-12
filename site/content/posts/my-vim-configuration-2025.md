@@ -113,9 +113,8 @@ vim-airline is a lightweight status/tabline plugin for Vim that enhances the
 appearance and functionality of the default statusline.
 
 #### [vim-airline-themes][vim-airline-themes]
-vim-airline-themes is a companion plugin to vim-airline that provides a
-large collection of predefined color themes specifically for the airline
-statusline.
+vim-airline-themes is a companion plugin to vim-airline that provides a large
+collection of predefined color themes specifically for the airline statusline.
 
 ### Commands
 
