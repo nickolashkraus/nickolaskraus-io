@@ -14,8 +14,8 @@ that it is absolutely necessary. Plugins are not absolutely necessary in order
 to derive substantial value from Vim. For this reason, this article is humbly
 titled *Vim Plugins That I Use*[^1] and not *Essential Vim Plugins*. Like
 psilocybin (or any recreational drug for that matter), Vim plugins are used to
-enhance your experience. However, as a firm grounding in reality is a
-prerequisite before entering pharmacologically induced states of altered
+enhance your experience. However, as a firm grounding in reality is
+a prerequisite before entering pharmacologically induced states of altered
 consciousness, a strong grasp of pure Vim is necessary before experimenting
 with the vast bevy of plugins.
 
@@ -24,31 +24,31 @@ They are trifurcated between productivity, code formatting, and appearance.
 
 **Productivity**
 
-* [YouCompleteMe]({{< ref "#YouCompleteMe" >}})
-* [ack.vim]({{< ref "#ack.vim" >}})
-* [auto-pairs]({{< ref "#auto-pairs" >}})
-* [nerdtree]({{< ref "#nerdtree" >}})
-* [syntastic]({{< ref "#syntastic" >}})
-* [vim-anyfold]({{< ref "#vim-anyfold" >}})
-* [vim-fugitive]({{< ref "#vim-fugitive" >}})
-* [vim-surround]({{< ref "#vim-surround" >}})
-* [vitality.vim]({{< ref "#vitality.vim" >}})
+- [YouCompleteMe]({{< ref "#YouCompleteMe" >}})
+- [ack.vim]({{< ref "#ack.vim" >}})
+- [auto-pairs]({{< ref "#auto-pairs" >}})
+- [nerdtree]({{< ref "#nerdtree" >}})
+- [syntastic]({{< ref "#syntastic" >}})
+- [vim-anyfold]({{< ref "#vim-anyfold" >}})
+- [vim-fugitive]({{< ref "#vim-fugitive" >}})
+- [vim-surround]({{< ref "#vim-surround" >}})
+- [vitality.vim]({{< ref "#vitality.vim" >}})
 
 **Code Formatting**
 
-* [vim-autoformat]({{< ref "#vim-autoformat" >}})
-* [vim-python-pep8-indent]({{< ref "#vim-python-pep8-indent" >}})
+- [vim-autoformat]({{< ref "#vim-autoformat" >}})
+- [vim-python-pep8-indent]({{< ref "#vim-python-pep8-indent" >}})
 
 **Appearance**
 
-* [lightline.vim]({{< ref "#lightline.vim" >}})
-* [nerdtree-git-plugin]({{< ref "#nerdtree-git-plugin" >}})
-* [vim-colors-solarized]({{< ref "#vim-colors-solarized" >}})
-* [vim-gitgutter]({{< ref "#vim-gitgutter" >}})
+- [lightline.vim]({{< ref "#lightline.vim" >}})
+- [nerdtree-git-plugin]({{< ref "#nerdtree-git-plugin" >}})
+- [vim-colors-solarized]({{< ref "#vim-colors-solarized" >}})
+- [vim-gitgutter]({{< ref "#vim-gitgutter" >}})
 
 While reading this article, you may also find my [`.vimrc`][`.vimrc`] helpful.
-Before we dive into Vim packages, it's prudent to discuss how to manage them. I
-preferred to use Vundle.
+Before we dive into Vim packages, it's prudent to discuss how to manage them.
+I preferred to use Vundle.
 
 **NOTE**: This article goes into great detail about each plugin. If you simply
 want to install these plugins and get to work, copy my [`.vimrc`][`.vimrc`] and
@@ -334,7 +334,7 @@ or press `?` for help.
 
 ### syntastic {#syntastic}
 
-[vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)[^2] 
+[vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)[^2]
 
 #### Overview
 
@@ -411,9 +411,9 @@ set foldlevel=99
 
 #### Usage
 
-Use Vim's fold commands (`zo`, `zO`, `zc`, `za`) to fold/unfold folds.  
+Use Vim's fold commands (`zo`, `zO`, `zc`, `za`) to fold/unfold folds.
 Use key combinations `[[` and `]]` to navigate to the beginning and end of the
-current open fold.  
+current open fold.
 Use `]k` and `[j` to navigate to the end of the previous block and to the
 beginning of the next block.
 
@@ -640,8 +640,8 @@ autocmd FocusLost,BufLeave * :wa
 #### Overview
 
 vim-autoformat makes use of external formatting programs to automatically
-format code. It is similar to Syntastic in that it will try each formatter in a
-list of applicable formatters until one succeeds. If a formatting program for
+format code. It is similar to Syntastic in that it will try each formatter in
+a list of applicable formatters until one succeeds. If a formatting program for
 the specific language is not available, vim-autoformat falls back by default to
 indenting, re-tabbing, and removing trailing whitespace.
 
@@ -900,8 +900,8 @@ Undo a hunk:
 <leader>hu
 ```
 
-If you made it through this article, congratulations! Personally, I think a
-slow, piecemeal approach to extending Vim with plugins is the best way to go.
+If you made it through this article, congratulations! Personally, I think
+a slow, piecemeal approach to extending Vim with plugins is the best way to go.
 There is a lot of nuance and a significant learning curve with each new plugin
 and it is best to read the documentation before blithely adding plugins to your
 `.vimrc`. If you would like more information on the Vim plugin ecosystem, [Vim
