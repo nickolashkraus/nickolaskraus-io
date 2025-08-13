@@ -6,10 +6,10 @@ draft = false
 description = '''
 This article details how to create a static website with Hugo and Terraform.
 '''
-tags = ['aws', 'hugo', 'cloudformation']
+tags = ['aws', 'hugo', 'terraform']
 +++
 
-In 2018, I created an [article][article - 2018 ] on how to create a static
+In 2018, I created an [article][article - 2018] on how to create a static
 website on AWS.
 
 In 2019, I created an [article][article - 2019] on how to create a static
