@@ -39,7 +39,7 @@ The CloudFormation template is as follows:
 `template.yaml`
 
 ```yaml
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 
 Description: Static website
 
@@ -49,38 +49,37 @@ Parameters:
     Type: String
 
 Resources:
-
   S3BucketLogs:
     Type: AWS::S3::Bucket
     DeletionPolicy: Delete
     Properties:
       AccessControl: LogDeliveryWrite
-      BucketName: !Sub '${AWS::StackName}-logs'
+      BucketName: !Sub "${AWS::StackName}-logs"
 
   S3BucketRoot:
     Type: AWS::S3::Bucket
     DeletionPolicy: Delete
     Properties:
       AccessControl: PublicRead
-      BucketName: !Sub '${AWS::StackName}-root'
+      BucketName: !Sub "${AWS::StackName}-root"
       LoggingConfiguration:
         DestinationBucketName: !Ref S3BucketLogs
-        LogFilePrefix: 'cdn/'
+        LogFilePrefix: "cdn/"
       WebsiteConfiguration:
-        ErrorDocument: '404.html'
-        IndexDocument: 'index.html'
+        ErrorDocument: "404.html"
+        IndexDocument: "index.html"
 
   S3BucketPolicy:
     Type: AWS::S3::BucketPolicy
     Properties:
       Bucket: !Ref S3BucketRoot
       PolicyDocument:
-        Version: '2012-10-17'
+        Version: "2012-10-17"
         Statement:
-          - Effect: 'Allow'
-            Action: 's3:GetObject'
-            Principal: '*'
-            Resource: !Sub '${S3BucketRoot.Arn}/*'
+          - Effect: "Allow"
+            Action: "s3:GetObject"
+            Principal: "*"
+            Resource: !Sub "${S3BucketRoot.Arn}/*"
 
   CertificateManagerCertificate:
     Type: AWS::CertificateManager::Certificate
@@ -98,7 +97,7 @@ Resources:
           - ErrorCachingMinTTL: 60
             ErrorCode: 404
             ResponseCode: 404
-            ResponsePagePath: '/404.html'
+            ResponsePagePath: "/404.html"
         DefaultCacheBehavior:
           AllowedMethods:
             - GET
@@ -114,29 +113,29 @@ Resources:
             QueryString: true
           MaxTTL: 31536000
           SmoothStreaming: false
-          TargetOriginId: !Sub 'S3-${AWS::StackName}-root'
-          ViewerProtocolPolicy: 'redirect-to-https'
-        DefaultRootObject: 'index.html'
+          TargetOriginId: !Sub "S3-${AWS::StackName}-root"
+          ViewerProtocolPolicy: "redirect-to-https"
+        DefaultRootObject: "index.html"
         Enabled: true
         HttpVersion: http2
         IPV6Enabled: true
         Logging:
           Bucket: !GetAtt S3BucketLogs.DomainName
           IncludeCookies: false
-          Prefix: 'cdn/'
+          Prefix: "cdn/"
         Origins:
           - CustomOriginConfig:
               HTTPPort: 80
               HTTPSPort: 443
               OriginKeepaliveTimeout: 5
-              OriginProtocolPolicy: 'https-only'
+              OriginProtocolPolicy: "https-only"
               OriginReadTimeout: 30
               OriginSSLProtocols:
                 - TLSv1
                 - TLSv1.1
                 - TLSv1.2
             DomainName: !GetAtt S3BucketRoot.DomainName
-            Id: !Sub 'S3-${AWS::StackName}-root'
+            Id: !Sub "S3-${AWS::StackName}-root"
         PriceClass: PriceClass_All
         ViewerCertificate:
           AcmCertificateArn: !Ref CertificateManagerCertificate
@@ -146,20 +145,20 @@ Resources:
   Route53RecordSetGroup:
     Type: AWS::Route53::RecordSetGroup
     Properties:
-      HostedZoneName: !Sub '${DomainName}.'
+      HostedZoneName: !Sub "${DomainName}."
       RecordSets:
-      - Name: !Ref DomainName
-        Type: A
-        AliasTarget:
-          DNSName: !GetAtt CloudFrontDistribution.DomainName
-          EvaluateTargetHealth: false
-          HostedZoneId: Z2FDTNDATAQYW2
-      - Name: !Sub 'www.${DomainName}'
-        Type: A
-        AliasTarget:
-          DNSName: !GetAtt CloudFrontDistribution.DomainName
-          EvaluateTargetHealth: false
-          HostedZoneId: Z2FDTNDATAQYW2
+        - Name: !Ref DomainName
+          Type: A
+          AliasTarget:
+            DNSName: !GetAtt CloudFrontDistribution.DomainName
+            EvaluateTargetHealth: false
+            HostedZoneId: Z2FDTNDATAQYW2
+        - Name: !Sub "www.${DomainName}"
+          Type: A
+          AliasTarget:
+            DNSName: !GetAtt CloudFrontDistribution.DomainName
+            EvaluateTargetHealth: false
+            HostedZoneId: Z2FDTNDATAQYW2
 ```
 
 To make this CloudFormation template more extensible, I pass in the domain name
@@ -282,7 +281,7 @@ First, your static website needs to serve some content.
 Upload `index.html` to the newly created S3 bucket:
 
 ```bash
-aws s3 cp --acl "public-read" index.html s3://$S3_BUCKET_ROOT
+aws s3 sync --acl "public-read" index.html s3://$S3_BUCKET_ROOT
 ```
 
 Make a request to your static website:

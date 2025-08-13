@@ -36,7 +36,7 @@ give each application its own virtual environment[^1].
 
 First, a brief overview of the technologies that we will be using:
 
-[**Homebrew**](https://brew.sh/)
+[**Homebrew**](https://brew.sh)
 
 - If you use macOS, you are aware of its excellent third-party package manager.
   We will use Homebrew to create a global Python environment and `pip`

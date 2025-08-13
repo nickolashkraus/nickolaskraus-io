@@ -905,7 +905,7 @@ a slow, piecemeal approach to extending Vim with plugins is the best way to go.
 There is a lot of nuance and a significant learning curve with each new plugin
 and it is best to read the documentation before blithely adding plugins to your
 `.vimrc`. If you would like more information on the Vim plugin ecosystem, [Vim
-Awesome](https://vimawesome.com/) maintains a comprehensive, ranked list of
+Awesome](https://vimawesome.com) maintains a comprehensive, ranked list of
 **all** Vim plugins.
 
 [`.vimrc`]: https://github.com/nickolashkraus/dotfiles/blob/master/.vimrc

@@ -349,12 +349,11 @@ The final CloudFormation template is as follows:
 `template.yaml`
 
 ```yaml
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 
 Description: AWS API Gateway with a Lambda Integration
 
 Resources:
-
   ApiGatewayRestApi:
     Type: AWS::ApiGateway::RestApi
     Properties:
@@ -369,7 +368,7 @@ Resources:
     Type: AWS::ApiGateway::Resource
     Properties:
       ParentId: !GetAtt ApiGatewayRestApi.RootResourceId
-      PathPart: 'lambda'
+      PathPart: "lambda"
       RestApiId: !Ref ApiGatewayRestApi
 
   ApiGatewayMethod:
@@ -385,15 +384,15 @@ Resources:
         PassthroughBehavior: WHEN_NO_MATCH
         TimeoutInMillis: 29000
         Type: AWS_PROXY
-        Uri: !Sub 'arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LambdaFunction.Arn}/invocations'
-      OperationName: 'lambda'
+        Uri: !Sub "arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${LambdaFunction.Arn}/invocations"
+      OperationName: "lambda"
       ResourceId: !Ref ApiGatewayResource
       RestApiId: !Ref ApiGatewayRestApi
 
   ApiGatewayModel:
     Type: AWS::ApiGateway::Model
     Properties:
-      ContentType: 'application/json'
+      ContentType: "application/json"
       RestApiId: !Ref ApiGatewayRestApi
       Schema: {}
 
@@ -403,7 +402,7 @@ Resources:
       DeploymentId: !Ref ApiGatewayDeployment
       Description: Lambda API Stage v0
       RestApiId: !Ref ApiGatewayRestApi
-      StageName: 'v0'
+      StageName: "v0"
 
   ApiGatewayDeployment:
     Type: AWS::ApiGateway::Deployment
@@ -416,23 +415,23 @@ Resources:
     Type: AWS::IAM::Role
     Properties:
       AssumeRolePolicyDocument:
-        Version: '2012-10-17'
+        Version: "2012-10-17"
         Statement:
-          - Sid: ''
-            Effect: 'Allow'
+          - Sid: ""
+            Effect: "Allow"
             Principal:
               Service:
-                - 'apigateway.amazonaws.com'
+                - "apigateway.amazonaws.com"
             Action:
-              - 'sts:AssumeRole'
-      Path: '/'
+              - "sts:AssumeRole"
+      Path: "/"
       Policies:
         - PolicyName: LambdaAccess
           PolicyDocument:
-            Version: '2012-10-17'
+            Version: "2012-10-17"
             Statement:
-              - Effect: 'Allow'
-                Action: 'lambda:*'
+              - Effect: "Allow"
+                Action: "lambda:*"
                 Resource: !GetAtt LambdaFunction.Arn
 
   LambdaFunction:
@@ -450,7 +449,7 @@ Resources:
             }
             return response
       Description: AWS Lambda function
-      FunctionName: 'lambda-function'
+      FunctionName: "lambda-function"
       Handler: index.handler
       MemorySize: 256
       Role: !GetAtt LambdaIamRole.Arn
@@ -461,15 +460,15 @@ Resources:
     Type: AWS::IAM::Role
     Properties:
       AssumeRolePolicyDocument:
-        Version: '2012-10-17'
+        Version: "2012-10-17"
         Statement:
-          - Effect: 'Allow'
+          - Effect: "Allow"
             Principal:
               Service:
-                - 'lambda.amazonaws.com'
+                - "lambda.amazonaws.com"
             Action:
-              - 'sts:AssumeRole'
-      Path: '/'
+              - "sts:AssumeRole"
+      Path: "/"
 ```
 
 ## Validating and deploying the CloudFormation stack

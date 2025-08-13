@@ -365,12 +365,11 @@ The final CloudFormation template is as follows:
 `template.yaml`
 
 ```yaml
-AWSTemplateFormatVersion: '2010-09-09'
+AWSTemplateFormatVersion: "2010-09-09"
 
 Description: AWS API Gateway with a Mock Integration
 
 Resources:
-
   ApiGatewayRestApi:
     Type: AWS::ApiGateway::RestApi
     Properties:
@@ -385,7 +384,7 @@ Resources:
     Type: AWS::ApiGateway::Resource
     Properties:
       ParentId: !GetAtt ApiGatewayRestApi.RootResourceId
-      PathPart: 'mock'
+      PathPart: "mock"
       RestApiId: !Ref ApiGatewayRestApi
 
   ApiGatewayMethod:
@@ -398,16 +397,16 @@ Resources:
         ConnectionType: INTERNET
         IntegrationResponses:
           - ResponseTemplates:
-              application/json: "{\"message\": \"OK\"}"
+              application/json: '{"message": "OK"}'
             SelectionPattern: '2\d{2}'
             StatusCode: 200
           - ResponseTemplates:
-              application/json: "{\"message\": \"Internal Server Error\"}"
+              application/json: '{"message": "Internal Server Error"}'
             SelectionPattern: '5\d{2}'
             StatusCode: 500
         PassthroughBehavior: WHEN_NO_TEMPLATES
         RequestTemplates:
-          application/json: "{\"statusCode\": $input.json('$.statusCode'), \"message\": $input.json('$.message')}"
+          application/json: '{"statusCode": $input.json(''$.statusCode''), "message": $input.json(''$.message'')}'
         Type: MOCK
         TimeoutInMillis: 29000
       MethodResponses:
@@ -417,14 +416,14 @@ Resources:
         - ResponseModels:
             application/json: !Ref ApiGatewayModel
           StatusCode: 500
-      OperationName: 'mock'
+      OperationName: "mock"
       ResourceId: !Ref ApiGatewayResource
       RestApiId: !Ref ApiGatewayRestApi
 
   ApiGatewayModel:
     Type: AWS::ApiGateway::Model
     Properties:
-      ContentType: 'application/json'
+      ContentType: "application/json"
       RestApiId: !Ref ApiGatewayRestApi
       Schema: {}
 
@@ -434,7 +433,7 @@ Resources:
       DeploymentId: !Ref ApiGatewayDeployment
       Description: Mock API Stage v0
       RestApiId: !Ref ApiGatewayRestApi
-      StageName: 'v0'
+      StageName: "v0"
 
   ApiGatewayDeployment:
     Type: AWS::ApiGateway::Deployment
