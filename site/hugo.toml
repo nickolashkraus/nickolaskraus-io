@@ -1,7 +1,23 @@
 baseURL = 'https://nickolaskraus.io'
 languageCode = 'en-us'
 title = 'Nickolas Kraus'
+description = 'My personal website'
 theme = 'paperwhite'
+
+# Google Analytics measurement ID (Google Analytics 4)
+[services]
+  [services.googleAnalytics]
+    id = 'G-F40Z5JD5FQ'
+
+[params]
+
+  author = 'Nickolas Kraus'
+
+  [params.seo]
+    image = 'logo.png'
+    twitter_card = 'summary'
+    twitter_site = '@nickolashkraus'
+    twitter_creator = '@nickolashkraus'
 
   [[params.socials]]
     icon = 'fa-sharp fa-regular fa-envelope'
