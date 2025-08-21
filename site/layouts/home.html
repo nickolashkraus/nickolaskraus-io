@@ -6,14 +6,17 @@
           {{ .Content }}
         </article>
         {{ range .Site.Sections }}
-          <div class="pb-4">
-            <h2 class="pb-2 text-2xl">{{ .Title }}</h2>
-            <ul class="list-inside list-disc pl-2">
-              {{ range .Pages }}
-                <li><a class="underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-              {{ end }}
-            </ul>
-          </div>
+          {{ $published := where .Pages "Draft" "ne" true }}
+          {{ if gt (len $published) 0 }}
+            <div class="pb-4">
+              <h2 class="pb-2 text-2xl">{{ .Title }}</h2>
+              <ul class="list-inside list-disc pl-2">
+                {{ range $published }}
+                  <li><a class="underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
         {{ end }}
       </main>
     </div>
