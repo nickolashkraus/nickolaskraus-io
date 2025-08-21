@@ -3,6 +3,31 @@ languageCode = 'en-us'
 title = 'Nickolas Kraus'
 theme = 'paperwhite'
 
+  [[params.socials]]
+    icon = 'fa-sharp fa-regular fa-envelope'
+    name = 'Email'
+    url = 'mailto:0x@nickolaskraus.io'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-github'
+    name = 'GitHub'
+    url = 'https://github.com/nickolashkraus'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-instagram'
+    name = 'Instagram'
+    url = 'https://www.instagram.com/nickolashkraus'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-linkedin'
+    name = 'LinkedIn '
+    url = 'https://www.linkedin.com/in/nickolas-kraus'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-x-twitter'
+    name = 'X'
+    url = 'https://x.com/nickolashkraus'
+
 [markup]
   [markup.highlight]
     # Disable syntax highlighting.

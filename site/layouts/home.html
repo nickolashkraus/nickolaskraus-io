@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="m-auto max-w-2xl">
     <div class="grid grid-cols-1">
-      <main class="col-span-1">
+      <main class="col-span-1 pb-8">
         <article class="markdown prose w-full max-w-none pb-4">
           {{ .Content }}
         </article>
@@ -19,6 +19,11 @@
           {{ end }}
         {{ end }}
       </main>
+      <footer class="col-span-1">
+        <div class="flex justify-center">
+          {{ partial "socials.html" . }}
+        </div>
+      </footer>
     </div>
   </div>
 {{ end }}
