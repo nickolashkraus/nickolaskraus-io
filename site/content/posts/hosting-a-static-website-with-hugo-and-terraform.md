@@ -1,6 +1,6 @@
 +++
 title = 'Hosting a Static Website with Hugo and Terraform'
-date = 2021-12-27T00:00:00-06:00
+date = 2021-12-27T00:00:00-00:00
 lastmod = 2025-08-13T00:00:00-00:00
 draft = false
 description = '''

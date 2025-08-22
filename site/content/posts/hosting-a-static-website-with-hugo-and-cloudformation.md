@@ -1,6 +1,6 @@
 +++
 title = 'Hosting a Static Website with Hugo and CloudFormation'
-date = 2019-08-18T00:00:00-06:00
+date = 2019-08-18T00:00:00-00:00
 lastmod = 2025-08-13T00:00:00-00:00
 draft = false
 description = '''
@@ -384,7 +384,7 @@ First, your static website needs to serve some content.
 ```html
 ---
 title: "Hello, World!"
-date: 2019-08-18T00:00:00-06:00
+date: 2019-08-18T00:00:00-00:00
 draft: false
 ---
 

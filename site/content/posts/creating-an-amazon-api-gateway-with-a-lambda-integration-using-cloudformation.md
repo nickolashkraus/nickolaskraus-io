@@ -1,6 +1,6 @@
 +++
 title = 'Creating an Amazon API Gateway with a Lambda Integration using CloudFormation'
-date = 2019-02-03T00:00:00-06:00
+date = 2019-02-03T00:00:00-00:00
 lastmod = 2025-08-10T00:00:00-00:00
 draft = false
 description = '''
