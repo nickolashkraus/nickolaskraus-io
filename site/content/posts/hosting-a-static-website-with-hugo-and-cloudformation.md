@@ -86,7 +86,7 @@ website.
 
 ## Amazon CloudFormation
 
-### Overview
+## Overview
 
 Hosting a static website on AWS makes use of the following resources:
 
