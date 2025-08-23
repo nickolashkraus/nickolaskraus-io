@@ -1,7 +1,6 @@
 baseURL = 'https://nickolaskraus.io'
 languageCode = 'en-us'
 title = 'Nickolas Kraus'
-description = 'My personal website'
 theme = 'paperwhite'
 
 # Google Analytics measurement ID (Google Analytics 4)
@@ -12,6 +11,7 @@ theme = 'paperwhite'
 [params]
 
   author = 'Nickolas Kraus'
+  description = 'My personal website'
 
   [params.seo]
     image = 'logo.png'
