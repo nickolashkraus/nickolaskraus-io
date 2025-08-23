@@ -1,0 +1,66 @@
+baseURL = 'https://nickolaskraus.io'
+languageCode = 'en-us'
+title = 'Nickolas Kraus'
+description = 'My personal website'
+theme = 'paperwhite'
+
+# Google Analytics measurement ID (Google Analytics 4)
+[services]
+  [services.googleAnalytics]
+    id = 'G-F40Z5JD5FQ'
+
+[params]
+
+  author = 'Nickolas Kraus'
+
+  [params.seo]
+    image = 'logo.png'
+    twitter_card = 'summary'
+    twitter_site = '@nickolashkraus'
+    twitter_creator = '@nickolashkraus'
+
+  [[params.socials]]
+    icon = 'fa-sharp fa-regular fa-envelope'
+    name = 'Email'
+    url = 'mailto:0x@nickolaskraus.io'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-github'
+    name = 'GitHub'
+    url = 'https://github.com/nickolashkraus'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-instagram'
+    name = 'Instagram'
+    url = 'https://www.instagram.com/nickolashkraus'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-linkedin'
+    name = 'LinkedIn '
+    url = 'https://www.linkedin.com/in/nickolas-kraus'
+
+  [[params.socials]]
+    icon = 'fa-brands fa-x-twitter'
+    name = 'X'
+    url = 'https://x.com/nickolashkraus'
+
+[markup]
+  [markup.highlight]
+    # Disable syntax highlighting.
+    noClasses = false
+
+[build]
+  [build.buildStats]
+    enable = true
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'

@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <div class="m-auto max-w-2xl">
+    <div class="grid grid-cols-1">
+      <main class="col-span-1 pb-8">
+        <article class="markdown prose w-full max-w-none pb-4">
+          {{ .Content }}
+        </article>
+        {{ range .Site.Sections }}
+          {{ $published := where .Pages "Draft" "ne" true }}
+          {{ if gt (len $published) 0 }}
+            <div class="pb-4">
+              <h2 class="pb-2 text-2xl">{{ .Title }}</h2>
+              <ul class="list-inside list-disc pl-2">
+                {{ range $published }}
+                  <li><a class="underline" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+        {{ end }}
+      </main>
+      <footer class="col-span-1">
+        <div class="flex justify-center">
+          {{ partial "socials.html" . }}
+        </div>
+      </footer>
+    </div>
+  </div>
+{{ end }}
