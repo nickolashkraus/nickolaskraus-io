@@ -69,8 +69,8 @@ This solution has the following workflow.
       Properties:
         Code:
           # S3Bucket: !Ref LambdaS3Bucket
-          # S3Key: ‘lambda_function.zip'
-          # Use ZipFile to address ‘chicken and egg' problem
+          # S3Key: 'lambda_function.zip'
+          # Use ZipFile to address 'chicken and egg' problem
           ZipFile: |
             def handler(event, context):
               return
@@ -79,7 +79,7 @@ This solution has the following workflow.
       Type: AWS::S3::Bucket
       Properties:
         AccessControl: AuthenticatedRead
-        BucketName: ‘${AWS::StackName}-lambda'
+        BucketName: '${AWS::StackName}-lambda'
         VersioningConfiguration:
           Status: Enabled
     ```
@@ -114,8 +114,8 @@ This solution has the following workflow.
       Properties:
         Code:
           S3Bucket: !Ref LambdaS3Bucket
-          S3Key: ‘lambda_function.zip'
-          # Use ZipFile to address ‘chicken and egg' problem
+          S3Key: 'lambda_function.zip'
+          # Use ZipFile to address 'chicken and egg' problem
           # ZipFile: |
           #   def handler(event, context):
           #     return

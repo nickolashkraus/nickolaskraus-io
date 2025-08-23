@@ -232,7 +232,7 @@ mkfs.ext4 /dev/<root_partition> -L "Arch"
 `fdisk -l` to show the disk partition table.
 
 **NOTE**: The `-L` option is given to set the volume label. This is useful when
-creating the fstab file and boot loader entry.
+creating the `fstab` file and boot loader entry.
 
 ### Step 7: Mount the root partition and EFI system partition
 

@@ -370,13 +370,13 @@ For instructions on hosting a static website with Hugo, which uses subdirectory
 `index.html` files, see [Hosting a Static Website with Hugo and
 CloudFormation][Hosting a Static Website with Hugo and CloudFormation][^1].
 
-[here]: https://nickolaskraus.io/articles/hosting-a-website-with-hugo-and-aws/
+[here]: https://nickolaskraus.io/posts/hosting-a-website-with-hugo-and-aws/
 [AWS Management Console - Route53]: https://console.aws.amazon.com/route53
 [this]: https://github.com/nickolashkraus/cloudformation-templates/blob/master/static-website/dns-validation.sh
 [AWS Management Console - ACM]: https://console.aws.amazon.com/acm
 [nickolashkraus/cloudformation-templates]: https://github.com/nickolashkraus/cloudformation-templates
 [Lambda@Edge]: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html
 [Origin]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-origin.html
-[Hosting a Static Website with Hugo and CloudFormation]: https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation
+[Hosting a Static Website with Hugo and CloudFormation]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-cloudformation
 
 [^1]: This process is slightly different than what is detailed here.

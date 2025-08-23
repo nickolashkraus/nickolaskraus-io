@@ -88,8 +88,8 @@ The exact steps provided in this article were used to deploy
 
 [^1]: Shameless self-plug.
 
-[article - 2018]: https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-aws/
-[article - 2019]: https://nickolaskraus.io/articles/hosting-a-static-website-with-hugo-and-cloudformation/
+[article - 2018]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-aws/
+[article - 2019]: https://nickolaskraus.io/posts/hosting-a-static-website-with-hugo-and-cloudformation/
 [Hugo]: https://gohugo.io
 [Getting Started]: https://gohugo.io/getting-started/
 [AWS Management Console - Route53]: https://console.aws.amazon.com/route53

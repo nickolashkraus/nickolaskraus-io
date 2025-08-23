@@ -408,7 +408,7 @@ templates can be found at
 [^1]: I am currently using a different theme:
 [Paperwhite](https://github.com/nickolashkraus/paperwhite).
 
-[article]: https://nickolaskraus.io/articles/hosting-a-website-with-hugo-and-aws/
+[article]: https://nickolaskraus.io/posts/hosting-a-website-with-hugo-and-aws/
 [AWS Management Console - Route53]: https://console.aws.amazon.com/route53
 [Lambda@Edge]: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html
 [Origin]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution-origin.html
