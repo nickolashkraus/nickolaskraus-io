@@ -1,6 +1,6 @@
 ---
 title: "Creating and Publishing eBooks with Vim and Sigil"
-date: 2023-02-17T00:00:00-06:00
+date: 2023-02-17T00:00:00-00:00
 draft: true
 description: Use "Copy as cURL" to send an HTTP request with the proper headers.
 tags: ["vim", "sigil"]
@@ -25,5 +25,3 @@ $ zip -rX "../$(basename "$(realpath .)").epub" mimetype $(ls|xargs echo|sed 's/
 ```
 
 I would then needs to import the EPUB into a viewer to see the changes.
-
-

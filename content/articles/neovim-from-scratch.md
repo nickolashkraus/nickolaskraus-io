@@ -1,6 +1,6 @@
 ---
 title: "Neovim From Scratch"
-date: 2023-12-06T00:00:00-06:00
+date: 2023-12-06T00:00:00-00:00
 draft: true
 description: A guide for configuring Neovim from scratch
 tags: ["programming", "vim", "neovim"]
@@ -10,10 +10,10 @@ At the end of 2023, I started revamping my local development setup. This led to 
 
 If you use Vim or Neovim as your text editor, you are probably like me and want to know how things work *deeply*. For this reason, this guide will teach you *how* to use and configure Neovim. In my reasearch of Neovim, I came across several distributions:
 
-* [NvChad](https://nvchad.com/) [GitHub](https://github.com/NvChad/NvChad)
-* [LunarVim](https://www.lunarvim.org/) [GitHub](https://github.com/LunarVim/LunarVim)
-* [LazyVim](https://lazyvim.github.io/) [GitHub](https://github.com/LazyVim/LazyVim)
-* [AstroNvim](https://astronvim.com/) [GitHub](https://github.com/AstroNvim/AstroNvim)
+* [NvChad](https://nvchad.com) [GitHub](https://github.com/NvChad/NvChad)
+* [LunarVim](https://www.lunarvim.org) [GitHub](https://github.com/LunarVim/LunarVim)
+* [LazyVim](https://lazyvim.github.io) [GitHub](https://github.com/LazyVim/LazyVim)
+* [AstroNvim](https://astronvim.com) [GitHub](https://github.com/AstroNvim/AstroNvim)
 * [nyoom.nvim](https://github.com/nyoom-engineering/nyoom.nvim)
 
 Quite frankly, these distribution were too big, too much to grok, and, frankly, garish (Nerd Font is not my a e s t h e t i c).

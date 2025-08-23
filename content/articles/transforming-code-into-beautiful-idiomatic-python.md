@@ -1,6 +1,6 @@
 ---
 title: "Transforming Code into Beautiful, Idiomatic Python"
-date: 2020-01-26T00:00:00-06:00
+date: 2020-01-26T00:00:00-00:00
 draft: false
 description: Notes from Raymond Hettinger's talk, "Transforming Code Into Beautiful, Idiomatic Python" from PyCon US 2013.
 tags: ["programming", "python"]
@@ -8,7 +8,7 @@ tags: ["programming", "python"]
 
 When you see this, do that instead!
 
-* Replace traditional index manipulation with Python’s core looping idioms.
+* Replace traditional index manipulation with Python's core looping idioms.
 * Learn advanced techniques with `for-else` clauses and the two argument form of `iter()`.
 * Improve your craftsmanship and aim for clean, fast, idiomatic Python code.
 
@@ -371,7 +371,7 @@ d = ChainMap(command_line_args, os.environ, defaults)
 * Positional arguments and indices are nice.
 * Keywords and names are better.
 * The first way is convenient for the computer.
-* The second corresponds to how human’s think.
+* The second corresponds to how human's think.
 
 ## Clarify function calls with keyword arguments
 
@@ -438,7 +438,7 @@ def fibonacci(n):
 
 ## Tuple packing and unpacking
 
-* Don’t underestimate the advantages of updating state variables at the same time.
+* Don't underestimate the advantages of updating state variables at the same time.
 * It eliminates an entire class of errors due to out-of-order updates.
 * It allows high level thinking: "chunking".
 
@@ -463,7 +463,7 @@ x, y, dx, dy = (x + dx * t,
 ## Efficiency
 
 * An optimization fundamental rule.
-* Don’t cause data to move around unnecessarily.
+* Don't cause data to move around unnecessarily.
 * It takes only a little care to avoid `O(n**2)` behavior instead of linear behavior.
 
 ## Concatenating strings
@@ -672,10 +672,10 @@ def redirect_stdout(fileobj):
 ## Concise Expressive One-Liners
 
 Two conflicting rules:
-1. Don’t put too much on one line.
-2. Don’t break atoms of thought into subatomic particles.
+1. Don't put too much on one line.
+2. Don't break atoms of thought into subatomic particles.
 
-Raymond’s rule:
+Raymond's rule:
 
 > "One logical line of code equals one sentence in English."
 

@@ -1,9 +1,10 @@
 ---
 title: "2022 Race Results"
-date: 2022-08-21T00:00:00-06:00
+date: 2022-08-21T00:00:00-00:00
 draft: false
 description: Race results from my 2022 triathlon season.
 tags: ["triathlon"]
+aliases: ["/articles/2022-race-results/"]
 ---
 
 ## [IRONMAN 70.3 Texas](https://www.ironman.com/im703-texas)

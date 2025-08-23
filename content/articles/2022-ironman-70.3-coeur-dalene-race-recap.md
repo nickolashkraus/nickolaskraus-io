@@ -1,9 +1,10 @@
 ---
 title: "2022 IRONMAN 70.3 Coeur d'Alene Race Recap"
-date: 2022-06-27T00:00:00-06:00
+date: 2022-06-27T00:00:00-00:00
 draft: false
 description: 2022 IRONMAN 70.3 Coeur d'Alene Race Recap
 tags: ["triathlon", "ironman"]
+aliases: ["/articles/2022-ironman-70.3-coeur-dalene-race-recap/"]
 ---
 
 ## [IRONMAN 70.3 Coeur d'Alene](https://www.ironman.com/im703-coeur-dalene)

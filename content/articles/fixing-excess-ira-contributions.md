@@ -1,6 +1,6 @@
 ---
 title: "Fixing Excess IRA Contributions"
-date: 2023-04-08T00:00:00-06:00
+date: 2023-04-08T00:00:00-00:00
 draft: false
 description: My experience with overcontributing to my IRA and how I fixed it.
 tags: ["finance"]

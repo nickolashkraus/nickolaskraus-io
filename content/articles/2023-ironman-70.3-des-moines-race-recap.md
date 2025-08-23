@@ -1,6 +1,6 @@
 ---
 title: "2023 IRONMAN 70.3 Des Moines Race Recap"
-date: 2023-06-12T00:00:00-06:00
+date: 2023-06-12T00:00:00-00:00
 draft: false
 description: 2023 IRONMAN 70.3 Des Moines Race Recap
 tags: ["triathlon", "ironman"]
@@ -60,7 +60,7 @@ My goal for this race was 4:40:00 (15 minutes faster than my personal best at 20
 
 This would leave me a very generous 10 minutes for transition.
 
-Using my [swim](https://nickolaskraus.io/articles/swimming-speed-and-paces/), [bike](https://nickolaskraus.io/articles/cycling-speed-and-paces/), and [run](https://nickolaskraus.io/articles/running-speed-and-paces/) pace tables, I calculated that I would need to have the following paces:
+Using my [swim](https://nickolaskraus.io/posts/swimming-speed-and-paces/), [bike](https://nickolaskraus.io/posts/cycling-speed-and-paces/), and [run](https://nickolaskraus.io/posts/running-speed-and-paces/) pace tables, I calculated that I would need to have the following paces:
 * Swim: 1:31/100yd (1:40/100m)
 * Bike: 24.0 mph (38.6 kph)
 * Run: 7:29/mi (~4:39/km)
@@ -111,7 +111,7 @@ All the best run splits from Kona to marathon world records are done with a nega
 
 ### Race Nutrition
 
-My race nutrition of choice consists of [Maurten](https://www.maurten.com/), [LMNT](https://drinklmnt.com/), and [Ketone-IQ](https://hvmn.com/):
+My race nutrition of choice consists of [Maurten](https://www.maurten.com), [LMNT](https://drinklmnt.com), and [Ketone-IQ](https://hvmn.com):
 * 7 x [Gel 100](https://www.maurten.com/products/gel-100-box-us) (100 kcal, 25g)
 * 3 x [Drink Mix 320](https://www.maurten.com/products/drink-mix-320-box-us) (320 kcal, 80g)
 * 3 x [LMNT](https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink?variant=16358367199266) (1000mg sodium, 200mg potassium, 60mg magnesium)

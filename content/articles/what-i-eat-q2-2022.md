@@ -1,9 +1,10 @@
 ---
 title: "What I Eat - Q2 2022"
-date: 2022-05-20T00:00:00-06:00
+date: 2022-05-20T00:00:00-00:00
 draft: false
 description: What, when, and how I eat in Q2 2022.
 tags: ["health", "nutrition"]
+aliases: ["/articles/what-i-eat-q2-2022/"]
 ---
 
 The goal of this article is to detail my current eating methodology, that is, what, when, and how I eat. I'll provide some insight into how I've eaten in the past, my goals, a few basic rules I follow, and a typical day of eating.

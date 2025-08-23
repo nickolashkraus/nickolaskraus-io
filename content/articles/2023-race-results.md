@@ -1,6 +1,6 @@
 ---
 title: "2023 Race Results"
-date: 2023-09-01T00:00:00-06:00
+date: 2023-09-01T00:00:00-00:00
 draft: true
 description: Race results from my 2023 triathlon season.
 tags: ["triathlon"]
@@ -91,7 +91,7 @@ tags: ["triathlon"]
 
 ---
 
-## [Chicago Triathlon](https://www.chicagotriathlon.com/)
+## [Chicago Triathlon](https://www.chicagotriathlon.com)
 * **Date**: August 26th-27th, 2023
 * **Distance**: Super Sprint, Olympic + Sprint
 * **Location**: Chicago, IL

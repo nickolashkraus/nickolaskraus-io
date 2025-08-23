@@ -1,6 +1,6 @@
 ---
 title: "My Thoughts on OE"
-date: 2024-02-21T00:00:00-06:00
+date: 2024-02-21T00:00:00-00:00
 draft: false
 description: My thoughts on overemployment, the practice of working one or more high-paying tech jobs.
 tags: ["career"]

@@ -1,6 +1,6 @@
 ---
 title: "Programming with GPT-4 + GitHub Copilot"
-date: 2023-03-24T00:00:00-06:00
+date: 2023-03-24T00:00:00-00:00
 draft: true
 description: Augmenting my programming ability with Generative AI.
 tags: ["programming", "ai"]

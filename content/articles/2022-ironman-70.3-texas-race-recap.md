@@ -1,9 +1,10 @@
 ---
 title: "2022 IRONMAN 70.3 Texas Race Recap"
-date: 2022-04-04T00:00:00-06:00
+date: 2022-04-04T00:00:00-00:00
 draft: false
 description: 2022 IRONMAN 70.3 Texas Race Recap
 tags: ["triathlon", "ironman"]
+aliases: ["/articles/2022-ironman-70.3-texas-race-recap/"]
 ---
 
 ## [IRONMAN 70.3 Texas](https://www.ironman.com/im703-texas)

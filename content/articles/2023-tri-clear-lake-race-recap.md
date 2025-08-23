@@ -1,9 +1,10 @@
 ---
 title: "2023 TRI Clear Lake Race Recap"
-date: 2023-05-28T00:00:00-06:00
+date: 2023-05-28T00:00:00-00:00
 draft: false
 description: 2023 TRI Clear Lake Race Recap
 tags: ["triathlon"]
+aliases: ["/articles/2023-tri-clear-lake-race-recap/"]
 ---
 
 ## [TRI Clear Lake](https://clearlakeiowa.com/events/tri-clear-lake)

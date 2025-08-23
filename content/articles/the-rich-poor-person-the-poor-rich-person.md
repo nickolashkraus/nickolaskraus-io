@@ -1,6 +1,6 @@
 ---
 title: "The Rich Poor Person, The Poor Rich Person"
-date: 2023-02-24T00:00:00-06:00
+date: 2023-02-24T00:00:00-00:00
 draft: false
 description: Two types of people who fail to realize the utility of money and deploy it in order to better their lives.
 tags: ["philosophy", "lifestyle", "finance"]

@@ -1,9 +1,10 @@
 ---
 title: "2021 IRONMAN 70.3 Arizona Race Recap"
-date: 2021-10-18T00:00:00-06:00
+date: 2021-10-18T00:00:00-00:00
 draft: false
 description: 2021 IRONMAN 70.3 Arizona Race Recap
 tags: ["triathlon", "ironman"]
+aliases: ["/articles/2021-ironman-70.3-arizona-race-recap/"]
 ---
 
 ## [IRONMAN 70.3 Arizona](https://www.ironman.com/im703-arizona)

@@ -1,12 +1,13 @@
 ---
 title: "What I Eat - Q2 2023"
-date: 2023-06-07T00:00:00-06:00
+date: 2023-06-07T00:00:00-00:00
 draft: false
 description: What, when, and how I eat in Q2 2023.
 tags: ["health", "nutrition"]
+aliases: ["/articles/what-i-eat-q2-2023/"]
 ---
 
-It's been a year since my original post ([What I Eat - Q2 2022](https://nickolaskraus.io/articles/what-i-eat-q2-2022/)). Let's revisit this topic to see what has changed and what has stayed the same.
+It's been a year since my original post ([What I Eat - Q2 2022](https://nickolaskraus.io/posts/what-i-eat-q2-2022/)). Let's revisit this topic to see what has changed and what has stayed the same.
 
 ## How I ate in 2022
 

@@ -1,9 +1,10 @@
 ---
 title: "2021 IRONMAN 70.3 Des Moines Race Recap"
-date: 2021-06-21T00:00:00-06:00
+date: 2021-06-21T00:00:00-00:00
 draft: false
 description: 2021 IRONMAN 70.3 Des Moines Race Recap
 tags: ["triathlon", "ironman"]
+aliases: ["/articles/2021-ironman-70.3-des-moines-race-recap/"]
 ---
 
 ## [IRONMAN 70.3 Des Moines](https://www.ironman.com/im703-des-moines)

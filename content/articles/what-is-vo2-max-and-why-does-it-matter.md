@@ -1,6 +1,6 @@
 ---
 title: "What is VO2 max and why does it matter?"
-date: 2022-09-01T00:00:00-06:00
+date: 2022-09-01T00:00:00-00:00
 draft: false
 description: VO2 max is a good indicator of cardiorespiratory fitness and equally as good at predicting one's all-cause mortality. In this article, I discuss what VO2 max is, how it is measured, and how to improve it.
 tags: ["health", "fitness", "vo2-max"]
@@ -35,7 +35,7 @@ If we know the fractional portion of inhaled oxygen and we can measure the amoun
 
 In order to determine the maximum oxygen consumption, exercise intensity is increased until oxygen volume plateaus
 
-This represents the limit of your aerobic system. In other words, there’s a plateau—a point at which, even though you’re working harder, you’re not using any more oxygen. This limit is a physiological limit, not one of motivation or will.
+This represents the limit of your aerobic system. In other words, there's a plateau—a point at which, even though you're working harder, you're not using any more oxygen. This limit is a physiological limit, not one of motivation or will.
 
 Though VO2 max corresponds to the total amount of consumed oxygen per minute (L/min), it is conventional to divide this number by an individual's weight, yielding oxygen per minute per kilogram. This allows for values to be normalized for body size.
 

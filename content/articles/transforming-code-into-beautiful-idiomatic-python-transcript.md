@@ -1,7 +1,7 @@
 ---
 title: "Transforming Code into Beautiful, Idiomatic Python"
 author: "Raymond Hettinger"
-date: 2020-01-26T00:00:00-06:00
+date: 2020-01-26T00:00:00-00:00
 draft: false
 description: A transcript of Raymond Hettinger's talk, "Transforming Code Into Beautiful, Idiomatic Python" from PyCon US 2013
 ---
