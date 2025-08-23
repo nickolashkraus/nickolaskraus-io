@@ -10,6 +10,7 @@ concepts of Amazon API Gateway by guiding the reader through the creation of an
 API Gateway with a mock integration using CloudFormation.
 '''
 tags = ['programming', 'aws', 'cloudformation',  'api-gateway']
+aliases = ['/articles/creating-an-amazon-api-gateway-with-a-mock-integration-using-cloudformation/']
 +++
 
 I'll be honest, it took me many hours to get my head around Amazon API Gateway

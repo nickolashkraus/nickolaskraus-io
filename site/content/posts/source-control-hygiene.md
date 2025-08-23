@@ -7,6 +7,7 @@ description = '''
 My thoughts on being a good steward of source control.
 '''
 tags = ['programming', 'git']
+aliases = ['/articles/source-control-hygiene/']
 +++
 
 Contributing to open-source is analogous to using someone's home. You don't

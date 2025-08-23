@@ -7,6 +7,7 @@ description = '''
 This article details how to create a static website with Hugo and Terraform.
 '''
 tags = ['aws', 'hugo', 'terraform']
+aliases = ['/articles/hosting-a-static-website-with-hugo-and-terraform/']
 +++
 
 In 2018, I created an [article][article - 2018] on how to create a static

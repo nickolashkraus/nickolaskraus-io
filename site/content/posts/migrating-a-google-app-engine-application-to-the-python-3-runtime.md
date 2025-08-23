@@ -8,6 +8,7 @@ Reflections on migrating a large-scale Google App Engine application to Python
 3.
 '''
 tags = ['programming', 'python', 'google-app-engine']
+aliases = ['/articles/migrating-a-google-app-engine-application-to-the-python-3-runtime/']
 +++
 
 Starting [January 1, 2020][January 1, 2020], the Python community stopped

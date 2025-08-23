@@ -7,6 +7,7 @@ description = '''
 Steps for fixing a corrupt FIT file from a Garmin watch.
 '''
 tags = ['technology', 'fitness', 'garmin', 'fit-file']
+aliases = ['/articles/fixing-a-corrupt-fit-file-from-a-garmin-watch/']
 +++
 
 After IRONMAN 70.3 Texas, I noticed the swim portion was not syncing to Garmin

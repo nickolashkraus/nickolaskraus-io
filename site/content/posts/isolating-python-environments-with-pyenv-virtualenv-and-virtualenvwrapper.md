@@ -14,6 +14,7 @@ dependencies of another. In order to mitigate this problem, it is necessary to
 isolate Python environments.
 '''
 tags = ['programming', 'python']
+aliases = ['/articles/isolating-python-environments-with-pyenv-virtualenv-and-virtualenvwrapper/']
 +++
 
 When working with multiple Python projects, the problem of conflicting

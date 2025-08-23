@@ -7,6 +7,7 @@ description = '''
 Using Serverless for seamless AWS Lambda deployments
 '''
 tags = ['aws', 'aws-lambda', 'serverless']
+aliases = ['/articles/seamless-aws-lambda-function-deployments-with-serverless/']
 +++
 
 ## Problem

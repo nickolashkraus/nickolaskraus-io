@@ -7,6 +7,7 @@ description = '''
 A walk through of the steps taken to migrate a static website to Terraform.
 '''
 tags = ['aws', 'terraform']
+aliases = ['/articles/migrating-a-static-website-to-terraform/']
 +++
 
 Back in 2018, I used the AWS CLI and [a collection of JSON files and Bash

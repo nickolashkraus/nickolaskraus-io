@@ -10,6 +10,7 @@ ndb.Model class. In particular, how one can populate a StructuredProperty using
 the ndb.Model constructor.
 '''
 tags = ['programming', 'python', 'google-app-engine']
+aliases = ['/articles/populating-a-structuredproperty-using-the-ndbmodel-constructor/']
 +++
 
 After doing a deep dive into the App Engine SDK for Python, I thought I would

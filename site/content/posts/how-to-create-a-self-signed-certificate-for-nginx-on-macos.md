@@ -8,6 +8,7 @@ This guide provides a walkthrough for how to create a self-signed SSL/TLS
 certificate for an NGINX web server on macOS.
 '''
 tags = ['programming', 'nginx', 'macos']
+aliases = ['/articles/how-to-create-a-self-signed-certificate-for-nginx-on-macos/']
 +++
 
 This guide provides a walkthrough for how to create a self-signed SSL/TLS

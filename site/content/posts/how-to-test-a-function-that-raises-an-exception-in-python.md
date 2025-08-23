@@ -8,6 +8,7 @@ This article demonstrates how to create a unit test for a Python function that
 raises an exception.
 '''
 tags = ['programming', 'python', 'testing']
+aliases = ['/articles/how-to-test-a-function-that-raises-an-exception/']
 +++
 
 This article demonstrates how to create a unit test for a Python function that

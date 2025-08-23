@@ -9,6 +9,7 @@ AWS. It provides both the manual steps (via the Amazon Management Console) and
 the semi-automated steps using the AWS CLI.
 '''
 tags = ['programming', 'aws', 'hugo', 'static-website']
+aliases = ['/articles/hosting-a-static-website-with-hugo-and-aws/']
 +++
 
 This article details the steps for creating and hosting a static website on

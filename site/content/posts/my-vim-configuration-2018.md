@@ -7,6 +7,7 @@ description = '''
 A comprehensive walk-through of my Vim configuration and plugins that I use.
 '''
 tags = ['programming', 'vim']
+aliases = ['/articles/vim-plugins-that-i-use-2018/']
 +++
 
 I find the conceit in using the word *essential* off-putting. Essential implies

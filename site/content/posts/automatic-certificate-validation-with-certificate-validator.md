@@ -8,6 +8,7 @@ Certificate Validator is an AWS CloudFormation custom resource which
 facilitates AWS Certificate Manager (ACM) certificate validation via DNS.
 '''
 tags = ['aws', 'cloudformation', 'custom-resource']
+aliases = ['/articles/automatic-certificate-validation-with-certificate-validator/']
 +++
 
 ## Problem

@@ -7,6 +7,7 @@ description = '''
 A review of my trip to Japan.
 '''
 tags = ['travel']
+aliases = ['/articles/land-of-the-rising-sun/']
 +++
 
 Until you experience Japan for yourself, it is hard to convey the unique

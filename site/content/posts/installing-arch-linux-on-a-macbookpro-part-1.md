@@ -8,6 +8,7 @@ This is part one of a three part series on how to install macOS Big Sur and
 Arch Linux on a MacBookPro11,3.
 '''
 tags = ['technology', 'arch-linux']
+aliases = ['/articles/installing-arch-linux-on-a-macbookpro-part-1/']
 +++
 
 **WARNING**: This guide is for the MacBookPro11,3 and does not apply to more

@@ -7,6 +7,7 @@ description = '''
 A review of Josh Waitzkin's book, The Art of Learning.
 '''
 tags = ['books']
+aliases = ['/articles/the-art-of-learning/']
 +++
 
 *The Art of Learning* is a meditation on the human ability for cognitive and

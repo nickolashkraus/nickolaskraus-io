@@ -8,6 +8,7 @@ This article demonstrates how to mock the built-in open() function for a Python
 function.
 '''
 tags = ['programming', 'python', 'testing']
+aliases = ['/articles/how-to-mock-the-built-in-function-open/']
 +++
 
 In my [previous article][previous article], I demonstrated how to create a unit

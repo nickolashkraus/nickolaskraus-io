@@ -9,6 +9,7 @@ AWS Lambda function. In this article, we will create an API Gateway with
 a Lambda integration.
 '''
 tags = ['programming', 'aws', 'cloudformation',  'api-gateway']
+aliases = ['/articles/creating-an-amazon-api-gateway-with-a-lambda-integration-using-cloudformation/']
 +++
 
 In my last article, I discussed how to set up an API Gateway with a mock

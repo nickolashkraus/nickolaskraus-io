@@ -7,6 +7,7 @@ description = '''
 Triathlon distances in metric and imperial units.
 '''
 tags = ['triathlon']
+aliases = ['/articles/triathlon-distances/']
 +++
 
 **Metric**

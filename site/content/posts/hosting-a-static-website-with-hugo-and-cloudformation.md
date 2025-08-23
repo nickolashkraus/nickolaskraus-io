@@ -8,6 +8,7 @@ This article details how to create a static website with Hugo and
 CloudFormation.
 '''
 tags = ['aws', 'hugo', 'cloudformation']
+aliases = ['/articles/hosting-a-static-website-with-hugo-and-cloudformation/']
 +++
 
 In a previous [article][article], I detailed the steps for creating and hosting

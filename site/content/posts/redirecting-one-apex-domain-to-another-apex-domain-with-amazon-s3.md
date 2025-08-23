@@ -7,6 +7,7 @@ description = '''
 How to redirect one apex domain to another apex domain with Amazon S3.
 '''
 tags = ['aws', 'route53', 's3']
+aliases = ['/articles/redirecting-one-apex-domain-to-another-apex-domain-with-amazon-s3/']
 +++
 
 I decided to migrate my personal website from nickolaskraus.org to

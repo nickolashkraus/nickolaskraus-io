@@ -8,6 +8,7 @@ A comprehensive list of the applications, utilities, tools, and productivity
 modifications that I use.
 '''
 tags = ['programming']
+aliases = ['/articles/my-local-development-setup-2018/']
 +++
 
 I like my local development setup to be lean and automated. This allows me to

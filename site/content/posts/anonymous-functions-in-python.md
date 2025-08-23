@@ -10,6 +10,7 @@ lightweight form. In Python, anonymous functions are defined using the `lambda`
 keyword.
 '''
 tags = ['programming', 'python']
+aliases = ['/articles/anonymous-functions-in-python/']
 +++
 
 ## Overview

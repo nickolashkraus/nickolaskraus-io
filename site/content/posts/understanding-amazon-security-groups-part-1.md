@@ -9,6 +9,7 @@ or more instances. This article discusses the important concepts for working
 with security groups in AWS.
 '''
 tags = ['aws', 'security-groups']
+aliases = ['/articles/understanding-amazon-security-groups-part-1/']
 +++
 
 ## Overview

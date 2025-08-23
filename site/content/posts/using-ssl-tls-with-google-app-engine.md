@@ -11,6 +11,7 @@ Google Cloud SDK, `dev_appserver.py`, does not come with SSL/TLS out of the
 box, some configuration is required to accomplish this.
 '''
 tags = ['programming', 'google-app-engine']
+aliases = ['/articles/using-ssl-tls-with-the-google-app-engine/']
 +++
 
 Enabling SSL/TLS for your Google App Engine production environment can be done

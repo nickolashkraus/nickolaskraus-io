@@ -7,6 +7,7 @@ description = '''
 A quick guide on creating SSH keys.
 '''
 tags = ['programming', 'ssh']
+aliases = ['/articles/creating-a-public-and-private-rsa-key/']
 +++
 
 Create a `.ssh` directory:

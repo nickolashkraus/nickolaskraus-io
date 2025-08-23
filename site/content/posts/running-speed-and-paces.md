@@ -7,6 +7,7 @@ description = '''
 Running speed and paces in metric and imperial units for triathlon distances.
 '''
 tags = ['triathlon', 'running']
+aliases = ['/articles/running-speed-and-paces/']
 +++
 
 | mph  | kph  | min/mile | min/k   | Super Sprint | Sprint  | Olympic | PTO 100km | Half IRONMAN | IRONMAN |

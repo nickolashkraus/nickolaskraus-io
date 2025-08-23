@@ -9,6 +9,7 @@ addition, we take a look at the differences between EC2-Classic and EC2-VPC
 security groups.
 '''
 tags = ['aws', 'security-groups']
+aliases = ['/articles/understanding-amazon-security-groups-part-2/']
 +++
 
 In my previous article, we looked at the basics of Amazon security groups,

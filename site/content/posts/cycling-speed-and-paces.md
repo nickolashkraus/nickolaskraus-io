@@ -7,6 +7,7 @@ description = '''
 Cycling speed and paces in metric and imperial units for triathlon distances.
 '''
 tags = ['triathlon', 'cycling']
+aliases = ['/articles/cycling-speed-and-paces/']
 +++
 
 | mph  | kph  | min/mile | min/k   | Super Sprint | Sprint  | Olympic | PTO 100km | Half IRONMAN | IRONMAN |

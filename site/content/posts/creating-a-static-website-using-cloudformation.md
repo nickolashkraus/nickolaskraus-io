@@ -7,6 +7,7 @@ description = '''
 This article details how to create a static website using CloudFormation.
 '''
 tags = ['programming', 'aws', 'hugo', 'static-website', 'cloudformation']
+aliases = ['/articles/creating-a-static-website-using-cloudformation/']
 +++
 
 Creating static websites is a hobby of mine. This blog, in fact, was created

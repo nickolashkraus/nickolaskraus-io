@@ -7,6 +7,7 @@ description = '''
 A mathematical analysis of the purported danger of electromagnetic fields.
 '''
 tags = ['physics', 'health']
+aliases = ['/articles/my-thoughts-on-emf/']
 +++
 
 The danger of electromagnetic fields (EMF) has been ardently purported by

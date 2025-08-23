@@ -7,6 +7,7 @@ description = '''
 Use "Copy as cURL" to send an HTTP request with the proper headers.
 '''
 tags = ['programming', 'shell']
+aliases = ['/articles/copy-as-curl/']
 +++
 
 While writing a short script to automate the download of a collection of EPUB

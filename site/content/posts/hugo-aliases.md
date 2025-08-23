@@ -7,6 +7,7 @@ description = '''
 Use Hugo aliases to create redirects to your page from other URLs.
 '''
 tags = ['hugo']
+aliases = ['/articles/hugo-aliases/']
 +++
 
 ## Overview

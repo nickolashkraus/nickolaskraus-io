@@ -7,6 +7,7 @@ description = '''
 Swimming speed and paces in metric and imperial units for triathlon distances.
 '''
 tags = ['triathlon', 'swimming']
+aliases = ['/articles/swimming-speed-and-paces/']
 +++
 
 | 100yd   | 100m    | Super Sprint | Sprint  | Olympic | PTO 100km | Half IRONMAN | IRONMAN  |
