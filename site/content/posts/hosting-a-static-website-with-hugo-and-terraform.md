@@ -49,7 +49,7 @@ the [AWS Management Console][AWS Management Console - Route53].
 ### Creating the Terraform module
 
 This article uses a public Terraform module maintained by
-[Infrable][Infrable][^1]:
+[Infrable][Infrable]:[^1]
 - [infrable-io/terraform-aws-static-website][infrable-io/terraform-aws-static-website]
 
 To use this module the following files are required:

@@ -62,7 +62,7 @@ for m in my_list:
             m.pop(k, None)
 ```
 
-The more elegant solution is to use a lambda function[^1]:
+The more elegant solution is to use a lambda function:[^1]
 
 ```python
 my_list = [

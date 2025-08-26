@@ -12,7 +12,7 @@ aliases = ['/articles/how-to-create-a-self-signed-certificate-for-nginx-on-macos
 +++
 
 This guide provides a walkthrough for how to create a self-signed SSL/TLS
-certificate for an NGINX web server on macOS[^1]. Additionally, I created
+certificate for an NGINX web server on macOS.[^1] Additionally, I created
 a GitHub repository,
 [Self-Signed](https://github.com/nickolashkraus/self-signed), which provides
 a working example.
@@ -49,7 +49,7 @@ server holding the private key.
 ## Step 0 [Update]: Address `net::ERR_CERT_COMMON_NAME_INVALID` in Chrome
 
 The following recommendations were made by [Victor
-Combal-Weiss](https://www.linkedin.com/in/victorcombalweiss/)[^2]:
+Combal-Weiss](https://www.linkedin.com/in/victorcombalweiss/):[^2]
 
 To fix the following error:
 >This site is missing a valid, trusted certificate

@@ -18,7 +18,7 @@ modifications that I use.
 
 This article references several configuration files. These configuration files
 (typically referred to as *dotfiles*) can be found
-[here](https://github.com/nickolashkraus/dotfiles)[^1].
+[here](https://github.com/nickolashkraus/dotfiles).[^1]
 
 ## macOS
 
@@ -43,7 +43,7 @@ To configure application shortcuts, go to **App Shortcuts** > **+** and enter
 the **Menu Title** as given in the application and the desired keyboard
 shortcut.
 
-For Chrome[^3], my shortcuts are as follows:
+For Chrome,[^3] my shortcuts are as follows:
 
 | Menu Title          |  Shortcut |
 | ------------------- | --------- |
@@ -134,7 +134,7 @@ To set the color scheme, go to **Preferences** > **Profiles** > **Colors** >
 [Oh My Zsh](https://ohmyz.sh) is an open source, community-driven framework for
 managing your Zsh configuration. I use
 a [fork](https://github.com/nickolashkraus/oh-my-zsh) containing my custom
-amuse theme[^4].
+amuse theme.[^4]
 
 **Installation**
 
@@ -296,7 +296,7 @@ ln -s ~/path/to/remote/mpv.conf ~/.config/mpv/mpv.conf
 ## Spectacle
 
 [Spectacle](https://www.spectacleapp.com) is a simple, customizable
-application for moving and resizing windows[^5].
+application for moving and resizing windows.[^5]
 
 **Installation**
 

@@ -31,7 +31,7 @@ means by which multiple Python versions and Python package versions can be
 managed effortlessly. Instead of installing *all* dependencies to, say,
 `/usr/lib/python2.7/site-packages` (or wherever your platform's standard
 location is), `pyenv`, `virtualenv`, and `virtualenvwrapper` can be used to
-give each application its own virtual environment[^1].
+give each application its own virtual environment.[^1]
 
 ## Technologies
 
@@ -93,7 +93,7 @@ then install Python 2 and Python 3:
 brew install python2 python3
 ```
 
-Confirm install[^2]:
+Confirm install:[^2]
 
 ```bash
 $ python2 -V
@@ -154,7 +154,7 @@ Any `pip` packages will be installed to
 version.
 
 Our installation of `pip2` and `pip3` will serve as our global
-installation[^3].
+installation.[^3]
 
 ### Install `virtualenv` and `virtualenvwrapper`
 
@@ -277,7 +277,7 @@ pyenv-virtualenvwrapper 20140609 (virtualenvwrapper 4.8.4)
 
 ### Configure `pyenv`
 
-Install the Python versions you wish to use[^4]:
+Install the Python versions you wish to use:[^4]
 
 ```bash
 $ pyenv install 2.7.8

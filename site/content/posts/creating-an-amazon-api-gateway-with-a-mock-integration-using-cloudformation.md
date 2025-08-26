@@ -22,7 +22,7 @@ a highly useful and powerful tool.
 ## Overview
 
 With Amazon API Gateway, you build an API as a collection of programmable
-entities known as [API Gateway resources][API Gateway resources][^1]. API
+entities known as [API Gateway resources][API Gateway resources].[^1] API
 Gateway resources are not to be confused with the CloudFormation API Gateway
 Resource ([`AWS::ApiGateway::Resource`][`AWS::ApiGateway::Resource`]), though
 the latter is considered an API Gateway resource as well. The following list

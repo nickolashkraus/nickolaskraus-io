@@ -49,7 +49,7 @@ website.
 
     Pre-made themes can be found [here](https://themes.gohugo.io). This website
     uses a custom theme that I created, which can be found
-    [here](https://github.com/nickolashkraus/black-and-light-2)[^1].
+    [here](https://github.com/nickolashkraus/black-and-light-2).[^1]
 
     ```bash
     git submodule add git@github.com:<username>/<theme>.git themes/<theme>
@@ -180,7 +180,7 @@ To simplify the AWS CLI commands, we will use environment variables set using
 a shell script. This script as well as the JSON files used to configure the
 various AWS services can be found in the GitHub
 [repository](https://github.com/nickolashkraus/nickolaskraus-io) for this
-website under `.aws`[^2].
+website under `.aws`.[^2]
 
 ### Step 0: Prerequisites
 

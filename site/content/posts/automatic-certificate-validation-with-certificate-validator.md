@@ -57,7 +57,7 @@ about validating any additional fully qualified domain names (FQDNs) given
 under the [`SubjectAlternativeNames`][SubjectAlternativeNames] property for the
 certificate.
 
-This is where Certificate Validator comes in[^1].
+This is where Certificate Validator comes in.[^1]
 
 ## What is Certificate Validator?
 

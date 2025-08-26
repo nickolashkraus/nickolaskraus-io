@@ -49,7 +49,7 @@ website.
 
     Pre-made themes can be found [here](https://themes.gohugo.io). This website
     uses a custom theme that I created, which can be found
-    [here](https://github.com/nickolashkraus/black-and-light-2)[^1].
+    [here](https://github.com/nickolashkraus/black-and-light-2).[^1]
 
     ```bash
     git submodule add git@github.com:<username>/<theme>.git themes/<theme>

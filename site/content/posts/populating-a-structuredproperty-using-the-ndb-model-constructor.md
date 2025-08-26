@@ -27,7 +27,7 @@ I looked into the `ndb` GitHub sample code, but I couldn't find any example
 that shows how to create an `ndb` entity using a constructor that contains
 a `StructuredProperty`.
 
-Here is the GitHub [example][structured_property_models.py][^1].
+Here is the GitHub [example][structured_property_models.py].[^1]
 
 What if I want to initialize a `Contact` entity with a list of phone numbers
 and this list of phone numbers is not a list of `PhoneNumber` objects. Instead,

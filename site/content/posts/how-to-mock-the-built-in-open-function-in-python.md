@@ -76,7 +76,7 @@ mock_open = mock.mock_open(read_data=read_data)
 `read()` method. This is an empty string by default.
 
 Next, using `patch()` as a context manager, `open()` can be patched with the
-new object, `mock_open`[^1]:
+new object, `mock_open`:[^1]
 
 ```python
 with mock.patch('__builtin__.open', mock_open):

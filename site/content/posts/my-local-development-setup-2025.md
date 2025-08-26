@@ -37,7 +37,7 @@ etc. I'll be honest, I'm pretty proud of it.
 ## Tactical Sidearm
 
 When I'm on the go or traveling, I take my [MacBook Pro (14-inch, M4,
-2024)][MacBook Pro (14-inch, M4, 2024)][^4].
+2024)][MacBook Pro (14-inch, M4, 2024)].[^4]
 
 ## macOS
 

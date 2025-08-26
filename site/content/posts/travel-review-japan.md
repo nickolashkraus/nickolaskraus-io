@@ -20,7 +20,7 @@ black pine, a species native to Japan, and public areas and walkways are
 usually adorned with vibrant flowerbeds. This is of a piece with the overall
 cleanliness of the city. Many of the streets are absolutely immaculate and it
 is not uncommon to see the proprietor of a restaurant or business tidying up
-the area outside their establishment[^1].
+the area outside their establishment.[^1]
 
 Such zeal for cleanliness does not stop at the threshold; rather, it
 intensifies when entering the home. The house is treated as sacred, piety takes
@@ -37,7 +37,7 @@ Japanese to partake in a ritual butt-washing, since, as with most instructions
 in Japan, functionality is conveyed via subtle pictography.  (A dotted water
 jet striking a pair of aesthetically curved half-moons that provide an artful
 facsimile of the human buttocks, for example). Positioning and pressure are
-also configurable to accommodate the power user[^2].
+also configurable to accommodate the power user.[^2]
 
 Toilets aside, what I found most astonishing was the general sense of safety.
 Children starting at 5 years of age can be seen taking the subway to and from
@@ -59,7 +59,7 @@ identity giving rise to an expanded circle of concern.
 Japan, like Germany, is a culture with which I am absolutely enamored. I plan
 to return to Japan and in the meantime have endeavored to learn the language.
 Follow my language learning journey
-[here](https://nickolaskraus.io/japanese)[^3].
+[here](https://nickolaskraus.io/japanese).[^3]
 
 ## Before You Go
 

@@ -73,7 +73,7 @@ requests_toolbelt.adapters.appengine.monkeypatch()
 To issue an HTTPS request, set the `validate_certificate` parameter to true
 when calling the `urlfetch.fetch()` method. This is handled transparently in
 `requests-toolbelt`
-[here](https://github.com/requests/toolbelt/blob/master/requests_toolbelt/adapters/appengine.py#L175)[^1].
+[here](https://github.com/requests/toolbelt/blob/master/requests_toolbelt/adapters/appengine.py#L175).[^1]
 
 [^1]: This file has long since been removed.
 

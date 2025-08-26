@@ -37,7 +37,7 @@ which can be enabled by setting the `dynamodb_table` field to an existing
 DynamoDB table name.
 
 For my purposes, I chose to create this infrastructure (S3 bucket and DynamoDB
-table) via CloudFormation[^1], however this needn't be the case. Terraform
+table) via CloudFormation,[^1] however this needn't be the case. Terraform
 offers several other options for storing state, Amazon S3 being only one of
 many.
 

@@ -341,7 +341,7 @@ template.
 Instead, you must first deploy the CloudFormation stack with the S3 bucket, put
 the Lambda function deployment package in the S3 bucket, then specify the S3
 bucket and object key in the CloudFormation template for the Lambda function
-resource before deploying the template again[^1].
+resource before deploying the template again.[^1]
 
 ### Putting it all together
 

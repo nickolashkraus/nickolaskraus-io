@@ -369,7 +369,7 @@ Protocol Policy for your CloudFront distribution.
 
 For instructions on hosting a static website with Hugo, which uses subdirectory
 `index.html` files, see [Hosting a Static Website with Hugo and
-CloudFormation][Hosting a Static Website with Hugo and CloudFormation][^1].
+CloudFormation][Hosting a Static Website with Hugo and CloudFormation].[^1]
 
 [here]: https://nickolaskraus.io/posts/hosting-a-website-with-hugo-and-aws/
 [AWS Management Console - Route53]: https://console.aws.amazon.com/route53
