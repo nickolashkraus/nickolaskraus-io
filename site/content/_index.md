@@ -1,6 +1,7 @@
 +++
 title = 'Home'
 draft = false
+aliases = ['/about']
 +++
 
 I am Nickolas Kraus, husband to Megan Kraus, father to Mila Kraus.  
