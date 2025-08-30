@@ -1,7 +1,7 @@
 +++
 title = 'My Vim Configuration (2025)'
 date = 2025-07-03T00:00:00-00:00
-lastmod = 2025-07-03T00:00:00-00:00
+lastmod = 2025-08-30T00:00:00-00:00
 draft = false
 description = '''
 A comprehensive walk-through of my Vim configuration and plugins that I use.
@@ -49,6 +49,11 @@ well-formatted tables, code, and other structured text.[^4]
 #### [vim-markdown][vim-markdown]
 vim-markdown is a Vim plugin that enhances Markdown editing by adding features
 that are not available in Vim by default.
+
+#### [vim-anyfold][vim-anyfold]
+vim-anyfold is a Vim plugin that provides automatic code folding functionality.
+It's designed to intelligently fold code structures in any programming language
+without requiring language-specific configuration.
 
 #### [vim-polyglot][vim-polyglot]
 vim-polyglot is a language pack plugin for Vim and Neovim that bundles syntax
@@ -161,6 +166,7 @@ terminal environments.
 [vim-go]: https://github.com/fatih/vim-go
 [tabular]: https://github.com/godlygeek/tabular
 [vim-markdown]: https://github.com/preservim/vim-markdown
+[vim-anyfold]: https://github.com/pseewald/vim-anyfold
 [vim-polyglot]: https://github.com/sheerun/vim-polyglot
 [auto-pairs]: https://github.com/jiangmiao/auto-pairs
 [YouCompleteMe]: https://github.com/ycm-core/YouCompleteMe
