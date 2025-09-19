@@ -31,7 +31,7 @@ I received 2 offers, 25 rejections, and withdrew from 4.
 
 Honestly, my job search methodology was not scientific; open LinkedIn, skim
 jobs. I also just slowly gathered information around interesting companies and
-aggregated information via [Blind][Blind], [Glassdoor][Glassdoor] and other
+aggregated information via [Blind][Blind], [Glassdoor][Glassdoor], and other
 platforms. This gave me a general feeling for companies/opportunities to pursue
 and not pursue. In my day-to-day (reading, podcasts, etc.), if I came across
 a company that sounded cool, I applied[^4].
@@ -39,7 +39,7 @@ a company that sounded cool, I applied[^4].
 ### Applying to jobs
 
 Applying to jobs takes a lot of time since it involves reading countless job
-descriptions, filling in the personal information, and providing answers to the
+descriptions, filling in personal information, and providing answers to the
 same voluntary self-identification questions over and over again. In my
 experience, manually applying to jobs had minimal ROI[^5], as almost all of my
 applications were rejected. The only real advice I have on this front is to
@@ -51,12 +51,14 @@ initial screen.
 ### Interview prep
 
 Oh, Lord. I spent hundreds of hours grinding LeetCode ([grind.rip][grind.rip]).
-This occurred mostly on weekends and in the early morning. It became a second
-job. Again, the more time and energy you put into preparing for the technical
-portion of the interview, the better you will do. I only ended up getting
-through ~50% of the data structures and algorithms I wanted to cover, but since
-it's impossible to know what type of coding question you will get, your best
-bet is to just go as deep and broad as possible[^6].
+This occurred mostly on weekends and in the early morning, but also during my
+work hours (sorry Workiva). It became a second job and at my peak I was
+clocking 20-hour weeks of purely interview prep. Again, the more time and
+energy you put into preparing for the technical portion of the interview, the
+better you will do. I only ended up getting through ~50% of the material
+I wanted to cover, but since it's impossible to know what type of coding
+questions you will get, your best bet is to just go as deep and broad as
+possible[^6].
 
 ### Interviewing
 
@@ -64,7 +66,7 @@ In all, I spent close to 40 hours actually interviewing. For me, this process
 was exhausting, as my day centered around the adrenaline spike and long come
 down from the process, effectively destroying my productivity and mood for the
 day. Since I work from home, I did not need to scuttle off to an empty
-conference room like my RTO brethren, but it was challenging all the same,
+conference room like my RTO comrades, but it was challenging all the same,
 especially on top of actually doing my job.
 
 Generally, and I feel like a broken record at this point, the more you
@@ -75,12 +77,12 @@ reflect on what went well, and be prepared to bomb[^7].
 
 ### Organizing
 
-I ended up with a 35 page Google Doc with every interaction I had with
+I ended up with a 36 page Google Doc with every interaction I had with
 a company, all my notes, reflections, etc. This proved extremely useful when
 organizing interview applications at various points in the process. It also
-served as a dumping ground for all the information I picked up
-extemporaneously. In all, this was about 10 hours of work, but was crucial for
-giving me a sense of control.
+served as a dumping ground for all the information I picked up along the way.
+In all, this was about 10 hours of work, but was crucial for giving me a sense
+of control.
 
 ## Insights
 
@@ -117,10 +119,10 @@ with their mission.
 The first few interviews will be rough. You'll probably end up sounding
 unprepared and incoherent. But by the end of the process you will be incredibly
 smooth. I was amazed at the difference between my early interviews and my later
-interviews. I sounded incredibly prepared and professional (at least this is
-what I tell myself). For this reason you should take interviews at undesirable
-companies just to get the reps in before you shoot your shot with a company you
-are passionate about.
+interviews. I sounded incredibly professional (at least that is what I tell
+myself). For this reason you should take interviews at undesirable companies
+just to get the reps in before you shoot your shot with a company you are
+passionate about.
 
 ### Stories
 
@@ -168,11 +170,11 @@ use the offer as leverage to get a much higher TC from my preferred company.
 
 One of the most difficult aspects of interviewing is the manic, schizophrenic
 nature of your days balancing life, interviews, and work. This was hard. As
-I alluded to earlier, days in which I had interviews consisted on a crescendo of
-excited energy followed by a crash of fuzzy rumination. These days usually were
-unproductive and I was more irritable. This only worsened when I got to the
-final stages of interviewing, which added the neurotic email checking to the
-blend of negative valenced activity[^8].
+I alluded to earlier, days in which I had interviews consisted of a crescendo
+of excited energy followed by a crash of fuzzy rumination. These days usually
+were unproductive and I was more irritable. This only worsened when I got to
+the final stages of interviewing, which added the neurotic email checking to
+the blend of negative valenced activity[^8].
 
 ### Conclusion
 
@@ -183,28 +185,31 @@ grinding.
 
 [^1]: Yes, on Christmas Eve.
 [^2]: I track all my work related activity using [Toggl][Toggl].
-[^3]: I ended up with a 35 page Google Doc detailing the entire process.
-[^4]: I remember the exact location I was when I heard an ad for Function
-Health, the company I ended up joining, on the Huberman Podcast.
+[^3]: I ended up with a 36 page Google Doc detailing the entire process.
+[^4]: I remember the exact location I was when I heard an ad for [Function
+Health][Function Health], the company I ended up joining, on the Huberman
+Podcast.
 [^5]: The only real traction I got during the process was via LinkedIn
-recruiters and direct contacts. With millions of AI generated slop resumes,
-applying through a company's website is almost useless.
+recruiters and direct contacts. With millions of AI generated applications and
+slop resumes, applying through a company's website is almost useless.
 [^6]: The coding interview process is kind of crazy. You're expected to know
 a broad swath of computer science theory, but also the most esoteric algorithms
 for solving specific problems. Rest assured, outside of the top FAANG
 companies, and increasing due to cheating with AI, you probably won't get
 a bespoke LeetCode problem. In my experience, most of the coding interviews
-I did touch lightly on algorithms and focused more heavily on practical coding.
+I did touched lightly on algorithms and focused more heavily on practical
+coding.
 [^7]: I had an interview with [River][River], in which I said "I don't know."
 to almost every question. It was very painful.
 [^8]: For the two weeks leading up to accepting an offer, my sleep started
 to suffer as well. I would frequently wake up at 2 AM, fully-alert and wired
 and start the insidious cycle of perseveration.
-[^9]: I'm not trying to be humble here. I am legitimately strongly above
+[^9]: I'm not trying to be humble here. I am legitimately only strongly above
 average.
 
 [Blind]: https://www.teamblind.com
 [Glassdoor]: https://www.glassdoor.com
-[Toggl]: https://toggl.com
 [grind.rip]: https://grind.rip
+[Toggl]: https://toggl.com
+[Function Health]: https://www.functionhealth.com
 [River]: https://river.com

@@ -45,7 +45,7 @@ their website:
 And they are not wrong. I had access to chat-based LLMs for the assessment,
 albeit weaker ones[^2]. The presumed goal of allowing a candidate to use an LLM
 during a coding interview is to remove the unfair advantage they provide.
-Instead of going on faith that a candidate will not use AI when politely asked,
+Instead of going on faith that a candidate will not use AI when asked politely,
 all candidates are given access to AI. This is where my thesis, namely, knowing
 stuff is still important in the age of AI, garners some supporting evidence.
 
@@ -96,7 +96,7 @@ a simple framework, which I apply to my use of LLMs:
 Striking a balance between generation and inspiration, I am able to be wildly
 productive, while still being able to, you know, code and problem solve. As one
 might expect, I still am very bullish on deeply understanding things, not only
-of its utility, but that it generally *feels* good to acquire knowledge.
+for its utility, but that it generally *feels* good to acquire knowledge.
 
 All in all, I'm actually quite worried about the future of society. Why, when
 even very smart people can be duped into trading their skill for productivity
@@ -106,20 +106,26 @@ song will come out wildly ahead, while those who do not will wallow in slop.
 Maybe all the Sci-Fi cliches will come to pass and the human race will realize
 that to be human is to think and if all of our thinking is outsourced to
 machines we become less human. It follows then that we will choose to destroy
-technology in a fit of humanistic frenzy, since AI will be seen as a source of
-existential competition. It does seem rather in keeping with our inherent drive
-for survival.
+technology in a fit of humanistic frenzy, since AI will be viewed as a source
+of existential competition. It does seem rather in keeping with our inherent
+drive for survival.
+
+Anyway, closing the loop on the titular thread of this post, I progressed
+through the technical take home test in the interview process with a *Move
+forward with high confidence*, which I believed was crucial in receiving an
+offer. Had I not known LCS, I probably wouldn't have moved forward, thus
+solidifying my belief that knowing stuff is still important in the age of AI.
 
 [^1]: I won't dox them, but from my LinkedIn, you can probably guess what
 company.
-[^2]: GPT-4o mini, Claude Haiku 3.5, Gemini 2.5 Flash, Llama 4 Maverick.
+[^2]: GPT-4o mini, Claude Haiku 3.5, Gemini 2.5 Flash, Llama 4 Maverick
 [^3]: When running the prompt through ChatGPT 5 and Claude Sonnet 4, ostensibly
 more powerful models as compared to the ones offered by CoderPad, ChatGPT
 provides a sensible, yet unimaginative solution, whereas Claude churns on the
 problem hardcore and never produces a solution.
 [^4]: Indeed, when I review the solution with a software engineer at the
 company, which was part of the interview process, he relayed to me that my
-solution stood out significantly.
+solution stood out due to its uniqueness.
 [^5]: There have been two notorious studies, which, though limited, have
 intimated that the use of AI is detrimental to cognitive function: one out of
 [MIT][Your Brain on ChatGPT] and one out of [METR][Measuring the Impact of Early-2025 AI].
