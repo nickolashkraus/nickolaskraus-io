@@ -5,4 +5,4 @@ aliases = ['/about']
 +++
 
 I am Nickolas Kraus, husband to Megan Kraus, father to Mila Kraus.  
-I am a senior software engineer at [Workiva](https://www.workiva.com) and founder of [Infrable](https://infrable.io) and [Grind](https://grind.rip).
+I am a senior software engineer at [Function Health](https://www.functionhealth.com) and founder of [Infrable](https://infrable.io) and [Grind](https://grind.rip).
