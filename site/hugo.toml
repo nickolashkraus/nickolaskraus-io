@@ -56,6 +56,11 @@ theme = 'paperwhite'
     source = 'assets/notwatching/hugo_stats\.json'
     target = 'css'
 
+# Hugo 0.169 no longer allows tailwindcss by default.
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$', '^tailwindcss$']
+
 [module]
   [[module.mounts]]
     source = 'assets'
